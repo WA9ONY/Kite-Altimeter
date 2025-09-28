@@ -8,6 +8,7 @@ Circup was used to download the required libraries in to the  RP204O.
 
 
 david@rpi500:~/CircuitPython/KiteAltimeterV6/V36 $ tree
+<pre markdown="1">```
 .
 ├── boot_out.txt
 ├── code.py
@@ -64,3 +65,4 @@ david@rpi500:~/CircuitPython/KiteAltimeterV6/V36 $ tree
 
 10 directories, 43 files
 david@rpi500:~/CircuitPython/KiteAltimeterV6/V36 $
+```</pre>
