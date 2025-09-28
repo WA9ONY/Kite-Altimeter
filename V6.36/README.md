@@ -3,7 +3,7 @@ This directory contains CircuitPython code.py file for kite altimeter hardware v
 
 ## IDE
 The Raspberry Pi P5 with Thonny 4.1.4 was used to develope the CircuitPython program.
-A full install of the Raspberry Pi OS includes Thonny.
+A full install of the Raspberry Pi OS includes Thonny installed.
 
 ## Circup
 Circup was used to download the required libraries in to the RP2040.
