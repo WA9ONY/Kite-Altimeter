@@ -27,7 +27,7 @@ Wikipedia
 
 
 ## Altimeter Products
-+ Jolly Logic [AltimeterOne](https://jollylogic.com/products/altimeterone/) and [AltimeterTwo(https://jollylogic.com/products/altimetertwo/)
++ Jolly Logic [AltimeterOne](https://jollylogic.com/products/altimeterone/)
   + [Amazon](https://www.amazon.com/dp/B0069ZD53E?psc=1&smid=A2YVVEWGBD4JCX&ref_=chk_typ_imgToDp)
 + Jolly Logic [AltimeterTwo](https://www.apogeerockets.com/Electronics-Payloads/Altimeters/Jolly-Logic-AltimeterTwo)
   + For rockets only
