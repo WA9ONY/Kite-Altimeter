@@ -1,14 +1,18 @@
-CircuitPython files for kite altimeter hardware version 6 and software version 36.
+## CircuitPython code.py file
+This directory contains CircuitPython code.py file for kite altimeter hardware version 6 and software version 36.
 
-Below is copy on the Raspberry Pi P5 of the files on the Adafruit Feather RP2040 Adalogger.
+## IDE
 The Raspberry Pi P5 with Thonny 4.1.4 was used to develope the CircuitPython program.
 A full install of the Raspberry Pi OS includes Thonny.
 
-Circup was used to download the required libraries in to the  RP204O.
+## Circup
+Circup was used to download the required libraries in to the RP2040.
 
+## Directory names and files names
+Below are the directory names and files names on the Adafruit Feather RP2040 Adalogger.
 
-david@rpi500:~/CircuitPython/KiteAltimeterV6/V36 $ tree
 <pre markdown="1">```
+david@rpi500:~/CircuitPython/KiteAltimeterV6/V36 $ tree
 .
 ├── boot_out.txt
 ├── code.py
