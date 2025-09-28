@@ -8,7 +8,7 @@ Six altimeters used in the the kite altimeter project.
 
 # Kite Altimeter
 
-Kite-Altimeter repositories conatains information about kite altimeter projects.
+Kite-Altimeter repositories conatains information and code for thet kite altimeter projects.
 
 Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite height above the ground.
 
