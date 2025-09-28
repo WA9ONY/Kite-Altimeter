@@ -20,6 +20,8 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
 <p align="center">     <img width="528" height="326" src="/Images/V1.JPEG">
 </p>
 
+GitHub directory V1.36 contains the CircuitPython code.py for this altimeter.
+
 <HR>
 
 ## Kite Altimeter Hardware Version 2
@@ -27,6 +29,8 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
 </P>  
 <p align="center">     <img width="448" height="384" src="/Images/V2.JPEG">
 </p>
+
+GitHub directory V2.36 contains the CircuitPython code.py for this altimeter.
 
 <HR>
 
@@ -36,6 +40,8 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
 <p align="center">     <img width="530" height="326" src="/Images/V3.JPEG">
 </p>
 
+GitHub directory V3.36 contains the CircuitPython code.py for this altimeter.
+
 <HR>
 
 ## Kite Altimeter Hardware Version 4
@@ -43,6 +49,8 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
 </P>  
 <p align="center">     <img width="560" height="308" src="/Images/V4.JPEG">
 </p>
+
+GitHub directory V4.36 contains the CircuitPython code.py for this altimeter.
 
 <HR>
 
@@ -52,6 +60,8 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
 <p align="center">     <img width="570" height="304" src="/Images/V5.JPEG">
 </p>
 
+GitHub directory V5.36 contains the CircuitPython code.py for this altimeter.
+
 <HR>
 
 ## Kite Altimeter Hardware Version 6
@@ -60,7 +70,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
 <p align="center">     <img width="356" height="484" src="/Images/V6.JPEG">
 </p>
 
-GitHub directory V6.36 contains the CircuitPython code for this altimeter.
+GitHub directory V6.36 contains the CircuitPython code.py for this altimeter.
 
 <HR>
 
