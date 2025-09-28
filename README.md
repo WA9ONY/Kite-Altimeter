@@ -25,7 +25,7 @@ Wikipedia
 + [International Standard Atmosphere](https://en.wikipedia.org/wiki/International_Standard_Atmosphere)
 + [barometers](https://en.wikipedia.org/wiki/Barometer)
 
-Altimeters
+Altimeter Products
 + Jolly Logic [AltimeterOne](https://jollylogic.com/products/altimeterone/) and [AltimeterTwo(https://jollylogic.com/products/altimetertwo/)
 + Jolly Logic [AltimeterOne](https://www.apogeerockets.com/Electronics_Payloads/Electronics/Jolly_Logic_AltimeterOne)
 + Eronotix [delta altimeter kite](https://eronotix.com/)
