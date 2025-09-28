@@ -22,6 +22,46 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
 
 <HR>
 
+## Kite Altimeter Hardware Version 2
+
+</P>  
+<p align="center">     <img width="448" height="384" src="/Images/V2.JPEG">
+</p>
+
+<HR>
+
+## Kite Altimeter Hardware Version 3
+
+</P>  
+<p align="center">     <img width="530" height="326" src="/Images/V3.JPEG">
+</p>
+
+<HR>
+
+## Kite Altimeter Hardware Version 4
+
+</P>  
+<p align="center">     <img width="560" height="308" src="/Images/V4.JPEG">
+</p>
+
+<HR>
+
+## Kite Altimeter Hardware Version 5
+
+</P>  
+<p align="center">     <img width="570" height="304" src="/Images/V5.JPEG">
+</p>
+
+<HR>
+
+## Kite Altimeter Hardware Version 6
+
+</P>  
+<p align="center">     <img width="356" height="484" src="/Images/V6.JPEG">
+</p>
+
+<HR>
+
 ## Research
 
 Web  pages
