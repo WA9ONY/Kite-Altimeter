@@ -7,7 +7,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
 
 <HR>
 
-## References
+## Research
 
 Web  pages
 + [ELEVATION  of  KITE](http://becot.info/tako/anglais/etakoteur.htm)
@@ -25,8 +25,16 @@ Wikipedia
 + [International Standard Atmosphere](https://en.wikipedia.org/wiki/International_Standard_Atmosphere)
 + [barometers](https://en.wikipedia.org/wiki/Barometer)
 
-Altimeter Products
+
+## Altimeter Products
 + Jolly Logic [AltimeterOne](https://jollylogic.com/products/altimeterone/) and [AltimeterTwo(https://jollylogic.com/products/altimetertwo/)
+  + [Amazon](https://www.amazon.com/dp/B0069ZD53E?psc=1&smid=A2YVVEWGBD4JCX&ref_=chk_typ_imgToDp)
 + Jolly Logic [AltimeterOne](https://www.apogeerockets.com/Electronics_Payloads/Electronics/Jolly_Logic_AltimeterOne)
+  + For rockets only
+  + [Amazon]()
++ Estes 2246 Altimeter [Amazon](https://www.amazon.com/dp/B00EZBH896?ref=ppx_yo2ov_dt_b_fed_asin_title)
 + Eronotix [delta altimeter kite](https://eronotix.com/)
 + Rocket.Supplies[Altimeters](https://rocket.supplies/products.php?cat=Altimeters)
+
+## GPS Products with Altitude
++ SKYRC GSM-015 [Amazon](https://www.amazon.com/SKYRC-Speedometer-Altimeter-Tracking-Quadcopter/dp/B07RWL8BTG/ref=sr_1_3?crid=4I6OTCY38YZ8&dib=eyJ2IjoiMSJ9.gAWQdYaikd2XWGnSjA2-ER5Dob_GdE48VjowPcHt77LGjHj071QN20LucGBJIEps.ltLwnXyxA1OfLdlityzxWghwIPCDLOtOQPOrx2-pGpI&dib_tag=se&keywords=skyrc+gsm+020&qid=1759087633&sprefix=GSM-020%2Caps%2C230&sr=8-3)
