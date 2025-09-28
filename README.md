@@ -3,4 +3,11 @@
 
 # Kite-Altimeter
 
-Kite altimeter records the kite height above the ground.
+Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite height above the ground.
+
+<HR>
+
+## References
+
+Videos
++ Apogee rocket altimeter YouTube [videos](https://www.youtube.com/@apogeerockets/search?query=Altimeter)
