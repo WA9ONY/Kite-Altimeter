@@ -60,6 +60,8 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
 <p align="center">     <img width="356" height="484" src="/Images/V6.JPEG">
 </p>
 
+GitHub directory V6.36 contains the CircuitPython code for this altimeter.
+
 <HR>
 
 ## Research
