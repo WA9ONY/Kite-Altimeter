@@ -1,10 +1,9 @@
 <P align="center"> - <A HREF="https://www.qrz.com/db/WA9ONY">WA9ONY</A> - <A HREF="https://www.youtube.com/@Kites-Flying">YouTube Kites-Flying</A> - <A HREF="https://www.youtube.com/user/DavidAHaworth">YouTube David Haworth</A> - <A HREF="http://www.stargazing.net/david/index.html">Website</A> -
 </P>  
-<p align="center">
-       <img width="368" height="534" src="/Images/V1-6sm4.JPEG">
+<p align="center">     <img width="368" height="534" src="/Images/V1-6sm4.JPEG">
 </p>
 <p align="center">
-Six altimeters used in the 
+Six altimeters used in the the kite altimeter project.
 </p>
 
 # Kite Altimeter
@@ -12,6 +11,14 @@ Six altimeters used in the
 Kite-Altimeter repositories conatains information about kite altimeter projects.
 
 Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite height above the ground.
+
+<HR>
+
+## Kite Altimeter Hardware Version 1
+
+</P>  
+<p align="center">     <img width="528" height="326" src="/Images/V1.JPEG">
+</p>
 
 <HR>
 
