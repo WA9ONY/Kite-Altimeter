@@ -1,6 +1,6 @@
 # Kite Altimeter
 # Version:
-VERSION = 6.35
+VERSION = 6.36
 VERSION_string = "V"+str(VERSION)
 # Date: 2025-07-27
 # Author: David Haworth, WA9ONY
