@@ -20,8 +20,8 @@ The project runs on an **Adafruit Feather RP2040** and records altitude and rela
 ---
 
 ## RP2040 Structure  
-
-The repository contains the following files and directories as deployed to the Feather RP2040:  
+ 
+The following files and directories as deployed no the Feather RP2040.
 
 ```text
 .
