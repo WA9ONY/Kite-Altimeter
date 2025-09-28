@@ -20,7 +20,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
 <p align="center">     <img width="528" height="326" src="/Images/V1.JPEG">
 </p>
 
-GitHub directory V1.36 contains the CircuitPython code.py for this altimeter.
+GitHub directory V1.28 contains the CircuitPython code.py for this altimeter.
 
 <HR>
 
@@ -40,7 +40,7 @@ GitHub directory V2.36 contains the CircuitPython code.py for this altimeter.
 <p align="center">     <img width="530" height="326" src="/Images/V3.JPEG">
 </p>
 
-GitHub directory V3.36 contains the CircuitPython code.py for this altimeter.
+GitHub directory V3.10 contains the CircuitPython code.py for this altimeter.
 
 <HR>
 
@@ -50,7 +50,7 @@ GitHub directory V3.36 contains the CircuitPython code.py for this altimeter.
 <p align="center">     <img width="560" height="308" src="/Images/V4.JPEG">
 </p>
 
-GitHub directory V4.36 contains the CircuitPython code.py for this altimeter.
+GitHub directory V4.12 contains the CircuitPython code.py for this altimeter.
 
 <HR>
 
