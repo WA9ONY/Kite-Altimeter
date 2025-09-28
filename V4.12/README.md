@@ -1,1 +1,63 @@
-TBD
+# Kite Altimeter – CircuitPython Project  
+
+This repository contains the **CircuitPython `code.py`** file for the **Kite Altimeter project** (Hardware Version 4, Software Version 12).  
+
+The project runs on an **Adafruit Feather RP2040 Adalogger** and records altitude and related data during kite flights.  
+
+---
+
+## Development Environment  
+
+- **Board:** Adafruit Feather RP2040 Adalogger  
+- **Language:** [CircuitPython](https://circuitpython.org/)  
+- **IDE:** [Thonny 4.1.4](https://thonny.org/) running on Raspberry Pi P5  
+  - A full Raspberry Pi OS install includes Thonny by default.  
+- **Library Management:** [Circup](https://github.com/adafruit/circup) was used to install and update the required libraries on the device.  
+- **File System Copy:**  
+  - The `tree` output shown below was generated on a **Raspberry Pi 5** using a copy of the RP2040’s files.  
+  - This provides a reference of the deployed files on the device.  
+
+---
+
+## RP2040 Structure  
+
+The following files and directories as deployed to the Feather RP2040 Adalogger:  
+
+```text
+.
+├── boot_out.txt
+├── code.py
+├── lib
+│   ├── adafruit_bus_device
+│   │   ├── i2c_device.mpy
+│   │   ├── __init__.py
+│   │   └── spi_device.mpy
+│   ├── adafruit_displayio_sh1107.mpy
+│   ├── adafruit_dps310
+│   │   ├── advanced.mpy
+│   │   ├── basic.mpy
+│   │   └── __init__.mpy
+│   ├── adafruit_ds3231.mpy
+│   ├── adafruit_pcf8523
+│   │   ├── clock.mpy
+│   │   ├── pcf8523.mpy
+│   │   └── timer.mpy
+│   ├── adafruit_pixelbuf.mpy
+│   ├── adafruit_register
+│   │   ├── i2c_bcd_alarm.mpy
+│   │   ├── i2c_bcd_datetime.mpy
+│   │   ├── i2c_bit.mpy
+│   │   ├── i2c_bits.mpy
+│   │   ├── i2c_struct_array.mpy
+│   │   ├── i2c_struct.mpy
+│   │   └── __init__.py
+│   ├── adafruit_sdcard.mpy
+│   └── neopixel.mpy
+├── sd
+│   └── placeholder.txt
+├── settings.toml
+└── System Volume Information
+    ├── IndexerVolumeGuid
+    └── WPSettings.dat
+
+```
