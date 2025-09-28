@@ -30,7 +30,7 @@ GitHub directory V1.28 contains the CircuitPython code.py for this altimeter.
 <p align="center">     <img width="448" height="384" src="/Images/V2.JPEG">
 </p>
 
-GitHub directory V2.36 contains the CircuitPython code.py for this altimeter.
+GitHub directory V2.11 contains the CircuitPython code.py for this altimeter.
 
 <HR>
 
@@ -60,7 +60,7 @@ GitHub directory V4.12 contains the CircuitPython code.py for this altimeter.
 <p align="center">     <img width="570" height="304" src="/Images/V5.JPEG">
 </p>
 
-GitHub directory V5.36 contains the CircuitPython code.py for this altimeter.
+GitHub directory V5.35 contains the CircuitPython code.py for this altimeter.
 
 <HR>
 
