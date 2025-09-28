@@ -72,3 +72,4 @@ The following files and directories as deployed no the Feather RP2040.
 │   └── placeholder.txt
 └── settings.toml
 
+```
