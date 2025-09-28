@@ -3,7 +3,8 @@
 
 # Kite Altimeter
 
-Kite-Altimeter 
+Kite-Altimeter repositories conatains information about kite altimeter projects.
+
 Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite height above the ground.
 
 <HR>
