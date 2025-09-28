@@ -1,5 +1,11 @@
 <P align="center"> - <A HREF="https://www.qrz.com/db/WA9ONY">WA9ONY</A> - <A HREF="https://www.youtube.com/@Kites-Flying">YouTube Kites-Flying</A> - <A HREF="https://www.youtube.com/user/DavidAHaworth">YouTube David Haworth</A> - <A HREF="http://www.stargazing.net/david/index.html">Website</A> -
 </P>  
+<p align="center">
+       <img width="1472" height="2134" src="/Images/V1-6.JPEG">
+</p>
+<p align="center">
+Six altimeters used in the 
+</p>
 
 # Kite Altimeter
 
