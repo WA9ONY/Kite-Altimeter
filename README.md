@@ -23,7 +23,7 @@ Wikipedia
 + [Pressure altimeter](https://en.wikipedia.org/wiki/Pressure_altimeter)
 + [Density altitude](https://en.wikipedia.org/wiki/Density_altitude)
 + [International Standard Atmosphere](https://en.wikipedia.org/wiki/International_Standard_Atmosphere)
-+ [barometers](https://en.wikipedia.org/wiki/Barometer)
++ [Barometers](https://en.wikipedia.org/wiki/Barometer)
 
 
 ## Altimeter Products
