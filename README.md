@@ -130,7 +130,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     7"&nbspx<BR>4.62"&nbspx<BR>1.75"  
     </TD>  
     <TD>
-    2 x 18650<BR>3.7V<BR>9,900 mAh 
+    <A HREF="https://www.amazon.com/dp/B0F53X2ZL8?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1">2 x 18650</A><BR>3.7V<BR>9,900 mAh 
     </TD>
     <TD>
     <A HREF="https://www.adafruit.com/product/6003">Metro<BR>RP2350</A>    
