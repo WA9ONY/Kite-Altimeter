@@ -4,7 +4,7 @@
 <p align="center"><img width="645" height="865" src="/Images/IMG_4266sm.JPEG">
 </p>
 <p align="center">
-Kite altimenter V2 (altitude & temperature) attached to the bridle point of a Bora 7 kite.  
+Kite altimenter V2 (altitude & temperature) attached to the bridle point of a Bora 7 kite was the first version to fly.  
 </p>
 
 <p align="center"><img width="665" height="843" src="/Images/IMG_7039smcrop.JPEG">
