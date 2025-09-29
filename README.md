@@ -59,7 +59,7 @@ Kite Altimeter Summary
     7" x 4 5/8" x  1 3/4"
     </TD>  
     <TD>
-    3.7V @ 2,500 mAh
+    3.7V<BR>2,500 mAh
     </TD>
     <TD>
     <A HREF="https://www.adafruit.com/product/4884">Feather<BR>RP2040</A>    
@@ -92,7 +92,7 @@ Kite Altimeter Summary
     1 7/8" dia. x 3 1/2"
     </TD>  
     <TD>
-    3.7V @ 500 mAh
+    3.7V<BR>500 mAh
     </TD>
     <TD>
     <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
