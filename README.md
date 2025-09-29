@@ -22,9 +22,9 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
 
 GitHub directory V1.28 contains the CircuitPython code.py for this altimeter.
 
-Case is a food container 7" x 4 5/8" x  1 3/4".
-Li battery 3.7V at 2,500 mAh.
-205 g, 7.23 oz.
++ Case is a food container 7" x 4 5/8" x  1 3/4".
++ Li battery 3.7V at 2,500 mAh.
++ 205 g, 7.23 oz.
 
 <HR>
 
@@ -36,9 +36,9 @@ Li battery 3.7V at 2,500 mAh.
 
 GitHub directory V2.11 contains the CircuitPython code.py for this altimeter.
 
-Case is a orange pill container 1 7/8" dia. x 3 1/2.
-Li battery 3.7V at 500 mAh.
-58 g, 2.05 oz.
++ Case is a orange pill container 1 7/8" dia. x 3 1/2.
++ Li battery 3.7V at 500 mAh.
++ 58 g, 2.05 oz.
 
 <HR>
 
@@ -50,9 +50,9 @@ Li battery 3.7V at 500 mAh.
 
 GitHub directory V3.10 contains the CircuitPython code.py for this altimeter.
 
-Case is a small storage container 7" x 4 5/8" x  1 3/4".
-Two 18650 Li-ion battery 3.7V at 9,900 mAh.
-276 g, 9.74 oz.
++ Case is a small storage container 7" x 4 5/8" x  1 3/4".
++ Two 18650 Li-ion battery 3.7V at 9,900 mAh.
++ 276 g, 9.74 oz.
 
 <HR>
 
@@ -64,9 +64,9 @@ Two 18650 Li-ion battery 3.7V at 9,900 mAh.
 
 GitHub directory V4.12 contains the CircuitPython code.py for this altimeter.
 
-Case is a orange pill container 1 1/4" dia. x 3 3/4.
-Li battery 3.7V at 420 mAh.
-44 g, 1.55 oz.
++ Case is a orange pill container 1 1/4" dia. x 3 3/4.
++ Li battery 3.7V at 420 mAh.
++ 44 g, 1.55 oz.
 
 <HR>
 
@@ -78,9 +78,9 @@ Li battery 3.7V at 420 mAh.
 
 GitHub directory V5.35 contains the CircuitPython code.py for this altimeter.
 
-Case is a orange pill container 1 7/8" dia. x 5 3/4.
-Li battery 3.7V at 500 mAh.
-79 g, 2.79 oz.
++ Case is a orange pill container 1 7/8" dia. x 5 3/4.
++ Li battery 3.7V at 500 mAh.
++ 79 g, 2.79 oz.
 
 <HR>
 
@@ -96,9 +96,9 @@ GitHub directory V6.36data20250823 contains the data log files for Saturday Augu
 [Washington State International Kite Festival](https://en.wikipedia.org/wiki/Washington_State_International_Kite_Festival)
 at Long Beach, WA. V6.36 was mounted on the main spar of a 8' x 4' delta kite flying in the Large Kite Area field.
 
-Case is a storage container 3 1/2" x 2 1/2" x  2".
-Li battery 3.7V at 500 mAh.
-74 g, 2.61 oz.
++ Case is a storage container 3 1/2" x 2 1/2" x  2".
++ Li battery 3.7V at 500 mAh.
++ 74 g, 2.61 oz.
 
 <HR>
 
