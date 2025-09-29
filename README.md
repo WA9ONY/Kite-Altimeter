@@ -118,6 +118,42 @@ Kite Altimeter Summary
   </TR>
 
 
+<TR>
+   <TD>
+    V2
+    </TD>
+    <TD>
+    58 g<BR>2.05 oz
+    </TD>
+    <TD>
+    7" x<BR>4 5/8" x<BR>1 3/4"  
+    </TD>  
+    <TD>
+    2 x 3.7V @<BR>9,900 mAh 
+    <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500 mAh</A>
+    </TD>
+    <TD>
+    <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
+    </TD>
+    <TD>    
+    <A HREF="https://www.adafruit.com/product/4650">128x64 OLED<BR>FeatherWing</A>  
+    </TD>    
+    <TD>
+    <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
+    </TD>
+    <TD>
+    <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
+    </TD>     
+    <TD>
+    -    
+    </TD>
+    <TD>
+    -  
+    </TD>
+  </TR>
+
+
+
 </TABLE>
 
 <HR>
