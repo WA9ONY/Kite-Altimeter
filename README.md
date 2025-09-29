@@ -270,10 +270,8 @@ V3 for ground station.
 </P>  
 <p align="center">     <img width="384" height="450" src="/Images/IMG_8138a.JPEG">
 </p>
-
-
-</P>  
-<p align="center">     <img width="384" height="450" src="/Images/IMG_8138.JPEG">
+<p align="center">
+Altimeters V1 was used for development & testing..  
 </p>
 
 GitHub directory V1.28 contains the CircuitPython code.py for this altimeter.
