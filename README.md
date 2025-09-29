@@ -132,10 +132,10 @@ Kite Altimeter Summary
     2 x 18650<BR>3.7V<BR>9,900 mAh 
     </TD>
     <TD>
-    <A HREF="https://www.adafruit.com/product/5980">Metro<BR>RP2350<BR>Adalogger</A>    
+    <A HREF="https://www.adafruit.com/product/6003">Metro<BR>RP2350</A>    
     </TD>
     <TD>    
-    <A HREF="https://www.adafruit.com/product/4650">128x64 OLED<BR>FeatherWing</A>  
+    <A HREF="https://www.adafruit.com/product/1651">2.8" TFT<BR>Touch<BR>Shield</A>  
     </TD>    
     <TD>
     <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
