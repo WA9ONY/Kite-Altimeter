@@ -1,6 +1,12 @@
 <P align="center"> - <A HREF="https://www.qrz.com/db/WA9ONY">WA9ONY</A> - <A HREF="https://www.youtube.com/@Kites-Flying">YouTube Kites-Flying</A> - <A HREF="https://www.youtube.com/user/DavidAHaworth">YouTube David Haworth</A> - <A HREF="http://www.stargazing.net/david/index.html">Website</A> -
 </P>  
 
+<p align="center">     <img width="665" height="843" src="/Images/IMG_7039smcrop.JPEG">
+</p>
+<p align="center">
+Kite altimenter V6 attached to the main spar of a 8' x 4' delta kite.  
+</p>
+
 # Kite Altimeter
 
 Kite-Altimeter repositories conatains information and code for thet kite altimeter projects.
