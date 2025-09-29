@@ -1,13 +1,5 @@
 <P align="center"> - <A HREF="https://www.qrz.com/db/WA9ONY">WA9ONY</A> - <A HREF="https://www.youtube.com/@Kites-Flying">YouTube Kites-Flying</A> - <A HREF="https://www.youtube.com/user/DavidAHaworth">YouTube David Haworth</A> - <A HREF="http://www.stargazing.net/david/index.html">Website</A> -
 </P>  
-<p align="center">     <img width="368" height="534" src="/Images/V1-6sm4.JPEG">
-</p>
-<p align="center">
-Six altimeters: V1, V2, V3, V4, V5 & V6.<BR>
-V1 for development & testing.<BR>
-V2, V4, V5 & V6 for kite flying.<BR>
-V3 for ground station.  
-</p>
 
 # Kite Altimeter
 
@@ -18,6 +10,15 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
 <HR>
 
 ## Kite Altimeter Summary
+
+<p align="center">     <img width="368" height="534" src="/Images/V1-6sm4.JPEG">
+</p>
+<p align="center">
+Six altimeters: V1, V2, V3, V4, V5 & V6.<BR>
+V1 for development & testing.<BR>
+V2, V4, V5 & V6 for kite flying.<BR>
+V3 for ground station.  
+</p>
 
 <TABLE>
   <TR>
