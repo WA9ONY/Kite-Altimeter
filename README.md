@@ -3,9 +3,9 @@
 <p align="center">     <img width="368" height="534" src="/Images/V1-6sm4.JPEG">
 </p>
 <p align="center">
-Six altimeters: V1,V2,V3,V4,V5 & V6.<BR>
-V1 for testing.<BR>
-V2,V4,V5 & V6 for kite flying.<BR>
+Six altimeters: V1, V2, V3, V4, V5 & V6.<BR>
+V1 for development & testing.<BR>
+V2, V4, V5 & V6 for kite flying.<BR>
 V3 for ground station.  
 </p>
 
