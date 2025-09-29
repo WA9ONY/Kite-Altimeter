@@ -64,7 +64,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     7"&nbspx<BR>4.62"&nbspx<BR>1.75"
     </TD>  
     <TD>
-    <A HREF="https://www.adafruit.com/product/328">3.7V<BR>2,500 mAh</A>
+    <A HREF="https://www.adafruit.com/product/328">3.7V<BR>2,500&nbspmAh</A>
     </TD>
     <TD>
     <A HREF="https://www.adafruit.com/product/4884">Feather<BR>RP2040</A>    
@@ -97,7 +97,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     1.87"&nbspdia.&nbspx<BR>3.5"
     </TD>  
     <TD>
-    <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500 mAh</A>
+    <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500&nbspmAh</A>
     </TD>
     <TD>
     <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
@@ -130,7 +130,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     7"&nbspx<BR>4.62"&nbspx<BR>1.75"  
     </TD>  
     <TD>
-    <A HREF="https://www.amazon.com/dp/B0F53X2ZL8?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1">2 x 18650</A><BR>3.7V<BR>9,900 mAh 
+    <A HREF="https://www.amazon.com/dp/B0F53X2ZL8?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1">2 x 18650</A><BR>3.7V<BR>9,900&nbspmAh 
     </TD>
     <TD>
     <A HREF="https://www.adafruit.com/product/6003">Metro<BR>RP2350</A>    
@@ -163,7 +163,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     1.25"&nbspdia.&nbspx<BR>3.75" 
     </TD>  
     <TD>
-    <A HREF="https://www.adafruit.com/product/4236">3.7V<BR>420 mAh</A>
+    <A HREF="https://www.adafruit.com/product/4236">3.7V<BR>420&nbspmAh</A>
     </TD>
     <TD>
     <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
@@ -196,7 +196,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     1.87"&nbspdia.&nbspx<BR>5.75" 
     </TD>  
     <TD>
-    <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500 mAh</A>
+    <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500&nbspmAh</A>
     </TD>
     <TD>
     <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
@@ -229,7 +229,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     3.5"&nbspx<BR>2.5"&nbspx<BR>2"
     </TD>  
     <TD>
-    <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500 mAh</A>
+    <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500&nbspmAh</A>
     </TD>
     <TD>
     <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
