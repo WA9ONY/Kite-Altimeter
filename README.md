@@ -123,7 +123,7 @@ Kite Altimeter Summary
     V3
     </TD>
     <TD>
-    58 g<BR>2.05 oz
+    276 g<BR>9.74 oz.  
     </TD>
     <TD>
     7" x<BR>4 5/8" x<BR>1 3/4"  
