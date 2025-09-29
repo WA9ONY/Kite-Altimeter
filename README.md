@@ -61,7 +61,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     205 g<BR>7.23&nbspoz
     </TD>
     <TD>
-    7"&nbspx<BR>4&nbsp5/8"&nbspx<BR>1&nbsp3/4"
+    7"&nbspx<BR>4.62"&nbspx<BR>1.75"
     </TD>  
     <TD>
     <A HREF="https://www.adafruit.com/product/328">3.7V<BR>2,500 mAh</A>
