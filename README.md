@@ -267,6 +267,10 @@ V3 for ground station.
 <p align="center">     <img width="528" height="326" src="/Images/V1.JPEG">
 </p>
 
+</P>  
+<p align="center">     <img width="384" height="450" src="/Images/IMG_8138.JPEG">
+</p>
+
 GitHub directory V1.28 contains the CircuitPython code.py for this altimeter.
 
 + Case is a food container 7" x 4 5/8" x  1 3/4".
