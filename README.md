@@ -15,7 +15,9 @@ Kite-Altimeter repositories conatains information and code for thet kite altimet
 
 Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite height above the ground.
 
-Kite Altimeter Summary
+<HR>
+
+## Kite Altimeter Summary
 
 <TABLE>
   <TR>
@@ -117,7 +119,6 @@ Kite Altimeter Summary
     </TD>
   </TR>
 
-
 <TR>
    <TD>
     V3
@@ -184,6 +185,39 @@ Kite Altimeter Summary
     </TD>
   </TR>
 
+<TR>
+   <TD>
+    V5
+    </TD>
+    <TD>
+    79 g<BR>2.79 oz.
+    </TD>
+    <TD>
+    1 7/8" dia. x<BR>5 3/4" 
+    </TD>  
+    <TD>
+    <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500 mAh</A>
+    </TD>
+    <TD>
+    <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
+    </TD>
+    <TD>    
+    <A HREF="https://www.adafruit.com/product/5297">128x128 OLED</A>  
+    </TD>    
+    <TD>
+    <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
+    </TD>
+    <TD>
+    <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
+    </TD>     
+    <TD>
+    <A HREF="https://www.adafruit.com/product/4754">BNO085</A> 
+    </TD>
+    <TD>
+    <A HREF="https://www.sparkfun.com/sparkfun-air-velocity-sensor-breakout-fs3000-1005-qwiic.html">FS3000-1005</A> 
+    </TD>
+  </TR>
+
 
 
 </TABLE>
@@ -212,7 +246,7 @@ GitHub directory V1.28 contains the CircuitPython code.py for this altimeter.
 
 GitHub directory V2.11 contains the CircuitPython code.py for this altimeter.
 
-+ Case is a orange pill container 1 7/8" dia. x 3 1/2.
++ Case is a orange pill container 1 7/8" dia. x 3 1/2".
 + Li battery 3.7V at 500 mAh.
 + 58 g, 2.05 oz.
 
@@ -240,7 +274,7 @@ GitHub directory V3.10 contains the CircuitPython code.py for this altimeter.
 
 GitHub directory V4.12 contains the CircuitPython code.py for this altimeter.
 
-+ Case is a orange pill container 1 1/4" dia. x 3 3/4.
++ Case is a orange pill container 1 1/4" dia. x 3 3/4".
 + Li battery 3.7V at 420 mAh.
 + 44 g, 1.55 oz.
 
@@ -254,7 +288,7 @@ GitHub directory V4.12 contains the CircuitPython code.py for this altimeter.
 
 GitHub directory V5.35 contains the CircuitPython code.py for this altimeter.
 
-+ Case is a orange pill container 1 7/8" dia. x 5 3/4.
++ Case is a orange pill container 1 7/8" dia. x 5 3/4".
 + Li battery 3.7V at 500 mAh.
 + 79 g, 2.79 oz.
 
