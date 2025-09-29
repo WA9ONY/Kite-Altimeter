@@ -40,7 +40,7 @@ Reasons for different versions.
 + Version 5 added 9-DOF (degrees of freedom) and air velocity measurements.
 + Version 6 a smaller version of 5 to mount on the main spar of a delta kite.
 
-+ All altimeter versions log data to a micro SD card.
++ All altimeter versions log data to a 32 GB micro SD card.
 + V1, V2, V4, V5 & V6 [reed relay](https://www.amazon.com/dp/B07YFBQ4HS?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1) as a user imput that does not require opening the case.
 + V1, V2, V4, V5 & V6 have a voltage divider with two 1 MegOhm resistors as a voltage divider connected to the battery voltage. The reduced voltage is connected to the RP2040 ADC input to monitor the battery voltage.
 
