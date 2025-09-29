@@ -4,7 +4,7 @@
 <p align="center">     <img width="665" height="843" src="/Images/IMG_7039smcrop.JPEG">
 </p>
 <p align="center">
-Kite altimenter V6 attached to the main spar of a 8' x 4' delta kite.  
+Kite altimenter V6 (altitude, temperature, 9-DOF & wind velocity) attached to the main spar of a 8' x 4' delta kite.  
 </p>
 
 # Kite Altimeter
