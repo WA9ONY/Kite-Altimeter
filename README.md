@@ -41,10 +41,10 @@ Kite Altimeter Summary
     Altitude<BR>Temp.  
     </B></P></TD>
     <TD><P><B>
-      
+    9  
     </B></P></TD>
     <TD><P><B>
-      
+    Wind  
     </B></P></TD>
   </TR>
 
@@ -74,10 +74,10 @@ Kite Altimeter Summary
     <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
     </TD>     
     <TD>
-      
+    -  
     </TD>
     <TD>
-      
+    -  
     </TD>
   </TR>
 
@@ -98,19 +98,19 @@ Kite Altimeter Summary
     <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
     </TD>
     <TD>    
-     <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
+    <A HREF="https://www.adafruit.com/product/4650">128x64 OLED<BR>FeatherWing</A>  
     </TD>    
     <TD>
-    <A HREF="https://www.adafruit.com/product/4494">DPS310</A>  
+    <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
     </TD>
     <TD>
-    <A HREF="https://www.adafruit.com/product/4650">128x64 OLED<BR>FeatherWing</A>   
+    <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
     </TD>     
     <TD>
-       
+    -    
     </TD>
     <TD>
-      
+    -  
     </TD>
   </TR>
 
