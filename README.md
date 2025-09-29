@@ -129,7 +129,7 @@ Kite Altimeter Summary
     7" x<BR>4 5/8" x<BR>1 3/4"  
     </TD>  
     <TD>
-    2 x 18650<BR>3.7V @<BR>9,900 mAh 
+    2 x 18650<BR>3.7V<BR>9,900 mAh 
     </TD>
     <TD>
     <A HREF="https://www.adafruit.com/product/5980">Metro<BR>RP2350<BR>Adalogger</A>    
