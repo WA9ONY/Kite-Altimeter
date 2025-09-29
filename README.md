@@ -56,7 +56,7 @@ Kite Altimeter Summary
     205 g<BR>7.23 oz
     </TD>
     <TD>
-    7" x 4 5/8" x  1 3/4"
+    7" x<BR>4 5/8" x<BR>1 3/4"
     </TD>  
     <TD>
     3.7V<BR>2,500 mAh
@@ -89,7 +89,7 @@ Kite Altimeter Summary
     58 g<BR>2.05 oz
     </TD>
     <TD>
-    1 7/8" dia. x 3 1/2"
+    1 7/8" dia.<BR>x 3 1/2"
     </TD>  
     <TD>
     3.7V<BR>500 mAh
