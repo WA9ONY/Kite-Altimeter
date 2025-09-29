@@ -59,7 +59,7 @@ Kite Altimeter Summary
     205 g<BR>7.23 oz
     </TD>
     <TD>
-    7" x<BR>4 5/8" x<BR>1 3/4"
+    7"&nbspx<BR>4&nbsp5/8"&nbspx<BR>1&nbsp3/4"
     </TD>  
     <TD>
     <A HREF="https://www.adafruit.com/product/328">3.7V<BR>2,500 mAh</A>
