@@ -12,6 +12,77 @@ Kite-Altimeter repositories conatains information and code for thet kite altimet
 
 Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite height above the ground.
 
+Kite Altimeter Summary
+
+<TABLE>
+  <TR>
+    <TD><P><B>
+      Altimeter
+      </B></P></TD>
+    <TD><P><B>
+      Weight
+    </B></P></TD>
+    <TD><P><B>
+      Size
+     </B></P></TD>
+    <TD><P><B>
+     Battery
+     </B></P></TD>
+    <TD><P><B>
+     uC      
+     </B></P></TD>
+    <TD><P><B>
+    
+    </B></P></TD>
+    <TD><P><B>
+    
+    </B></P></TD>
+    <TD><P><B>
+      
+    </B></P></TD>
+    <TD><P><B>
+      
+    </B></P></TD>
+    <TD><P><B>
+      
+    </B></P></TD>
+  </TR>
+
+  <TR>
+   <TD>
+    V1
+    </TD>
+    <TD>
+    205 g, 7.23 oz
+    </TD>
+    <TD>
+    7" x 4 5/8" x  1 3/4"
+    </TD>  
+    <TD>
+    3.7V @ 2,500 mAh
+    </TD>
+    <TD>
+    <A HREF="https://www.adafruit.com/product/4884">Feather RP2040</A>    
+    </TD>
+    <TD>    
+     
+    </TD>    
+    <TD>
+      
+    </TD>
+    <TD>
+       
+    </TD>     
+    <TD>
+       
+    </TD>
+    <TD>
+      
+    </TD>
+  </TR>
+
+</TABLE>
+
 <HR>
 
 ## Kite Altimeter Hardware Version 1
