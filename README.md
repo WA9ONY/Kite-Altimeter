@@ -32,13 +32,13 @@ Kite Altimeter Summary
      uC      
      </B></P></TD>
     <TD><P><B>
-     RTC
+    Display 
     </B></P></TD>
     <TD><P><B>
-    Altitude<BR>Temp.
+    RTC
     </B></P></TD>
     <TD><P><B>
-     Display 
+    Altitude<BR>Temp.  
     </B></P></TD>
     <TD><P><B>
       
@@ -59,22 +59,22 @@ Kite Altimeter Summary
     7" x<BR>4 5/8" x<BR>1 3/4"
     </TD>  
     <TD>
-     <A HREF="https://www.adafruit.com/product/328">3.7V<BR>2,500 mAh</A>
+    <A HREF="https://www.adafruit.com/product/328">3.7V<BR>2,500 mAh</A>
     </TD>
     <TD>
     <A HREF="https://www.adafruit.com/product/4884">Feather<BR>RP2040</A>    
     </TD>
     <TD>    
-    <A HREF="https://www.adafruit.com/product/2922">Adalogger<BR>FeatherWing</A> 
+    <A HREF="https://www.adafruit.com/product/4650">128x64 OLED<BR>FeatherWing</A>        
     </TD>    
     <TD>
-     <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
+    <A HREF="https://www.adafruit.com/product/2922">Adalogger<BR>FeatherWing</A> 
     </TD>
     <TD>
-    <A HREF="https://www.adafruit.com/product/4650">128x64 OLED<BR>FeatherWing</A>        
+    <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
     </TD>     
     <TD>
-       
+      
     </TD>
     <TD>
       
