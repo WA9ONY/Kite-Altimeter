@@ -62,7 +62,7 @@ Kite Altimeter Summary
     3.7V @ 2,500 mAh
     </TD>
     <TD>
-    <A HREF="https://www.adafruit.com/product/4884">Feather RP2040</A>    
+    <A HREF="https://www.adafruit.com/product/4884">Feather<BR>RP2040</A>    
     </TD>
     <TD>    
      
