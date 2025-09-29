@@ -1,0 +1,637 @@
+11:59:16 
+=== Calibration Start: Now_time_str ===
+11:59:17 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=2/3
+Accel 0/3 Red LED 
+
+11:59:18 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=2/3
+Accel 0/3 Red LED 
+
+11:59:20 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=2/3
+Accel 0/3 Red LED 
+
+11:59:21 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=2/3
+Accel 0/3 Red LED 
+
+11:59:22 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=2/3
+Accel 0/3 Red LED 
+
+11:59:23 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=2/3
+Accel 0/3 Red LED 
+
+11:59:25 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=2/3
+Accel 0/3 Red LED 
+
+11:59:26 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=2/3
+Accel 0/3 Red LED 
+
+11:59:27 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=0/3
+Accel 0/3 Red LED 
+
+11:59:29 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=0/3
+Accel 0/3 Red LED 
+
+11:59:30 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=0/3
+Accel 0/3 Red LED 
+
+11:59:31 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=0/3
+Accel 0/3 Red LED 
+
+11:59:32 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=0/3
+Accel 0/3 Red LED 
+
+11:59:34 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=0/3
+Accel 0/3 Red LED 
+
+11:59:35 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=0/3
+Accel 0/3 Red LED 
+
+11:59:36 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=0/3
+Accel 0/3 Red LED 
+
+11:59:38 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=0/3
+Accel 0/3 Red LED 
+
+11:59:39 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=0/3
+Accel 0/3 Red LED 
+
+11:59:40 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=0/3
+Accel 0/3 Red LED 
+
+11:59:41 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=0/3
+Accel 0/3 Red LED 
+
+11:59:43 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=0/3
+Accel 0/3 Red LED 
+
+11:59:44 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=0/3
+Accel 0/3 Red LED 
+
+11:59:45 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=0/3
+Accel 0/3 Red LED 
+
+11:59:47 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=0/3
+Accel 0/3 Red LED 
+
+11:59:48 Status: Sys=0/3, Gyr=0/3, Acc=0/3, Mag=0/3
+Accel 0/3 Red LED 
+
+11:59:49 Status: Sys=0/3, Gyr=0/3, Acc=1/3, Mag=0/3
+Accel 1/3 Red LED 
+
+11:59:50 Status: Sys=0/3, Gyr=0/3, Acc=1/3, Mag=0/3
+Accel 1/3 Red LED 
+
+11:59:52 Status: Sys=0/3, Gyr=0/3, Acc=1/3, Mag=0/3
+Accel 1/3 Red LED 
+
+11:59:53 Status: Sys=0/3, Gyr=0/3, Acc=1/3, Mag=0/3
+Accel 1/3 Red LED 
+
+11:59:54 Status: Sys=0/3, Gyr=0/3, Acc=3/3, Mag=0/3
+Mag 0/3 Green LED 
+
+11:59:56 Status: Sys=0/3, Gyr=0/3, Acc=3/3, Mag=0/3
+Mag 0/3 Green LED 
+
+11:59:57 Status: Sys=0/3, Gyr=0/3, Acc=3/3, Mag=0/3
+Mag 0/3 Green LED 
+
+11:59:58 Status: Sys=0/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+11:59:59 Status: Sys=0/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:01 Status: Sys=0/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:02 Status: Sys=0/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:03 Status: Sys=0/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:05 Status: Sys=2/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:06 Status: Sys=2/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:07 Status: Sys=2/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:08 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:10 Status: Sys=2/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:11 Status: Sys=2/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:12 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:14 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:15 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:16 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:17 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:19 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:20 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:21 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:23 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:24 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:25 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:26 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:28 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:29 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:30 Status: Sys=2/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:32 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:33 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:34 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:36 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:37 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:38 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:39 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:41 Status: Sys=2/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:42 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:43 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:45 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:46 Status: Sys=2/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:47 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:48 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:50 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:51 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:52 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:54 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:55 Status: Sys=2/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:56 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:57 Status: Sys=3/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:00:59 Status: Sys=0/3, Gyr=0/3, Acc=3/3, Mag=0/3
+Mag 0/3 Green LED 
+
+12:01:00 Status: Sys=0/3, Gyr=0/3, Acc=3/3, Mag=0/3
+Mag 0/3 Green LED 
+
+12:01:01 Status: Sys=0/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:01:03 Status: Sys=0/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:01:04 Status: Sys=0/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:01:05 Status: Sys=0/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:01:06 Status: Sys=0/3, Gyr=0/3, Acc=3/3, Mag=3/3
+Gyro 0/3 Blue LED 
+
+12:01:08 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:09 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:10 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:12 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:13 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:14 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:15 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:17 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:18 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:19 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:21 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:22 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:23 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:24 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:26 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:27 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:28 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:30 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:31 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:32 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:33 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:35 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:36 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:37 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:39 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:40 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:41 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:42 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:44 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:45 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:46 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:48 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:49 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:50 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:51 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:53 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:54 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:55 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:57 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:58 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:01:59 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:00 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:02 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:03 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:04 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:06 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:07 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:08 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:10 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:11 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:12 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:13 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:15 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:16 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:17 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+Hint: rotate around all axes.
+12:02:19 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:20 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:21 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:23 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:24 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:25 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:27 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:28 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:29 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:31 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:32 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:33 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:34 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:36 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:37 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:38 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:40 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:41 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:42 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:43 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:45 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:46 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:47 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:49 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:50 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:51 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:52 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:54 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:55 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:56 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:58 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:02:59 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:03:00 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:03:01 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:03:03 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:03:04 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:03:05 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:03:07 Status: Sys=0/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 0/3 Yellow LED
+
+12:03:08 Status: Sys=2/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 2/3 Yellow LED
+
+12:03:09 Status: Sys=1/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 1/3 Yellow LED
+
+12:03:10 Status: Sys=1/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 1/3 Yellow LED
+
+12:03:12 Status: Sys=1/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 1/3 Yellow LED
+
+12:03:13 Status: Sys=2/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 2/3 Yellow LED
+
+12:03:14 Status: Sys=2/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 2/3 Yellow LED
+
+12:03:16 Status: Sys=2/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 2/3 Yellow LED
+
+12:03:17 Status: Sys=2/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 2/3 Yellow LED
+
+12:03:18 Status: Sys=2/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Sys 2/3 Yellow LED
+
+12:03:19 Status: Sys=3/3, Gyr=3/3, Acc=3/3, Mag=3/3
+Done Cyan LED           
+12:03:20 Offsets
+A(-17, -21, -4)
+M(-79, 299, -212)
+G(1, -2, 1)
+ 
+***********************************************************************
+* 2025-08-23 12:03:30
+* Hardware . Software version: V6.36
+* 
+* CircuitPython Memory Status
+* Used 88.6 Kb 52.6%
+* Free 79.8 Kb 47.4 %
+* Total 168.4 Kb
+
+* Altimeter Info
+* Adafruit Feather RP2040 Adalogger with rp2040
+* CPU Freq: 125.00 MHz
+* CPU Temp: 30.4°C 86.7°F
+* ID: DF 64 70 A3 1B 8F 1A 2D
+* CPy V: 3.4.0; CircuitPython 9.2.8 on 2025-05-28
+* OS V: 9.2.8 on 2025-05-28
+*
+* 2025-08-23 12:03:30
+* Hardware . Software version: V6.36
+* Altitude referance calibration
+* Measure 0 1013.2612
+* Measure 1 1013.2595
+* Measure 2 1013.2585
+* Measure 3 1013.2561
+* Measure 4 1013.2578
+* Measure 5 1013.2566
+* Measure 6 1013.2568
+* Measure 7 1013.2583
+* Measure 8 1013.2583
+* Measure 9 1013.2617
+* Measure 10 1013.2629
+* Measure 11 1013.2637
+* Measure 12 1013.2649
+* Measure 13 1013.2659
+* Measure 14 1013.2678
+* Measure 15 1013.2703
+* Measure 16 1013.2727
+* Measure 17 1013.2712
+* Measure 18 1013.2747
+* Measure 19 1013.2759
+* Measure 20 1013.2751
+* Measure 21 1013.2778
+* Measure 22 1013.2771
+* Measure 23 1013.2769
+* Measure 24 1013.2781
+* Measure 25 1013.2795
+* Measure 26 1013.2786
+* Measure 27 1013.2800
+* Measure 28 1013.2808
+* Measure 29 1013.2815
+* Measure 30 1013.2791
+* Measure 31 1013.2803
+*
+* Pressure Calibration Summary
+* Number of measurements 32
+* Average hPa 1013.267
+* Minimum hPa 1013.256
+* Maximum hPa 1013.281
+* Standand deviation hPa  0.009
+* Range in hPa  0.025
+* Range in inches  8.322
+* Referance Location Beach
+* Referance Altitude in feet     0.0
