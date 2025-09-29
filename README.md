@@ -58,7 +58,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     V1
     </TD>
     <TD>
-    205 g<BR>7.23 oz
+    205 g<BR>7.23&nbspoz
     </TD>
     <TD>
     7"&nbspx<BR>4&nbsp5/8"&nbspx<BR>1&nbsp3/4"
@@ -91,10 +91,10 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     V2
     </TD>
     <TD>
-    58 g<BR>2.05 oz
+    58 g<BR>2.05&nbspoz
     </TD>
     <TD>
-    1 7/8" dia. x<BR>3&nbsp1/2"
+    1 7/8" dia.&nbspx<BR>3&nbsp1/2"
     </TD>  
     <TD>
     <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500 mAh</A>
@@ -124,10 +124,10 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     V3
     </TD>
     <TD>
-    276 g<BR>9.74 oz.  
+    276 g<BR>9.74&nbspoz.  
     </TD>
     <TD>
-    7" x<BR>4 5/8" x<BR>1&nbsp3/4"  
+    7" x<BR>4 5/8"&nbspx<BR>1&nbsp3/4"  
     </TD>  
     <TD>
     2 x 18650<BR>3.7V<BR>9,900 mAh 
@@ -157,10 +157,10 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     V4
     </TD>
     <TD>
-    44 g<BR>1.55 oz. 
+    44 g<BR>1.55&nbspoz. 
     </TD>
     <TD>
-    1 1/4" dia. x<BR>3&nbsp3/4 
+    1 1/4" dia.&nbspx<BR>3&nbsp3/4 
     </TD>  
     <TD>
     <A HREF="https://www.adafruit.com/product/4236">3.7V<BR>420 mAh</A>
@@ -190,10 +190,10 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     V5
     </TD>
     <TD>
-    79 g<BR>2.79 oz.
+    79 g<BR>2.79&nbspoz.
     </TD>
     <TD>
-    1 7/8" dia. x<BR>5&nbsp3/4" 
+    1 7/8" dia.&nbspx<BR>5&nbsp3/4" 
     </TD>  
     <TD>
     <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500 mAh</A>
