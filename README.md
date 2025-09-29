@@ -81,6 +81,40 @@ Kite Altimeter Summary
     </TD>
   </TR>
 
+<TR>
+   <TD>
+    V2
+    </TD>
+    <TD>
+    58 g, 2.05 oz
+    </TD>
+    <TD>
+    1 7/8" dia. x 3 1/2"
+    </TD>  
+    <TD>
+    3.7V @ 500 mAh
+    </TD>
+    <TD>
+    <A HREF="[https://www.adafruit.com/product/4884](https://www.adafruit.com/product/5980)">Feather RP2040 Adalogger</A>    
+    </TD>
+    <TD>    
+     
+    </TD>    
+    <TD>
+      
+    </TD>
+    <TD>
+       
+    </TD>     
+    <TD>
+       
+    </TD>
+    <TD>
+      
+    </TD>
+  </TR>
+
+
 </TABLE>
 
 <HR>
