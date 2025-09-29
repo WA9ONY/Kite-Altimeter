@@ -94,7 +94,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     58 g<BR>2.05 oz
     </TD>
     <TD>
-    1 7/8" dia. x<BR>3 1/2"
+    1 7/8" dia. x<BR>3&nbsp1/2"
     </TD>  
     <TD>
     <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500 mAh</A>
@@ -127,7 +127,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     276 g<BR>9.74 oz.  
     </TD>
     <TD>
-    7" x<BR>4 5/8" x<BR>1 3/4"  
+    7" x<BR>4 5/8" x<BR>1&nbsp3/4"  
     </TD>  
     <TD>
     2 x 18650<BR>3.7V<BR>9,900 mAh 
@@ -160,7 +160,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     44 g<BR>1.55 oz. 
     </TD>
     <TD>
-    1 1/4" dia. x<BR>3 3/4 
+    1 1/4" dia. x<BR>3&nbsp3/4 
     </TD>  
     <TD>
     <A HREF="https://www.adafruit.com/product/4236">3.7V<BR>420 mAh</A>
@@ -193,7 +193,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     79 g<BR>2.79 oz.
     </TD>
     <TD>
-    1 7/8" dia. x<BR>5 3/4" 
+    1 7/8" dia. x<BR>5&nbsp3/4" 
     </TD>  
     <TD>
     <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500 mAh</A>
