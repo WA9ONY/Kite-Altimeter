@@ -15,7 +15,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
 
 <HR>
 
-## Kite Altimeter Summary
+## Kite Altimeter Versions
 
 <p align="center">     <img width="368" height="534" src="/Images/V1-6sm4.JPEG">
 </p>
