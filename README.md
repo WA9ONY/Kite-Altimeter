@@ -17,7 +17,7 @@ Kite Altimeter Summary
 <TABLE>
   <TR>
     <TD><P><B>
-      Altimeter
+      HW
       </B></P></TD>
     <TD><P><B>
       Weight
