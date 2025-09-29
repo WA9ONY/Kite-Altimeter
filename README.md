@@ -22,6 +22,8 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
 
 GitHub directory V1.28 contains the CircuitPython code.py for this altimeter.
 
+Case is a food container
+
 <HR>
 
 ## Kite Altimeter Hardware Version 2
@@ -71,6 +73,10 @@ GitHub directory V5.35 contains the CircuitPython code.py for this altimeter.
 </p>
 
 GitHub directory V6.36 contains the CircuitPython code.py for this altimeter.
+
+GitHub directory V6.36data20250823 contains the data log files for Saturday August 23, 2025 at 
+[Washington State International Kite Festival](https://en.wikipedia.org/wiki/Washington_State_International_Kite_Festival)
+at Long Beach, WA. V6.36 was mounted on the main spar of a 8' x 4' delta kite flying in the Large Kite Area field.
 
 <HR>
 
