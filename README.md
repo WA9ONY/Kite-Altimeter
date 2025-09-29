@@ -218,8 +218,38 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
     </TD>
   </TR>
 
-
-
+<TR>
+   <TD>
+    V6
+    </TD>
+    <TD>
+    74 g<BR>2.61&nbspoz. 
+    </TD>
+    <TD>
+    3.5"&nbspx<BR>2.5"&nbspx<BR>2"
+    </TD>  
+    <TD>
+    <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500 mAh</A>
+    </TD>
+    <TD>
+    <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
+    </TD>
+    <TD>    
+    <A HREF="https://www.adafruit.com/product/5297">128x128 OLED</A>  
+    </TD>    
+    <TD>
+    <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
+    </TD>
+    <TD>
+    <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
+    </TD>     
+    <TD>
+    <A HREF="https://www.adafruit.com/product/4754">BNO085</A> 
+    </TD>
+    <TD>
+    <A HREF="https://www.sparkfun.com/sparkfun-air-velocity-sensor-breakout-fs3000-1015-qwiic.html">FS3000-1015</A> 
+    </TD>
+  </TR>
 </TABLE>
 
 <HR>
