@@ -35,10 +35,10 @@ Kite Altimeter Summary
      RTC
     </B></P></TD>
     <TD><P><B>
-    Altitude
+    Altitude<BR>Temp.
     </B></P></TD>
     <TD><P><B>
-      
+     Display 
     </B></P></TD>
     <TD><P><B>
       
@@ -65,13 +65,13 @@ Kite Altimeter Summary
     <A HREF="https://www.adafruit.com/product/4884">Feather<BR>RP2040</A>    
     </TD>
     <TD>    
-    <A HREF="https://www.adafruit.com/product/2922">Adalogger<BR> FeatherWing</A> 
+    <A HREF="https://www.adafruit.com/product/2922">Adalogger<BR>FeatherWing</A> 
     </TD>    
     <TD>
      <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
     </TD>
     <TD>
-       
+    <A HREF="https://www.adafruit.com/product/4650">128x64 OLED<BR>FeatherWing</A>        
     </TD>     
     <TD>
        
@@ -104,7 +104,7 @@ Kite Altimeter Summary
     <A HREF="https://www.adafruit.com/product/4494">DPS310</A>  
     </TD>
     <TD>
-       
+    <A HREF="https://www.adafruit.com/product/4650">128x64 OLED<BR>FeatherWing</A>   
     </TD>     
     <TD>
        
