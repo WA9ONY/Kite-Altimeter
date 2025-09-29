@@ -1,4 +1,4 @@
-# This Directory
+# V6.36data20250823 Directory
 
 GitHub directory V6.36data20250823 contains the data log files for Saturday August 23, 2025 at 
 [Washington State International Kite Festival](https://en.wikipedia.org/wiki/Washington_State_International_Kite_Festival)
