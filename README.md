@@ -268,6 +268,11 @@ V3 for ground station.
 </p>
 
 </P>  
+<p align="center">     <img width="384" height="450" src="/Images/IMG_8138a.JPEG">
+</p>
+
+
+</P>  
 <p align="center">     <img width="384" height="450" src="/Images/IMG_8138.JPEG">
 </p>
 
