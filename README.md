@@ -32,10 +32,10 @@ Kite Altimeter Summary
      uC      
      </B></P></TD>
     <TD><P><B>
-    
+     RTC
     </B></P></TD>
     <TD><P><B>
-    
+    Altitude
     </B></P></TD>
     <TD><P><B>
       
@@ -65,10 +65,10 @@ Kite Altimeter Summary
     <A HREF="https://www.adafruit.com/product/4884">Feather<BR>RP2040</A>    
     </TD>
     <TD>    
-     
+    <A HREF="https://www.adafruit.com/product/2922">Adalogger<BR> FeatherWing</A> 
     </TD>    
     <TD>
-      
+     <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
     </TD>
     <TD>
        
@@ -98,10 +98,10 @@ Kite Altimeter Summary
     <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
     </TD>
     <TD>    
-     
+     <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
     </TD>    
     <TD>
-      
+    <A HREF="https://www.adafruit.com/product/4494">DPS310</A>  
     </TD>
     <TD>
        
