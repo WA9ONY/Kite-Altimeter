@@ -1,7 +1,7 @@
 <P align="center"> - <A HREF="https://www.qrz.com/db/WA9ONY">WA9ONY</A> - <A HREF="https://www.youtube.com/@Kites-Flying">YouTube Kites-Flying</A> - <A HREF="https://www.youtube.com/user/DavidAHaworth">YouTube David Haworth</A> - <A HREF="http://www.stargazing.net/david/index.html">Website</A> -
 </P>  
 
-<p align="center"><img width="645" height="65" src="/Images/IMG_4266sm.JPEG">
+<p align="center"><img width="645" height="865" src="/Images/IMG_4266sm.JPEG">
 </p>
 <p align="center">
 Kite altimenter V2 (altitude & temperature) attached to the bridle point of a Bora 7 kite.  
