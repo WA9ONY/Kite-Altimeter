@@ -32,6 +32,16 @@ V2, V4, V5 & V6 for kite flying.<BR>
 V3 for ground station.  
 </p>
 
+Reasons for different versions.
++ Version 1 was to test the concept. 
++ Version 2 was the frist version designed to fly.
++ Version 3 was created to be a ground station monitoring the change of the barometric pressure during the flight time.
++ Version 4 was designed to be the smallest and lightest.
++ Version 5 added 9-DOF (degrees of freedom) and air velocity measurements.
++ Version 6 a smaller version of 5 to mount on the main spar of a delta kite.
+
+All altimeter versions log data to a micro SD card.
+
 <TABLE>
   <TR>
     <TD><P><B>
