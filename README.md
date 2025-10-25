@@ -290,7 +290,6 @@ Functions
       <TH>On-Chip Measurement Processing?</TH>
     </TR>
 
-    <!-- BMP585 / BMP5xx family -->
     <TR>
       <TD>BMP585<br>(Bosch)</TD>
       <TD>6413</TD>
@@ -301,7 +300,6 @@ Functions
       <TD>Yes — factory calibration, digital compensation, oversampling, FIFO buffer</TD>
     </TR>
 
-    <!-- BMP580 is same Bosch 5xx generation, non-ported version -->
     <TR>
       <TD>BMP580<br>(Bosch)</TD>
       <TD>6411</TD>
@@ -333,7 +331,6 @@ Functions
       <TD>Yes — calibrated pressure + temp + humidity with digital compensation</TD>
     </TR>
 
-    <!-- DPS310 -->
     <TR>
       <TD>DPS310<br>(Infineon)</TD>
       <TD>4494</TD>
@@ -344,7 +341,6 @@ Functions
       <TD>Yes — internal temperature compensation, oversampling, FIFO</TD>
     </TR>
 
-    <!-- LPS2x/LPS3x STMicro parts -->
     <TR>
       <TD>LPS22HB<br>(ST)</TD>
       <TD>4633</TD>
@@ -375,7 +371,6 @@ Functions
       <TD>Yes — compensated digital output; sensor element gel-filled for water / chemical resistance</TD>
     </TR>
 
-    <!-- BMP388/BMP390 (Bosch 3xx gen) -->
     <TR>
       <TD>BMP388 / BMP390<br>(Bosch)</TD>
       <TD>3966 (BMP388)</TD>
@@ -386,7 +381,6 @@ Functions
       <TD>Yes — digital compensation, oversampling, IIR filtering, I2C/SPI</TD>
     </TR>
 
-    <!-- MPL3115A2 (NXP) -->
     <TR>
       <TD>MPL3115A2<br>(NXP)</TD>
       <TD>1893</TD>
@@ -397,7 +391,6 @@ Functions
       <TD>Yes — integrated altimeter mode, I2C digital output, internal compensation</TD>
     </TR>
 
-    <!-- SPA06-003 (Goertek, low-cost) -->
     <TR>
       <TD>SPA06-003<br>(Goertek)</TD>
       <TD>6420</TD>
