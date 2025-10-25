@@ -19,6 +19,12 @@ Kite-Altimeter repositories conatains information and code for thet kite altimet
 
 Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite height above the ground.
 
+Kite altimeter V1 is a test bed to check out the concept.
+
+Kite altimeter V2, V4, V5 and V6 are design to fly.
+
+Kite altimeter V3 and V7 are design as base stations to record pressure changes for time on the ground.
+
 <HR>
 
 ## Kite Altimeter Versions
