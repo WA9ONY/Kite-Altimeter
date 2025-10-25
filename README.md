@@ -401,7 +401,6 @@ Functions
       <TD>Yes — built-in regulator &amp; level shifting, factory calibration, I2C ready</TD>
     </TR>
 
-    <!-- MPRLS: ported absolute PSI sensor -->
     <TR>
       <TD>MPRLS (Honeywell die + ADC)</TD>
       <TD>3965</TD>
