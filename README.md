@@ -19,12 +19,6 @@ Kite-Altimeter repositories conatains information and code for thet kite altimet
 
 Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite height above the ground.
 
-Kite altimeter V1 is a test bed to check out the concept.
-
-Kite altimeter V2, V4, V5 and V6 are design to fly.
-
-Kite altimeter V3 and V7 are design as base stations to record pressure changes for time on the ground.
-
 <HR>
 
 ## Kite Altimeter Versions
@@ -32,10 +26,11 @@ Kite altimeter V3 and V7 are design as base stations to record pressure changes 
 <p align="center">     <img width="368" height="534" src="/Images/V1-6sm4.JPEG">
 </p>
 <p align="center">
-Six altimeters: V1, V2, V3, V4, V5 & V6.<BR>
+Seven altimeters: V1, V2, V3, V4, V5, V6 and V7.<BR>
 V1 for development & testing.<BR>
 V2, V4, V5 & V6 for kite flying.<BR>
-V3 for ground station.  
+V3 for ground station based on the Adafruint RP2350 Metro.
+V7 for ground station based on the Raspberry Pi 5 with 5" touch display.      
 </p>
 
 Reasons for different versions.
@@ -45,6 +40,7 @@ Reasons for different versions.
 + Version 4 was designed to be the smallest and lightest. It has no OLED display, just NioPxiel.
 + Version 5 added 9-DOF (degrees of freedom) and air velocity measurements.
 + Version 6 a smaller version of 5 to mount on the main spar of a delta kite.
++ Version 3 was created to be a ground station monitoring the change of the barometric pressure during the flight time and is currently under development.
 
 Functions
 + All altimeter versions log data to a 32 GB micro SD card.
