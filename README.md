@@ -29,8 +29,7 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
 Seven altimeters: V1, V2, V3, V4, V5, V6 and V7.<BR>
 V1 for development & testing.<BR>
 V2, V4, V5 & V6 for kite flying.<BR>
-V3 for ground station based on the Adafruint RP2350 Metro.
-V7 for ground station based on the Raspberry Pi 5 with 5" touch display.      
+V3 for ground station based on the Adafruint RP2350 Metro.      
 </p>
 
 Reasons for different versions.
@@ -40,7 +39,7 @@ Reasons for different versions.
 + Version 4 was designed to be the smallest and lightest. It has no OLED display, just NioPxiel.
 + Version 5 added 9-DOF (degrees of freedom) and air velocity measurements.
 + Version 6 a smaller version of 5 to mount on the main spar of a delta kite.
-+ Version 3 was created to be a ground station monitoring the change of the barometric pressure during the flight time and is currently under development.
++ Version 3 was created to be a ground station monitoring the change of the barometric pressure during the flight time and is currently under development. V7 is based on the Raspberry Pi 5 with 5" touch display.
 
 Functions
 + All altimeter versions log data to a 32 GB micro SD card.
@@ -278,6 +277,40 @@ Functions
     <A HREF="https://www.sparkfun.com/sparkfun-air-velocity-sensor-breakout-fs3000-1015-qwiic.html">FS3000-1015</A> 
 </TD>
 </TR>
+
+<TR>
+<TD>
+    V7
+</TD>
+<TD>
+    451 g<BR>15.91&nbspoz. 
+</TD>
+<TD>
+    3.6"&nbspx<BR>5.65"&nbspx<BR>2.26"
+</TD>  
+<TD>
+    <A HREF="https://www.amazon.com/dp/B0CB1FW5FC?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1">5V<BR>INIU Portable Charger, Ultra Slim 10000mAh 45W PD Power Bank</A>
+</TD>
+<TD>
+    <A HREF="https://www.adafruit.com/product/5813">Raspberry Pi 5 - 8 GB RAM</A>    
+</TD>
+<TD>    
+    <A HREF="https://www.adafruit.com/product/6408">Raspberry Pi Touch Display 2 - 5" 720x1280 with Capacitive Touch</A>  
+</TD>    
+<TD>
+    <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
+</TD>
+<TD>
+    <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
+</TD>     
+<TD>
+    <A HREF="https://www.adafruit.com/product/4754">BNO085</A> 
+</TD>
+<TD>
+     
+</TD>
+</TR>
+
 </TABLE>
 
 <HR>
