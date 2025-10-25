@@ -292,15 +292,30 @@ Adafreuit pressure sesnors table
     </TR>
 
     <TR>
-      <TD>BMP585 (Bosch)</TD>
-      <TD>6413</TD>
-      <TD>$14.95</TD>
-      <TD>300–1250&nbsp;hPa</TD>
-      <TD>±50&nbsp;Pa absolute (≈±0.5&nbsp;hPa) typical;<BR>±6&nbsp;Pa relative</TD>
-      <TD>0.08&nbsp;Pa&nbsp;RMS noise<br>(≈0.0008&nbsp;hPa)</TD>
-      <TD>Yes — factory calibration, digital compensation, oversampling, FIFO buffer</TD>
+      	<TD>
+	BMP585 (Bosch)	
+	</TD>
+        <TD>
+	6413
+	</TD>
+      	<TD>
+	$14.95
+	</TD>
+      	<TD>
+	300–1250&nbsp;hPa
+	</TD>
+      	<TD>
+	±50&nbsp;Pa absolute (≈±0.5&nbsp;hPa) typical;<BR>±6&nbsp;Pa relative
+	</TD>
+      	<TD>0.08&nbsp;Pa&nbsp;RMS noise<br>(≈0.0008&nbsp;hPa)
+	</TD>
+      	<TD>
+	Yes — factory calibration, digital compensation, oversampling, FIFO buffer
+	</TD>
     </TR>
+</TABLE>
 
+<TABLE>
     <TR>
       <TD>BMP580<br>(Bosch)</TD>
       <TD>6411</TD>
@@ -311,7 +326,6 @@ Adafreuit pressure sesnors table
       <TD>Yes — digital filtering, oversampling, FIFO</TD>
     </TR>
 
-    <!-- BMP280/BME280 classic Bosch 2xx generation -->
     <TR>
       <TD>BMP280<br>(Bosch)</TD>
       <TD>2651</TD>
