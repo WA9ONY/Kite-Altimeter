@@ -531,3 +531,19 @@ DIY Barometric Logger: For those interested in electronics, a custom altimeter c
 <TD>Yes — gel-covered sensing element, on-chip 24-bit ADC &amp; temperature compensation</TD>
 </TR>
 </TABLE>
+
+<hr>
+
+## Notes & Context for Your Edge‑Microcontroller / Kite‑Logger Projects
+
+- The DPS310 and BMP585 sensors offer the **highest resolution** and are ideal for precise altitude logging in kite‑borne instruments, where vertical motion on the order of centimeters matters.
+- The **LPS22HB / LPS25HB / LPS35HW** series from STMicroelectronics provide excellent accuracy with low power use and environmental sealing (LPS35HW) for damp or coastal conditions.
+- **Bosch BMP/BME series** (BMP280, BME280, BMP388/390, BMP580/585) remain popular for general atmospheric logging — they provide reliable factory‑calibrated output, easy integration over I²C/SPI, and consistent results across wide temperature ranges.
+- The **MPL3115A2** from NXP adds a built‑in altitude conversion mode, useful when the host MCU has limited resources for floating‑point math.
+- **MPRLS** (Honeywell) is a ported, absolute‑pressure device suitable for sealed enclosures or airflow/tube measurements — not typically for open‑air atmospheric use.
+- For kite systems, **oversampling and filtering** should be tuned to match flight dynamics. Excessive filtering can mask short‑term gusts or tether vibration signatures, while minimal filtering may amplify noise.
+- Mount sensors in a **well‑ventilated but shaded enclosure** to minimize thermal drift from sun exposure and prevent condensation from rapid humidity changes.
+- Log barometric pressure together with **temperature, humidity, IMU, and wind velocity** to correlate atmospheric and mechanical behavior during flight.
+- For long‑duration flights, use **non‑blocking I²C reads** and efficient data logging to microSD; verify timestamps remain synchronized if your system lacks a real‑time clock (RTC).
+
+These considerations provide a foundation for building high‑resolution, reliable kite data‑logging instruments integrating Adafruit atmospheric sensors with edge microcontrollers.
