@@ -310,7 +310,7 @@ Functions
     3.6"&nbspx<BR>5.65"&nbspx<BR>2.26"
 </TD>  
 <TD>
-    <A HREF="https://www.amazon.com/dp/B0CB1FW5FC?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1">5V<BR>INIU Portable Charger, Ultra Slim 10000mAh 45W PD Power Bank</A>
+    <A HREF="https://www.amazon.com/dp/B0CB1FW5FC?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1">5V INIU Ultra Slim 10000mAh</A>
 </TD>
 <TD>
     <A HREF="https://www.adafruit.com/product/5813">Raspberry Pi 5 - 8 GB RAM</A>    
