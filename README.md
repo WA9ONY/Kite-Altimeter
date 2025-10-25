@@ -441,6 +441,15 @@ at Long Beach, WA. V6.36 was mounted on the main spar of a 8' x 4' delta kite fl
 <p align="center">     <img width="588" height="588" src="/Images/V7top.JPEG">
 </p>
 
+Raspberry Pi 5 with with the touch display 2 5" connected to USB 10ah battery bank.
+
+</P>  
+<p align="center">     <img width="727" height="546" src="/Images/V7bottom.JPEG">
+</p>
+
+Raspberry Pi 5 with cooling fan mounted to the back side of the touch display 2 5". I2C four wire cable from the I2C port of the GPIO connector to the DPS310 pressure sensor.   Short I2C cable from the DPS310 to the RTC.
+
+Clear plastic from food containers mounted on four standoffs to protect the back of the Raspberry Pi 5 and to hold the DPS310 and RTC boards.
 
 <HR>
 
