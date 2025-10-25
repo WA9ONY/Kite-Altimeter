@@ -39,7 +39,7 @@ Reasons for different versions.
 + Version 4 was designed to be the smallest and lightest. It has no OLED display, just NioPxiel.
 + Version 5 added 9-DOF (degrees of freedom) and air velocity measurements.
 + Version 6 a smaller version of 5 to mount on the main spar of a delta kite.
-+ Version 3 was created to be a ground station monitoring the change of the barometric pressure during the flight time and is currently under development. V7 is based on the Raspberry Pi 5 with 5" touch display.
++ Version 7 was created to be a ground station monitoring the change of the barometric pressure during the flight time and is currently under development. V7 is based on the Raspberry Pi 5 with 5" touch display.
 
 Functions
 + All altimeter versions log data to a 32 GB micro SD card.
