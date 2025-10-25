@@ -64,6 +64,9 @@ Functions
      uC      
      </B></P></TD>
 <TD><P><B>
+     SW      
+     </B></P></TD>
+<TD><P><B>
     Display 
     </B></P></TD>
 <TD><P><B>
@@ -95,6 +98,9 @@ Functions
 </TD>
 <TD>
     <A HREF="https://www.adafruit.com/product/4884">Feather<BR>RP2040</A>    
+</TD>
+<TD>
+    <A HREF="https://circuitpython.org/">CircuitPython</A>    
 </TD>
 <TD>    
     <A HREF="https://www.adafruit.com/product/4650">128x64 OLED<BR>FeatherWing</A>        
@@ -129,6 +135,9 @@ Functions
 <TD>
     <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
 </TD>
+<TD>
+    <A HREF="https://circuitpython.org/">CircuitPython</A>    
+</TD>
 <TD>    
     <A HREF="https://www.adafruit.com/product/4650">128x64 OLED<BR>FeatherWing</A>  
 </TD>    
@@ -161,6 +170,9 @@ Functions
 </TD>
 <TD>
     <A HREF="https://www.adafruit.com/product/6003">Metro<BR>RP2350</A>    
+</TD>
+<TD>
+    <A HREF="https://circuitpython.org/">CircuitPython</A>    
 </TD>
 <TD>    
     <A HREF="https://www.adafruit.com/product/1651">2.8" TFT<BR>Touch<BR>Shield</A>  
@@ -195,6 +207,9 @@ Functions
 <TD>
     <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
 </TD>
+<TD>
+    <A HREF="https://circuitpython.org/">CircuitPython</A>    
+</TD>
 <TD>    
     -  
 </TD>    
@@ -227,6 +242,9 @@ Functions
 </TD>
 <TD>
     <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
+</TD>
+<TD>
+    <A HREF="https://circuitpython.org/">CircuitPython</A>    
 </TD>
 <TD>    
     <A HREF="https://www.adafruit.com/product/5297">128x128 OLED</A>  
@@ -261,6 +279,9 @@ Functions
 <TD>
     <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
 </TD>
+<TD>
+    <A HREF="https://circuitpython.org/">CircuitPython</A>    
+</TD>
 <TD>    
     <A HREF="https://www.adafruit.com/product/5297">128x128 OLED</A>  
 </TD>    
@@ -294,6 +315,10 @@ Functions
 <TD>
     <A HREF="https://www.adafruit.com/product/5813">Raspberry Pi 5 - 8 GB RAM</A>    
 </TD>
+<TD>
+    <A HREF="https://www.raspberrypi.com/news/trixie-the-new-version-of-raspberry-pi-os/">Trixie OS</A> &amp;
+    <A HREF="https://www.python.org//">Python</A>    
+</TD>
 <TD>    
     <A HREF="https://www.adafruit.com/product/6408">Raspberry Pi Touch Display 2 - 5" 720x1280 with Capacitive Touch</A>  
 </TD>    
@@ -304,7 +329,7 @@ Functions
     <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
 </TD>     
 <TD>
-    <A HREF="https://www.adafruit.com/product/4754">BNO085</A> 
+ 
 </TD>
 <TD>
      
