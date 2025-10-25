@@ -412,6 +412,46 @@ Wikipedia
 
 DIY Barometric Logger: For those interested in electronics, a custom altimeter can be built using a microcontroller (such as an Arduino), a barometric pressure sensor, and an SD card module for data logging. This approach is more complex but offers flexibility for advanced users. ([Google AI](https://share.google/aimode/4WKR2bouP8A6tX3Cm))
 
+
+## Measuring Kite Altitude with Pressure Sensors
+
+A **barometric pressure sensor** measures the surrounding air pressure and infers altitude from the rate of pressure decrease with height. 
+As altitude increases, the air becomes thinner, causing a predictable drop in pressure. This relationship follows the **barometric formula**:
+
+\[
+h = \frac{T_0}{L} \left[1 - \left(\frac{P}{P_0}\right)^{\frac{RL}{g}}\right]
+\]
+
+Where:
+
+| Symbol | Meaning | Typical Units |
+|:------:|:---------|:--------------|
+| h | Altitude above sea level | meters |
+| P | Measured pressure | hPa |
+| P₀ | Sea-level reference pressure | hPa |
+| T₀ | Standard temperature (≈ 288.15 K) | kelvin |
+| L | Lapse rate (≈ 0.0065 K/m) | K/m |
+| R | Gas constant for air (287 J/kg·K) | — |
+| g | Acceleration due to gravity (9.80665 m/s²) | — |
+
+In a kite altimeter, sensors such as the **Adafruit DPS310** or **BMP585** are placed near the kite’s bridle point or along the main spar. 
+The onboard microcontroller continuously reads barometric pressure, converts it into altitude, and logs the data along with temperature and motion readings.  
+Because atmospheric pressure changes with weather, accurate altitude measurement requires calibration against a **ground reference pressure** — for example, from a second sensor on the ground or a local NOAA weather station.
+
+### Other Methods to Measure Kite Altitude
+
+| Method | How It Works | Advantages | Limitations |
+|:--------|:-------------|:------------|:-------------|
+| **Barometric (Pressure) Sensor** | Converts air pressure change to altitude. | Lightweight, low power, inexpensive. | Sensitive to weather pressure variation. |
+| **GPS Receiver** | Uses satellite trilateration to determine altitude. | Provides absolute altitude; no calibration needed. | Slow update rate (1–10 Hz), higher power draw, noisy vertical accuracy. |
+| **Inertial (IMU Integration)** | Integrates acceleration data from a 9‑DOF sensor. | High‑speed data, good for short‑term motion. | Long‑term drift; needs barometric or GPS correction. |
+| **Optical Theodolite / Camera Tracking** | Measures elevation angle from the ground. | High reference accuracy. | Requires ground operator and line‑of‑sight. |
+| **Tether Geometry** | Combines line length and elevation angle sensors. | Simple mechanical method. | Assumes taut line; ignores catenary sag. |
+| **Radar / LIDAR Altimetry** | Measures distance via radio or laser pulse reflection. | Direct and precise. | Heavy, expensive, and power‑hungry. |
+| **Acoustic Ranging** | Measures sound pulse travel time. | Simple short‑range measurement. | Limited range (< 100 m) and affected by wind. |
+
+This combination of methods can provide both relative and absolute altitude references for kite flight experiments, depending on mission goals, payload mass, and available power.
+
 <TABLE>
 <TR>
 <TH>IC type</TH>
