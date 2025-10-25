@@ -320,7 +320,7 @@ Functions
     <A HREF="https://www.python.org/">Python</A>    
 </TD>
 <TD>    
-    <A HREF="https://www.adafruit.com/product/6408">Raspberry Pi Touch Display 2 - 5" 720x1280 with Capacitive Touch</A>  
+    <A HREF="https://www.adafruit.com/product/6408">Raspberry Pi Touch Display 2 - 5" 720x1280</A>  
 </TD>    
 <TD>
     <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
