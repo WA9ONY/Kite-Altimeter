@@ -488,9 +488,9 @@ Wikipedia
 
 <HR>
 
-## AI tools for kites altimeters
+## AI tools for kites altimeters ([Google AI](https://share.google/aimode/4WKR2bouP8A6tX3Cm))
 
-DIY Barometric Logger: For those interested in electronics, a custom altimeter can be built using a microcontroller (such as an Arduino), a barometric pressure sensor, and an SD card module for data logging. This approach is more complex but offers flexibility for advanced users. ([Google AI](https://share.google/aimode/4WKR2bouP8A6tX3Cm))
+DIY Barometric Logger: For those interested in electronics, a custom altimeter can be built using a microcontroller (such as an Arduino), a barometric pressure sensor, and an SD card module for data logging. This approach is more complex but offers flexibility for advanced users. 
 
 
 ## Measuring Kite Altitude with Pressure Sensors ([ChatGPT AI](https://openai.com))
