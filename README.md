@@ -1,5 +1,4 @@
 <P align="center"> - <A HREF="https://www.qrz.com/db/WA9ONY">WA9ONY</A> - <A HREF="https://www.youtube.com/@Kites-Flying">YouTube Kites-Flying</A> - <A HREF="https://www.youtube.com/user/DavidAHaworth">YouTube David Haworth</A> - <A HREF="http://www.stargazing.net/david/index.html">Website</A> -
-</P>  
 
 <p align="center"><img width="645" height="865" src="/Images/IMG_4266sm.JPEG">
 </p>
@@ -282,11 +281,9 @@ Functions
 
 ## Kite Altimeter Hardware Version 1
 
-</P>  
 <p align="center">     <img width="528" height="326" src="/Images/V1.JPEG">
 </p>
 
-</P>  
 <p align="center">     <img width="384" height="450" src="/Images/IMG_8138a.JPEG">
 </p>
 <p align="center">
@@ -303,7 +300,6 @@ GitHub directory V1.28 contains the CircuitPython code.py for this altimeter.
 
 ## Kite Altimeter Hardware Version 2
 
-</P>  
 <p align="center">     <img width="448" height="384" src="/Images/V2.JPEG">
 </p>
 
@@ -317,7 +313,6 @@ GitHub directory V2.11 contains the CircuitPython code.py for this altimeter.
 
 ## Kite Altimeter Hardware Version 3
 
-</P>  
 <p align="center">     <img width="530" height="326" src="/Images/V3.JPEG">
 </p>
 
@@ -331,7 +326,6 @@ GitHub directory V3.10 contains the CircuitPython code.py for this altimeter.
 
 ## Kite Altimeter Hardware Version 4
 
-</P>  
 <p align="center">     <img width="560" height="308" src="/Images/V4.JPEG">
 </p>
 
@@ -345,7 +339,6 @@ GitHub directory V4.12 contains the CircuitPython code.py for this altimeter.
 
 ## Kite Altimeter Hardware Version 5
 
-</P>  
 <p align="center">     <img width="570" height="304" src="/Images/V5.JPEG">
 </p>
 
@@ -359,7 +352,6 @@ GitHub directory V5.35 contains the CircuitPython code.py for this altimeter.
 
 ## Kite Altimeter Hardware Version 6
 
-</P>  
 <p align="center">     <img width="356" height="484" src="/Images/V6.JPEG">
 </p>
 
