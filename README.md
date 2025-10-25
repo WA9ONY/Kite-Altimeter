@@ -416,11 +416,9 @@ DIY Barometric Logger: For those interested in electronics, a custom altimeter c
 ## Measuring Kite Altitude with Pressure Sensors
 
 A **barometric pressure sensor** measures the surrounding air pressure and infers altitude from the rate of pressure decrease with height. 
-As altitude increases, the air becomes thinner, causing a predictable drop in pressure. This relationship follows the **barometric formula**:
+As altitude increases, the air becomes thinner, causing a predictable drop in pressure. This relationship follows the **barometric formula** (standard atmosphere approximation):
 
-\[
-h = \frac{T_0}{L} \left[1 - \left(\frac{P}{P_0}\right)^{\frac{RL}{g}}\right]
-\]
+h = (T₀ / L) · [ 1 − ( P / P₀ )^((R·L)/g) ]
 
 Where:
 
