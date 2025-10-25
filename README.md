@@ -412,9 +412,7 @@ Wikipedia
 
 DIY Barometric Logger: For those interested in electronics, a custom altimeter can be built using a microcontroller (such as an Arduino), a barometric pressure sensor, and an SD card module for data logging. This approach is more complex but offers flexibility for advanced users. ([Google AI](https://share.google/aimode/4WKR2bouP8A6tX3Cm))
 
-
 <table>
-  <thead>
     <tr>
       <th>IC type</th>
       <th>Adafruit Product ID</th>
@@ -424,8 +422,6 @@ DIY Barometric Logger: For those interested in electronics, a custom altimeter c
       <th>Pressure Resolution / Noise Floor</th>
       <th>On-Chip Measurement Processing?</th>
     </tr>
-  </thead>
-  <tbody>
 
     <!-- BMP585 / BMP5xx family -->
     <tr>
@@ -555,6 +551,4 @@ DIY Barometric Logger: For those interested in electronics, a custom altimeter c
       <td>24-bit compensated digital output (<<1&nbsp;Pa effective step over range)</td>
       <td>Yes — gel-covered sensing element, on-chip 24-bit ADC &amp; temperature compensation</td>
     </tr>
-
-  </tbody>
 </table>
