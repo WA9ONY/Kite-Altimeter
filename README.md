@@ -277,7 +277,8 @@ Functions
   </TR>
 </TABLE>
 
-<HR>
+Adafreuit pressure sesnors table
++ Application kite altimeter
 
 <TABLE>
     <TR>
@@ -291,11 +292,11 @@ Functions
     </TR>
 
     <TR>
-      <TD>BMP585<br>(Bosch)</TD>
+      <TD>BMP585 (Bosch)</TD>
       <TD>6413</TD>
       <TD>$14.95</TD>
       <TD>300–1250&nbsp;hPa</TD>
-      <TD>±50&nbsp;Pa absolute (≈±0.5&nbsp;hPa) typical;<br>±6&nbsp;Pa relative</TD>
+      <TD>±50&nbsp;Pa absolute (≈±0.5&nbsp;hPa) typical;<BR>±6&nbsp;Pa relative</TD>
       <TD>0.08&nbsp;Pa&nbsp;RMS noise<br>(≈0.0008&nbsp;hPa)</TD>
       <TD>Yes — factory calibration, digital compensation, oversampling, FIFO buffer</TD>
     </TR>
