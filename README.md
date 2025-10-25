@@ -404,143 +404,143 @@ Wikipedia
 
 DIY Barometric Logger: For those interested in electronics, a custom altimeter can be built using a microcontroller (such as an Arduino), a barometric pressure sensor, and an SD card module for data logging. This approach is more complex but offers flexibility for advanced users. ([Google AI](https://share.google/aimode/4WKR2bouP8A6tX3Cm))
 
-<table>
-    <tr>
-      <th>IC type</th>
-      <th>Adafruit Product ID</th>
-      <th>Price (USD)</th>
-      <th>Pressure Range</th>
-      <th>Pressure Accuracy / Tolerance</th>
-      <th>Pressure Resolution / Noise Floor</th>
-      <th>On-Chip Measurement Processing?</th>
-    </tr>
+<TABLE>
+    <TR>
+      <TH>IC type</TH>
+      <TH>Adafruit Product ID</TH>
+      <TH>Price (USD)</TH>
+      <TH>Pressure Range</TH>
+      <TH>Pressure Accuracy / Tolerance</TH>
+      <TH>Pressure Resolution / Noise Floor</TH>
+      <TH>On-Chip Measurement Processing?</TH>
+    </TR>
 
     <!-- BMP585 / BMP5xx family -->
-    <tr>
-      <td>BMP585<br>(Bosch)</td>
-      <td>6413</td>
-      <td>$14.95</td>
-      <td>300–1250&nbsp;hPa</td>
-      <td>±50&nbsp;Pa absolute (≈±0.5&nbsp;hPa) typical;<br>±6&nbsp;Pa relative</td>
-      <td>0.08&nbsp;Pa&nbsp;RMS noise<br>(≈0.0008&nbsp;hPa)</td>
-      <td>Yes — factory calibration, digital compensation, oversampling, FIFO buffer</td>
-    </tr>
+    <TR>
+      <TD>BMP585<br>(Bosch)</TD>
+      <TD>6413</TD>
+      <TD>$14.95</TD>
+      <TD>300–1250&nbsp;hPa</TD>
+      <TD>±50&nbsp;Pa absolute (≈±0.5&nbsp;hPa) typical;<br>±6&nbsp;Pa relative</TD>
+      <TD>0.08&nbsp;Pa&nbsp;RMS noise<br>(≈0.0008&nbsp;hPa)</TD>
+      <TD>Yes — factory calibration, digital compensation, oversampling, FIFO buffer</TD>
+    </TR>
 
     <!-- BMP580 is same Bosch 5xx generation, non-ported version -->
-    <tr>
-      <td>BMP580<br>(Bosch)</td>
-      <td>6411</td>
-      <td>$7.95</td>
-      <td>300–1250&nbsp;hPa</td>
-      <td>±50&nbsp;Pa absolute (typ)</td>
-      <td>~0.1&nbsp;Pa-class noise (≈0.001&nbsp;hPa)<br>24-bit internal ADC</td>
-      <td>Yes — digital filtering, oversampling, FIFO</td>
-    </tr>
+    <TR>
+      <TD>BMP580<br>(Bosch)</TD>
+      <TD>6411</TD>
+      <TD>$7.95</TD>
+      <TD>300–1250&nbsp;hPa</TD>
+      <TD>±50&nbsp;Pa absolute (typ)</TD>
+      <TD>~0.1&nbsp;Pa-class noise (≈0.001&nbsp;hPa)<br>24-bit internal ADC</TD>
+      <TD>Yes — digital filtering, oversampling, FIFO</TD>
+    </TR>
 
     <!-- BMP280/BME280 classic Bosch 2xx generation -->
-    <tr>
-      <td>BMP280<br>(Bosch)</td>
-      <td>2651</td>
-      <td>$9.95</td>
-      <td>~300–1100&nbsp;hPa</td>
-      <td>±1&nbsp;hPa absolute</td>
-      <td>0.16&nbsp;Pa LSB<br>(0.0016&nbsp;hPa)</td>
-      <td>Yes — factory calibration, oversampling, IIR filter</td>
-    </tr>
+    <TR>
+      <TD>BMP280<br>(Bosch)</TD>
+      <TD>2651</TD>
+      <TD>$9.95</TD>
+      <TD>~300–1100&nbsp;hPa</TD>
+      <TD>±1&nbsp;hPa absolute</TD>
+      <TD>0.16&nbsp;Pa LSB<br>(0.0016&nbsp;hPa)</TD>
+      <TD>Yes — factory calibration, oversampling, IIR filter</TD>
+    </TR>
 
-    <tr>
-      <td>BME280<br>(Bosch)</td>
-      <td>2652</td>
-      <td>$14.95</td>
-      <td>300–1100&nbsp;hPa</td>
-      <td>±1&nbsp;hPa absolute (pressure channel)</td>
-      <td>0.16&nbsp;Pa step<br>(0.0016&nbsp;hPa)</td>
-      <td>Yes — calibrated pressure + temp + humidity with digital compensation</td>
-    </tr>
+    <TR>
+      <TD>BME280<br>(Bosch)</TD>
+      <TD>2652</TD>
+      <TD>$14.95</TD>
+      <TD>300–1100&nbsp;hPa</TD>
+      <TD>±1&nbsp;hPa absolute (pressure channel)</TD>
+      <TD>0.16&nbsp;Pa step<br>(0.0016&nbsp;hPa)</TD>
+      <TD>Yes — calibrated pressure + temp + humidity with digital compensation</TD>
+    </TR>
 
     <!-- DPS310 -->
-    <tr>
-      <td>DPS310<br>(Infineon)</td>
-      <td>4494</td>
-      <td>$6.95</td>
-      <td>300–1200&nbsp;hPa</td>
-      <td>±1&nbsp;hPa absolute;<br>±0.002&nbsp;hPa relative (high-precision mode)</td>
-      <td>~0.002&nbsp;hPa (~0.2&nbsp;Pa)<br>≈2&nbsp;cm altitude steps</td>
-      <td>Yes — internal temperature compensation, oversampling, FIFO</td>
-    </tr>
+    <TR>
+      <TD>DPS310<br>(Infineon)</TD>
+      <TD>4494</TD>
+      <TD>$6.95</TD>
+      <TD>300–1200&nbsp;hPa</TD>
+      <TD>±1&nbsp;hPa absolute;<br>±0.002&nbsp;hPa relative (high-precision mode)</TD>
+      <TD>~0.002&nbsp;hPa (~0.2&nbsp;Pa)<br>≈2&nbsp;cm altitude steps</TD>
+      <TD>Yes — internal temperature compensation, oversampling, FIFO</TD>
+    </TR>
 
     <!-- LPS2x/LPS3x STMicro parts -->
-    <tr>
-      <td>LPS22HB<br>(ST)</td>
-      <td>4633</td>
-      <td>$6.95</td>
-      <td>260–1260&nbsp;hPa</td>
-      <td>±0.1&nbsp;hPa after 1-point calibration<br>(≈±1&nbsp;hPa before)</td>
-      <td>~0.01&nbsp;hPa RMS<br>24-bit pressure data @ up to ~75&nbsp;Hz</td>
-      <td>Yes — on-chip compensation, oversampling, FIFO</td>
-    </tr>
+    <TR>
+      <TD>LPS22HB<br>(ST)</TD>
+      <TD>4633</TD>
+      <TD>$6.95</TD>
+      <TD>260–1260&nbsp;hPa</TD>
+      <TD>±0.1&nbsp;hPa after 1-point calibration<br>(≈±1&nbsp;hPa before)</TD>
+      <TD>~0.01&nbsp;hPa RMS<br>24-bit pressure data @ up to ~75&nbsp;Hz</TD>
+      <TD>Yes — on-chip compensation, oversampling, FIFO</TD>
+    </TR>
 
-    <tr>
-      <td>LPS25HB<br>(ST)</td>
-      <td>4530</td>
-      <td>$9.95</td>
-      <td>260–1260&nbsp;hPa</td>
-      <td>±0.2&nbsp;hPa (after calibration)</td>
-      <td>~0.01&nbsp;hPa RMS<br>24-bit pressure data</td>
-      <td>Yes — digital interface with built-in calibration &amp; FIFO</td>
-    </tr>
+    <TR>
+      <TD>LPS25HB<br>(ST)</TD>
+      <TD>4530</TD>
+      <TD>$9.95</TD>
+      <TD>260–1260&nbsp;hPa</TD>
+      <TD>±0.2&nbsp;hPa (after calibration)</TD>
+      <TD>~0.01&nbsp;hPa RMS<br>24-bit pressure data</TD>
+      <TD>Yes — digital interface with built-in calibration &amp; FIFO</TD>
+    </TR>
 
-    <tr>
-      <td>LPS35HW / LPS33HW<br>(ST, water-resistant gel cavity)</td>
-      <td>4258 (LPS35HW)<br>4414 (LPS33HW)</td>
-      <td>$12.50</td>
-      <td>~260–1260&nbsp;hPa</td>
-      <td>±0.1–0.2&nbsp;hPa class (typ)</td>
-      <td>~0.01&nbsp;hPa-class noise</td>
-      <td>Yes — compensated digital output; sensor element gel-filled for water / chemical resistance</td>
-    </tr>
+    <TR>
+      <TD>LPS35HW / LPS33HW<br>(ST, water-resistant gel cavity)</TD>
+      <TD>4258 (LPS35HW)<br>4414 (LPS33HW)</TD>
+      <TD>$12.50</TD>
+      <TD>~260–1260&nbsp;hPa</TD>
+      <TD>±0.1–0.2&nbsp;hPa class (typ)</TD>
+      <TD>~0.01&nbsp;hPa-class noise</TD>
+      <TD>Yes — compensated digital output; sensor element gel-filled for water / chemical resistance</TD>
+    </TR>
 
     <!-- BMP388/BMP390 (Bosch 3xx gen) -->
-    <tr>
-      <td>BMP388 / BMP390<br>(Bosch)</td>
-      <td>3966 (BMP388)</td>
-      <td>$9.95 (BMP388)</td>
-      <td>300–1250&nbsp;hPa (typ)</td>
-      <td>±8&nbsp;Pa relative (≈±0.08&nbsp;hPa)<br>≈±0.5&nbsp;m altitude</td>
-      <td>Altitude noise ≈0.1&nbsp;m<br>(≈0.01–0.02&nbsp;hPa)</td>
-      <td>Yes — digital compensation, oversampling, IIR filtering, I2C/SPI</td>
-    </tr>
+    <TR>
+      <TD>BMP388 / BMP390<br>(Bosch)</TD>
+      <TD>3966 (BMP388)</TD>
+      <TD>$9.95 (BMP388)</TD>
+      <TD>300–1250&nbsp;hPa (typ)</TD>
+      <TD>±8&nbsp;Pa relative (≈±0.08&nbsp;hPa)<br>≈±0.5&nbsp;m altitude</TD>
+      <TD>Altitude noise ≈0.1&nbsp;m<br>(≈0.01–0.02&nbsp;hPa)</TD>
+      <TD>Yes — digital compensation, oversampling, IIR filtering, I2C/SPI</TD>
+    </TR>
 
     <!-- MPL3115A2 (NXP) -->
-    <tr>
-      <td>MPL3115A2<br>(NXP)</td>
-      <td>1893</td>
-      <td>$14.95</td>
-      <td>50–110&nbsp;kPa<br>(500–1100&nbsp;hPa equiv)</td>
-      <td>±1&nbsp;m altitude / ±1&nbsp;hPa class typical</td>
-      <td>1.5&nbsp;Pa (~0.015&nbsp;hPa)<br>≈0.3&nbsp;m altitude resolution</td>
-      <td>Yes — integrated altimeter mode, I2C digital output, internal compensation</td>
-    </tr>
+    <TR>
+      <TD>MPL3115A2<br>(NXP)</TD>
+      <TD>1893</TD>
+      <TD>$14.95</TD>
+      <TD>50–110&nbsp;kPa<br>(500–1100&nbsp;hPa equiv)</TD>
+      <TD>±1&nbsp;m altitude / ±1&nbsp;hPa class typical</TD>
+      <TD>1.5&nbsp;Pa (~0.015&nbsp;hPa)<br>≈0.3&nbsp;m altitude resolution</TD>
+      <TD>Yes — integrated altimeter mode, I2C digital output, internal compensation</TD>
+    </TR>
 
     <!-- SPA06-003 (Goertek, low-cost) -->
-    <tr>
-      <td>SPA06-003<br>(Goertek)</td>
-      <td>6420</td>
-      <td>$4.95</td>
-      <td>300–1100&nbsp;hPa<br>(≈-500&nbsp;m to +9000&nbsp;m altitude)</td>
-      <td>±30&nbsp;Pa absolute (≈±0.3&nbsp;hPa)<br>±3&nbsp;Pa relative (≈±0.03&nbsp;hPa)</td>
-      <td>Not publicly specified; 24-bit digital pressure + temp readout</td>
-      <td>Yes — built-in regulator &amp; level shifting, factory calibration, I2C ready</td>
-    </tr>
+    <TR>
+      <TD>SPA06-003<br>(Goertek)</TD>
+      <TD>6420</TD>
+      <TD>$4.95</TD>
+      <TD>300–1100&nbsp;hPa<br>(≈-500&nbsp;m to +9000&nbsp;m altitude)</TD>
+      <TD>±30&nbsp;Pa absolute (≈±0.3&nbsp;hPa)<br>±3&nbsp;Pa relative (≈±0.03&nbsp;hPa)</TD>
+      <TD>Not publicly specified; 24-bit digital pressure + temp readout</TD>
+      <TD>Yes — built-in regulator &amp; level shifting, factory calibration, I2C ready</TD>
+    </TR>
 
     <!-- MPRLS: ported absolute PSI sensor -->
-    <tr>
-      <td>MPRLS (Honeywell die + ADC)</td>
-      <td>3965</td>
-      <td>$29.95</td>
-      <td>0–25&nbsp;PSI absolute<br>(~0–172&nbsp;kPa)</td>
-      <td>Factory calibrated absolute pressure; designed for medical / assistive tech range</td>
-      <td>24-bit compensated digital output (<<1&nbsp;Pa effective step over range)</td>
-      <td>Yes — gel-covered sensing element, on-chip 24-bit ADC &amp; temperature compensation</td>
-    </tr>
-</table>
+    <TR>
+      <TD>MPRLS (Honeywell die + ADC)</TD>
+      <TD>3965</TD>
+      <TD>$29.95</TD>
+      <TD>0–25&nbsp;PSI absolute<br>(~0–172&nbsp;kPa)</TD>
+      <TD>Factory calibrated absolute pressure; designed for medical / assistive tech range</TD>
+      <TD>24-bit compensated digital output (<<1&nbsp;Pa effective step over range)</TD>
+      <TD>Yes — gel-covered sensing element, on-chip 24-bit ADC &amp; temperature compensation</TD>
+    </TR>
+</TABLE>
