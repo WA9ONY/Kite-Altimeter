@@ -441,13 +441,13 @@ at Long Beach, WA. V6.36 was mounted on the main spar of a 8' x 4' delta kite fl
 <p align="center">     <img width="588" height="588" src="/Images/V7top.JPEG">
 </p>
 
-Raspberry Pi 5 with with the touch display 2 5" connected to USB 10ah battery bank.
+Raspberry Pi 5 with the 5" touch display 2 connected to INIU USB 10ah battery bank.
 
 </P>  
 <p align="center">     <img width="727" height="546" src="/Images/V7bottom.JPEG">
 </p>
 
-Raspberry Pi 5 with cooling fan mounted to the back side of the touch display 2 5". I2C four wire cable from the I2C port of the GPIO connector to the DPS310 pressure sensor.   Short I2C cable from the DPS310 to the RTC.
+Raspberry Pi 5 with cooling fan mounted to the back side of the 5" touch display 2. Long I2C four wire cable (red, black, yellow and blue) from the I2C port of the GPIO connector to the DPS310 pressure sensor.   Short I2C cable from the DPS310 to the RTC.
 
 Clear plastic from food containers mounted on four standoffs to protect the back of the Raspberry Pi 5 and to hold the DPS310 and RTC boards.
 
@@ -486,12 +486,14 @@ Wikipedia
 + SKYRC GSM-015 [Amazon](https://www.amazon.com/SKYRC-Speedometer-Altimeter-Tracking-Quadcopter/dp/B07RWL8BTG/ref=sr_1_3?crid=4I6OTCY38YZ8&dib=eyJ2IjoiMSJ9.gAWQdYaikd2XWGnSjA2-ER5Dob_GdE48VjowPcHt77LGjHj071QN20LucGBJIEps.ltLwnXyxA1OfLdlityzxWghwIPCDLOtOQPOrx2-pGpI&dib_tag=se&keywords=skyrc+gsm+020&qid=1759087633&sprefix=GSM-020%2Caps%2C230&sr=8-3)
 
 
-## AI on kites altimeters
+<HR>
+
+## AI tools for kites altimeters
 
 DIY Barometric Logger: For those interested in electronics, a custom altimeter can be built using a microcontroller (such as an Arduino), a barometric pressure sensor, and an SD card module for data logging. This approach is more complex but offers flexibility for advanced users. ([Google AI](https://share.google/aimode/4WKR2bouP8A6tX3Cm))
 
 
-## Measuring Kite Altitude with Pressure Sensors
+## Measuring Kite Altitude with Pressure Sensors ([ChatGPT AI](https://openai.com))
 
 A **barometric pressure sensor** measures the surrounding air pressure and infers altitude from the rate of pressure decrease with height. 
 As altitude increases, the air becomes thinner, causing a predictable drop in pressure. This relationship follows the **barometric formula** (standard atmosphere approximation):
