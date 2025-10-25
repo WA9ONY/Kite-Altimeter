@@ -42,9 +42,10 @@ Reasons for different versions.
 + Version 7 was created to be a ground station monitoring the change of the barometric pressure during the flight time and is currently under development. V7 is based on the Raspberry Pi 5 with 5" touch display.
 
 Functions
-+ All altimeter versions log data to a 32 GB micro SD card.
-+ V1, V2, V4, V5 & V6 [reed relay](https://www.amazon.com/dp/B07YFBQ4HS?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1) as a user imput that does not require opening the case. The reed relay is connected between ground and DIO 4.
++ Versions 1 - 6 log data to a 32 GB micro SD card.
++ V1, V2, V4, V5 & V6 have [reed relay](https://www.amazon.com/dp/B07YFBQ4HS?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1) as a user imput that does not require opening the case. The reed relay is connected between ground and DIO 4.
 + V1, V2, V4, V5 & V6 have a voltage divider with two 1 MegOhm resistors as a voltage divider connected to the battery voltage. The reduced voltage is connected to the RP2040 ADC input to monitor the battery voltage.
++ V7 is a Rasapberry Pi 5 with touch display.
 
 <TABLE>
 <TR>
