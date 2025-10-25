@@ -412,8 +412,6 @@ Wikipedia
 
 DIY Barometric Logger: For those interested in electronics, a custom altimeter can be built using a microcontroller (such as an Arduino), a barometric pressure sensor, and an SD card module for data logging. This approach is more complex but offers flexibility for advanced users. ([Google AI](https://share.google/aimode/4WKR2bouP8A6tX3Cm))
 
-## Adafruit Pressure Sensors
-
 <table>
 <tr>
 <th>IC type</th>
@@ -428,7 +426,7 @@ DIY Barometric Logger: For those interested in electronics, a custom altimeter c
 <!-- BMP585 / BMP5xx family -->
 <tr>
 <td>BMP585<br>(Bosch)</td>
-<td>6413</td>
+<TD><A HREF="https://www.adafruit.com/product/6413">6413</A></TD>
 <td>$14.95</td>
 <td>300–1250&nbsp;hPa</td>
 <td>±50&nbsp;Pa absolute (≈±0.5&nbsp;hPa) typical;<br>±6&nbsp;Pa relative</td>
@@ -439,7 +437,7 @@ DIY Barometric Logger: For those interested in electronics, a custom altimeter c
 <!-- BMP580 is same Bosch 5xx generation, non-ported version -->
 <tr>
 <td>BMP580<br>(Bosch)</td>
-<td>6411</td>
+<TD><A HREF="https://www.adafruit.com/product/6411">6411</A></TD>
 <td>$7.95</td>
 <td>300–1250&nbsp;hPa</td>
 <td>±50&nbsp;Pa absolute (typ)</td>
@@ -450,7 +448,7 @@ DIY Barometric Logger: For those interested in electronics, a custom altimeter c
 <!-- BMP280/BME280 classic Bosch 2xx generation -->
 <tr>
 <td>BMP280<br>(Bosch)</td>
-<td>2651</td>
+<TD><A HREF="https://www.adafruit.com/product/2651">2651</A></TD>
 <td>$9.95</td>
 <td>~300–1100&nbsp;hPa</td>
 <td>±1&nbsp;hPa absolute</td>
@@ -460,7 +458,7 @@ DIY Barometric Logger: For those interested in electronics, a custom altimeter c
 
 <tr>
 <td>BME280<br>(Bosch)</td>
-<td>2652</td>
+<TD><A HREF="https://www.adafruit.com/product/2652">2652</A></TD>
 <td>$14.95</td>
 <td>300–1100&nbsp;hPa</td>
 <td>±1&nbsp;hPa absolute (pressure channel)</td>
@@ -471,7 +469,7 @@ DIY Barometric Logger: For those interested in electronics, a custom altimeter c
 <!-- DPS310 -->
 <tr>
 <td>DPS310<br>(Infineon)</td>
-<td>4494</td>
+<TD><A HREF="https://www.adafruit.com/product/4494">4494</A></TD>
 <td>$6.95</td>
 <td>300–1200&nbsp;hPa</td>
 <td>±1&nbsp;hPa absolute;<br>±0.002&nbsp;hPa relative (high-precision mode)</td>
@@ -482,7 +480,7 @@ DIY Barometric Logger: For those interested in electronics, a custom altimeter c
 <!-- LPS2x/LPS3x STMicro parts -->
 <tr>
 <td>LPS22HB<br>(ST)</td>
-<td>4633</td>
+<TD><A HREF="https://www.adafruit.com/product/4633">4633</A></TD>
 <td>$6.95</td>
 <td>260–1260&nbsp;hPa</td>
 <td>±0.1&nbsp;hPa after 1-point calibration<br>(≈±1&nbsp;hPa before)</td>
@@ -492,7 +490,7 @@ DIY Barometric Logger: For those interested in electronics, a custom altimeter c
 
 <tr>
 <td>LPS25HB<br>(ST)</td>
-<td>4530</td>
+<TD><A HREF="https://www.adafruit.com/product/4530">4530</A></TD>
 <td>$9.95</td>
 <td>260–1260&nbsp;hPa</td>
 <td>±0.2&nbsp;hPa (after calibration)</td>
@@ -524,7 +522,7 @@ DIY Barometric Logger: For those interested in electronics, a custom altimeter c
 <!-- MPL3115A2 (NXP) -->
 <tr>
 <td>MPL3115A2<br>(NXP)</td>
-<td>1893</td>
+<TD><A HREF="https://www.adafruit.com/product/1893">1893</A></TD>
 <td>$14.95</td>
 <td>50–110&nbsp;kPa<br>(500–1100&nbsp;hPa equiv)</td>
 <td>±1&nbsp;m altitude / ±1&nbsp;hPa class typical</td>
@@ -535,7 +533,7 @@ DIY Barometric Logger: For those interested in electronics, a custom altimeter c
 <!-- SPA06-003 (Goertek, low-cost) -->
 <tr>
 <td>SPA06-003<br>(Goertek)</td>
-<td>6420</td>
+<TD><A HREF="https://www.adafruit.com/product/6420">6420</A></TD>
 <td>$4.95</td>
 <td>300–1100&nbsp;hPa<br>(≈-500&nbsp;m to +9000&nbsp;m altitude)</td>
 <td>±30&nbsp;Pa absolute (≈±0.3&nbsp;hPa)<br>±3&nbsp;Pa relative (≈±0.03&nbsp;hPa)</td>
@@ -546,7 +544,7 @@ DIY Barometric Logger: For those interested in electronics, a custom altimeter c
 <!-- MPRLS: ported absolute PSI sensor -->
 <tr>
 <td>MPRLS (Honeywell die + ADC)</td>
-<td>3965</td>
+<TD><A HREF="https://www.adafruit.com/product/3965">3965</A></TD>
 <td>$29.95</td>
 <td>0–25&nbsp;PSI absolute<br>(~0–172&nbsp;kPa)</td>
 <td>Factory calibrated absolute pressure; designed for medical / assistive tech range</td>
