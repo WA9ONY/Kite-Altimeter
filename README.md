@@ -435,6 +435,15 @@ at Long Beach, WA. V6.36 was mounted on the main spar of a 8' x 4' delta kite fl
 
 <HR>
 
+## Kite Altimeter Hardware Version 7
+
+</P>  
+<p align="center">     <img width="588" height="588" src="/Images/V7top.JPEG">
+</p>
+
+
+<HR>
+
 ## Research
 
 Web  pages
