@@ -317,7 +317,7 @@ Functions
 </TD>
 <TD>
     <A HREF="https://www.raspberrypi.com/news/trixie-the-new-version-of-raspberry-pi-os/">Trixie OS</A> &amp;
-    <A HREF="https://www.python.org//">Python</A>    
+    <A HREF="https://www.python.org/">Python</A>    
 </TD>
 <TD>    
     <A HREF="https://www.adafruit.com/product/6408">Raspberry Pi Touch Display 2 - 5" 720x1280 with Capacitive Touch</A>  
