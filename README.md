@@ -456,6 +456,8 @@ Clear plastic from food containers mounted on four standoffs to protect the back
 <p align="center">     <img width="720" height="1290" src="/Images/V7_4Screen.png">
 </p>
 
+<A HREF="https://www.raspberrypi.com/news/trixie-the-new-version-of-raspberry-pi-os/">Trixie OS</A> running
+<A HREF="https://www.python.org/">Python 3.13.5</A> readomg [ressure and temperature from DPS310. 
 
 <HR>
 
