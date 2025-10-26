@@ -616,6 +616,127 @@ A header (commented with `#`) explains each column:
 
 <HR>
 
+# DPS310 Pressure Acquisition and Logging: Raspberry Pi 5 vs RP2040 Comparison
+
+This document compares the use of a **Raspberry Pi 5 with Touch Display** and an **RP2040 microcontroller** (e.g., Adafruit Feather RP2040, Raspberry Pi Pico) for **pressure measurement, data logging, and analysis** using the **Adafruit DPS310 barometric pressure sensor**.
+
+---
+
+## 🧩 System Overview
+
+| Feature | Raspberry Pi 5 + Touch Display | RP2040 Microcontroller |
+|----------|-------------------------------|------------------------|
+| **Processor** | 2.4 GHz quad-core Cortex-A76 (64-bit) | Dual-core Cortex-M0+ @ 133 MHz |
+| **Operating System** | Raspberry Pi OS (Linux desktop) | No OS / CircuitPython or MicroPython |
+| **Power Usage** | 5 V @ 2–3 A | 5 V @ 0.1–0.3 A |
+| **Storage** | microSD card (32 GB or more) | Flash (2–16 MB) + optional SD |
+| **Display Interface** | Built-in HDMI / DSI Touch Display | Optional OLED / E-Ink / Serial terminal |
+| **I/O Interfaces** | USB, I²C, SPI, UART, GPIO (3.3 V logic) | I²C, SPI, UART, GPIO (3.3 V logic) |
+| **Programming Languages** | Python 3, C/C++, Matplotlib, Pandas | CircuitPython, MicroPython, C/C++ |
+| **Typical Application** | Real-time display and data analysis | Edge data collection and logging |
+
+---
+
+## 📊 DPS310 Pressure Acquisition and Data Logging
+
+### Raspberry Pi 5 Advantages
+
+✅ **High-speed data processing**  
+ • Capable of fast sampling (> 50 Hz) and real-time graphing with Matplotlib.  
+
+✅ **Integrated display and GUI control**  
+ • Supports full Tkinter / Qt / GTK interfaces for interactive data visualization.  
+
+✅ **Large storage and analysis capability**  
+ • Easily logs to CSV or SQLite databases for extended sessions.  
+
+✅ **Advanced analysis tools available**  
+ • Numpy, Pandas, Scipy enable trend analysis, moving-average, and variance computation in real time.  
+
+✅ **Convenient network connectivity**  
+ • Wi-Fi and Ethernet allow remote data upload and SSH access.  
+
+---
+
+### Raspberry Pi 5 Disadvantages
+
+❌ **Higher power consumption**  
+ • Requires stable 5 V 3 A supply—less suitable for battery operation.  
+
+❌ **Longer boot time**  
+ • Full Linux boot (~30 seconds) before data acquisition can begin.  
+
+❌ **Less rugged for field use**  
+ • microSD cards and connectors can be vulnerable to vibration or moisture.  
+
+❌ **Complex software stack**  
+ • Requires OS updates, package dependencies, and possible I²C permission setup.  
+
+---
+
+### RP2040 Advantages
+
+✅ **Low power and instant-on**  
+ • Starts logging within milliseconds—ideal for battery or kite-borne operation.  
+
+✅ **Compact and lightweight**  
+ • Small form factor and minimal support components for embedded use.  
+
+✅ **Simpler software environment**  
+ • Runs directly from flash memory with CircuitPython or MicroPython—no OS maintenance.  
+
+✅ **Deterministic timing**  
+ • Excellent for precise sampling and time-synchronized sensor reads.  
+
+✅ **Low cost**  
+ • RP2040 boards are typically under $10 USD.  
+
+---
+
+### RP2040 Disadvantages
+
+❌ **Limited processing and RAM**  
+ • Cannot run advanced data analysis or graphing libraries locally.  
+
+❌ **No native display GUI**  
+ • Requires external display or PC connection for visualization.  
+
+❌ **Limited storage**  
+ • On-board flash is small; SD card logging needs additional hardware.  
+
+❌ **No multi-threaded OS**  
+ • Data logging and communication tasks must be manually coordinated.  
+
+---
+
+## 🧠 Recommended Use Cases
+
+| Application | Best Platform | Notes |
+|--------------|---------------|-------|
+| **Bench-top testing / live analysis** | Raspberry Pi 5 + Touch Display | GUI graphs, Python data analysis tools. |
+| **Field logging / kite flight instrumentation** | RP2040 microcontroller | Low power, lightweight, rugged design. |
+| **Remote monitoring with network upload** | Raspberry Pi 5 (headless mode) | Use SSH or web dashboard for real-time monitoring. |
+| **Battery-powered sensor node** | RP2040 | Run from Li-ion or Li-Po cells for hours or days. |
+
+---
+
+## ⚙️ Example DPS310 Integration
+
+### Raspberry Pi 5 Example (Python 3)
+
+```python
+import time, board, adafruit_dps310
+
+i2c = board.I2C()
+sensor = adafruit_dps310.DPS310(i2c)
+
+while True:
+    print(f"{sensor.pressure:.2f} hPa  {sensor.temperature:.2f} °C")
+    time.sleep(1)
+
+
+<HR>
+
 ## Research
 
 Web  pages
