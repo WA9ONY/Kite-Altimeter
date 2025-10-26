@@ -459,6 +459,158 @@ Clear plastic from food containers mounted on four standoffs to protect the back
 Raspberry Pi <A HREF="https://www.raspberrypi.com/news/trixie-the-new-version-of-raspberry-pi-os/">Trixie OS</A> running
 <A HREF="https://www.python.org/">Python 3.13.5</A> reading pressure and temperature from DPS310 sensor. 
 
+# DPS310 Pressure Logger – Pressure V7.4
+
+This project runs on a Raspberry Pi and reads barometric pressure and temperature from a DPS310 sensor. It provides:
+
+- A live GUI window (`Pressure V7.4`) with current values, trends, noise estimates, and history plots
+- Continuous CSV logging with timestamped data for offline analysis
+
+The GUI and logger are designed for atmospheric work such as kite altimeters, weather watching, and pressure stability studies.
+
+
+---
+
+## Live GUI Display
+
+The GUI window shows real-time pressure and temperature data, with basic analytics.  
+Each line/plot in the window is described below.
+
+### Pressure (hPa)
+**Example:** `971.726`
+
+This is the most recent raw barometric pressure reading from the DPS310 sensor in hectopascals (hPa).  
+1 hPa = 100 pascals ≈ 0.02953 inHg.
+
+This value updates continuously (about once per second in this version).
+
+---
+
+### Smoothed (hPa)
+**Example:** `971.768`
+
+This is a short-term moving average of pressure.  
+Purpose:
+- Reduces short-term sensor noise
+- Makes trends easier to see
+- Gives a better "steady" atmospheric pressure number than the instantaneous reading
+
+In V7.4, the smoothing window is ~30 seconds of recent data.
+
+---
+
+### Trend (hPa/min)
+**Example:** `-0.061`
+
+This is the rate of change of pressure, in hectopascals per minute.
+
+How to interpret:
+- Negative value (e.g. `-0.061`) → pressure is dropping
+- Positive value → pressure is rising
+- Near zero → stable
+
+Why it matters:
+- Falling pressure can indicate changing weather
+- In a kite application, rapid changes can indicate altitude changes or gust loading
+
+In this version, the trend is calculated over approximately one minute of recent data.
+
+---
+
+### Noise (hPa RMS)
+**Example:** `0.026`
+
+This is the short-term RMS (root mean square) noise level of the pressure signal, in hPa.
+
+What it tells you:
+- Lower RMS → very stable readings
+- Higher RMS → turbulence, vibration, or electrical noise
+
+In V7.4, the RMS is computed over about the last 30 seconds of samples.
+
+---
+
+### Mini History Plots (Sparklines)
+
+The GUI includes four small strip charts that show how pressure has changed over different time spans.  
+Each chart is labeled with its time window:
+
+1. **Last 60s (hPa)**  
+   Shows fine-grain behavior: small dips, spikes, gust effects.
+
+2. **Last 600s (hPa)**  
+   ~10 minutes of history. Helps show short patterns (for example, oscillations or repeated bumps).
+
+3. **Last 1 hr (hPa)**  
+   Tracks medium-term trends. You can see slow climbs/drops.
+
+4. **Last 12 hr (hPa)**  
+   Long-term pressure evolution across half a day. Great for weather trend / frontal passage.
+
+All plots are drawn in hPa vs. time (older data on the left, newest on the right).  
+These are not interactive; they’re intended for at-a-glance situational awareness.
+
+---
+
+### Pressure (inHg)
+**Example:** `28.695`
+
+Same pressure as above, converted to inches of mercury (inHg).  
+This is the traditional U.S. weather station / altimeter setting unit.
+
+Conversion is performed in software from the hPa reading.
+
+---
+
+### Temperature (°C) and Temperature (°F)
+**Examples:**  
+- `23.46 °C`  
+- `74.23 °F`
+
+This is the DPS310 internal temperature sensor reading, displayed in both Celsius and Fahrenheit.
+
+Note:
+- This is sensor temperature, not calibrated ambient air temperature.
+- The value can read higher than room air if the sensor is near warm electronics.
+
+---
+
+### Timestamp (UTC)
+**Example:**  
+`2025-10-26T17:13:55.547080+00:00`
+
+All samples in the GUI and in the CSV logs are tagged with a UTC timestamp in ISO 8601 format.
+
+Format:  
+`YYYY-MM-DDThh:mm:ss.ssssss+00:00`  
+Example: `2025-10-26T17:13:55.547080+00:00`
+
+Using UTC makes it easier to analyze data captured in different locations or time zones.
+
+
+---
+
+## CSV Logging
+
+In addition to the GUI, the program continuously writes data to a `.CSV` file for later analysis.
+
+A header (commented with `#`) explains each column:
+
+```text
+# timestamp_iso8601_utc : UTC time of sample (ISO 8601)
+# temp_C               : Sensor temperature in degrees C
+# temp_F               : Sensor temperature in degrees F
+# pressure_hPa         : Raw pressure in hPa from DPS310
+# pressure_inHg        : Pressure converted to inches of mercury
+# smooth_hPa_30s_avg   : Moving-average pressure over last ~30s
+# trend_hPa_per_min    : Pressure change rate (hPa/min) over ~1 min
+# noise_hPa_RMS_30s    : RMS noise (std dev) of pressure over last ~30s
+#
+# Columns (in order):
+# timestamp_iso8601_utc,temp_C,temp_F,pressure_hPa,pressure_inHg,smooth_hPa_30s_avg,trend_hPa_per_min,noise_hPa_RMS_30s
+
+
+
 <HR>
 
 ## Research
