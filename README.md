@@ -549,6 +549,15 @@ This combination of methods can provide both relative and absolute altitude refe
 <TH>On-Chip Measurement Processing?</TH>
 </TR>
 <TR>
+<TD>DPS310<br>(Infineon)</TD>
+<TD><A HREF="https://www.adafruit.com/product/4494">4494</A></TD>
+<TD>$6.95</TD>
+<TD>300–1200&nbsp;hPa</TD>
+<TD>±1&nbsp;hPa absolute;<BR>±0.002&nbsp;hPa relative (high-precision mode)</TD>
+<TD>~0.002&nbsp;hPa (~0.2&nbsp;Pa)<BR>≈2&nbsp;cm altitude steps</TD>
+<TD>Yes — internal temperature compensation, oversampling, FIFO</TD>
+</TR>
+<TR>
 <TD>BMP585<br>(Bosch)</TD>
 <TD><A HREF="https://www.adafruit.com/product/6413">6413</A></TD>
 <TD>$14.95</TD>
@@ -583,15 +592,6 @@ This combination of methods can provide both relative and absolute altitude refe
 <TD>±1&nbsp;hPa absolute (pressure channel)</TD>
 <TD>0.16&nbsp;Pa step (0.0016&nbsp;hPa)</TD>
 <TD>Yes — calibrated pressure + temp + humidity with digital compensation</TD>
-</TR>
-<TR>
-<TD>DPS310<br>(Infineon)</TD>
-<TD><A HREF="https://www.adafruit.com/product/4494">4494</A></TD>
-<TD>$6.95</TD>
-<TD>300–1200&nbsp;hPa</TD>
-<TD>±1&nbsp;hPa absolute;<BR>±0.002&nbsp;hPa relative (high-precision mode)</TD>
-<TD>~0.002&nbsp;hPa (~0.2&nbsp;Pa)<BR>≈2&nbsp;cm altitude steps</TD>
-<TD>Yes — internal temperature compensation, oversampling, FIFO</TD>
 </TR>
 <TR>
 <TD>LPS22HB<br>(ST)</TD>
