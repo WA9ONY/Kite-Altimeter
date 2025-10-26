@@ -673,3 +673,166 @@ This combination of methods can provide both relative and absolute altitude refe
 - For long‑duration flights, use **non‑blocking I²C reads** and efficient data logging to microSD; verify timestamps remain synchronized if your system lacks a real‑time clock (RTC).
 
 These considerations provide a foundation for building high‑resolution, reliable kite data‑logging instruments integrating Adafruit atmospheric sensors with edge microcontrollers.
+
+
+<hr>
+
+# Atmospheric Pressure Measurement Types
+
+This document explains the different types of **atmospheric pressure measurements**, their definitions, uses, and relationships.  
+Understanding these distinctions is essential for weather stations, barometric sensors, and altimeter-based instrumentation (such as kite-mounted data loggers).
+
+---
+
+## 🧭 1. Absolute Pressure
+
+**Definition:**  
+The actual atmospheric pressure at the sensor’s location — the true weight of the air above you.
+
+**Uses:**  
+- Measured directly by barometric sensors (e.g., Adafruit DPS310).  
+- Used for altitude calculations.  
+- Common in physics, meteorology, and environmental data logging.
+
+**Typical Units:**  
+- hPa (hectopascal) or mbar  
+- inHg (inches of mercury)  
+- kPa or mmHg
+
+---
+
+## 🌊 2. Relative (Sea-Level) Pressure
+
+**Definition:**  
+The **absolute pressure corrected to sea level**, so it can be compared between different locations regardless of altitude.
+
+**Uses:**  
+- Standard for **weather reports** and forecasts.  
+- Displayed on **home weather stations**.  
+- Used in meteorological maps and models.
+
+**Typical Units:**  
+- inHg (U.S. customary)  
+- hPa (international standard)
+
+---
+
+## 🏔️ 3. Station Pressure
+
+**Definition:**  
+The air pressure **measured at the weather station’s elevation**, without any altitude correction.  
+Essentially the same as absolute pressure, but sometimes adjusted for the height of the instrument above ground.
+
+**Uses:**  
+- Raw meteorological data before conversion to sea-level pressure.  
+- Used at airports, weather stations, and radiosonde balloon launches.
+
+---
+
+## ✈️ 4. Altimeter Pressure (QNH / QFE)
+
+Used primarily in **aviation** to calibrate aircraft altimeters.
+
+- **QFE:** Pressure at the **airfield elevation**.  
+  - Altimeter reads **0 ft** when the aircraft is on the ground.  
+  - Used for local flight operations.  
+
+- **QNH:** Pressure **adjusted to sea level** using a standard atmosphere model.  
+  - Altimeter reads **elevation above mean sea level (MSL)**.  
+  - Used for en route navigation and air traffic control.
+
+---
+
+## 🧪 5. Dynamic Pressure
+
+**Definition:**  
+Pressure due to **moving air**, calculated as:
+
+\[
+q = \frac{1}{2} \rho v^2
+\]
+
+where  
+- \( q \) = dynamic pressure (Pa)  
+- \( \rho \) = air density (kg/m³)  
+- \( v \) = air velocity (m/s)
+
+**Uses:**  
+- Measured by **Pitot tubes**.  
+- Determines **airspeed** and **wind velocity**.  
+- Important in aerodynamics and flight testing.
+
+---
+
+## ⚙️ 6. Gauge Pressure
+
+**Definition:**  
+Pressure **relative to local atmospheric pressure** (zeroed at ambient).  
+
+**Uses:**  
+- Common in engineering (e.g., tire pressure, fluid systems).  
+- Not typically used for weather or atmospheric science.
+
+---
+
+## 🌡️ 7. Mean Sea-Level Pressure (MSLP)
+
+**Definition:**  
+A standardized version of sea-level pressure calculated using:  
+- A fixed temperature lapse rate,  
+- The standard atmosphere model,  
+- Mean (not instantaneous) sea level as reference.
+
+**Uses:**  
+- Official **weather maps and forecasts**.  
+- Used by NOAA, WMO, and other meteorological agencies.
+
+---
+
+## 🧩 Summary Table
+
+| Type | Reference Point | Used For | Notes |
+|------|------------------|----------|-------|
+| **Absolute Pressure** | Actual sensor location | Science, altitude | True atmospheric value |
+| **Relative (Sea-Level) Pressure** | Sea level (corrected) | Weather reports | Comparable between locations |
+| **Station Pressure** | Local ground level | Raw weather data | Before corrections |
+| **QNH** | Sea level (aviation) | Altimeter calibration | Used in flight |
+| **QFE** | Airport elevation | Altimeter calibration | Reads zero on field |
+| **Dynamic Pressure** | Difference between total and static | Airspeed measurement | From moving air |
+| **Gauge Pressure** | Relative to ambient | Engineering | Not used for weather |
+| **MSLP** | Modeled sea-level | Meteorology | Standardized weather maps |
+
+---
+
+## 📘 Example Formula (Sea-Level Correction)
+
+If you know your elevation \( h \) in meters, the sea-level pressure \( P_0 \) can be estimated from measured pressure \( P \) as:
+
+\[
+P_0 = P \times \left(1 - \frac{0.0065h}{T + 0.0065h + 273.15}\right)^{-5.257}
+\]
+
+where  
+- \( P \) = measured (absolute) pressure in hPa  
+- \( T \) = temperature in °C at your location  
+- \( h \) = elevation in meters  
+
+Example:  
+If your station is at 100 m elevation, \( P = 1008 hPa \), and \( T = 20 °C \),  
+then \( P_0 ≈ 1019 hPa \) (≈ 30.09 inHg).
+
+---
+
+## 🛰️ Related Topics
+- **Adafruit DPS310**: Precision barometric pressure and temperature sensor  
+- **Kite Altimeter Projects**: Using absolute pressure to compute altitude in flight  
+- **Meshtastic Telemetry**: Transmitting environmental data via LoRa radio links
+
+---
+
+**Author:** David Haworth, WA9ONY  
+**Contributors:** Orion (AI Assistant)  
+**License:** MIT  
+
+---
+
