@@ -1291,11 +1291,11 @@ README.md      → You are here
 |------|---------------|
 | **Weight & Balance** | Extra mass at the bridle point changes flight trim — 10 g difference mattered. |
 | **Pressure Drift** | The DPS310 required pre-flight calibration to ambient sea-level pressure. |
-| **Logging Stability** | SD writes can cause stalls without buffering — double-buffering fixed this. |
+| **Pressure Change During Flight** | The atmosphere pressure changes during long kite flight time (>hour). |
 | **Noise Reduction** | A 10-sample moving average and variance tracking produced stable altitude curves. |
-| **Edge-ML Feasibility** | Rule-based models are realistic for microcontrollers; neural models are heavy. |
 | **Orion Collaboration** | Iterative “professor-style” sessions accelerated design and code refinement. |
-
+| **FFA Requirements** | During the day kites need to stay below 500' AG. |
+| **Batteries Die** | Need bigger mAh batteries for full day kite flying at kite festiables. |
 ---
 
 ## 🔮 Future Directions
