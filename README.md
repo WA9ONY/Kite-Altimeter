@@ -608,7 +608,10 @@ A header (commented with `#`) explains each column:
 #
 # Columns (in order):
 # timestamp_iso8601_utc,temp_C,temp_F,pressure_hPa,pressure_inHg,smooth_hPa_30s_avg,trend_hPa_per_min,noise_hPa_RMS_30s
-
+2025-10-26T01:22:07.871332+00:00,26.067,78.920,963.891,28.4637,963.891,0.000,0.000
+2025-10-26T01:22:08.878870+00:00,26.056,78.900,963.895,28.4638,963.893,0.257,0.002
+2025-10-26T01:22:09.876598+00:00,26.046,78.882,963.893,28.4637,963.893,0.059,0.002
+...
 
 
 <HR>
