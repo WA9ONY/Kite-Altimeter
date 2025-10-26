@@ -733,7 +733,19 @@ sensor = adafruit_dps310.DPS310(i2c)
 while True:
     print(f"{sensor.pressure:.2f} hPa  {sensor.temperature:.2f} °C")
     time.sleep(1)
+```
+### RP2040 Example (CircuitPython)
 
+```python
+import time, board, adafruit_dps310
+
+i2c = board.I2C()
+sensor = adafruit_dps310.DPS310(i2c)
+
+while True:
+    print((sensor.pressure, sensor.temperature))
+    time.sleep(1)
+```
 
 <HR>
 
