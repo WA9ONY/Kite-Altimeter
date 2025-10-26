@@ -746,6 +746,44 @@ while True:
     print((sensor.pressure, sensor.temperature))
     time.sleep(1)
 ```
+## 📈 Summary Comparison
+
+| **Category** | **Raspberry Pi 5 + Touch Display** | **RP2040 Microcontroller** |
+|---------------|------------------------------------|-----------------------------|
+| **Power Usage** | High (≈10× RP2040) | Very Low |
+| **Boot Time** | ~30 seconds | < 1 second |
+| **GUI Support** | Full desktop GUI (Tkinter, Qt, GTK) | Minimal (OLED / serial text) |
+| **Storage Capacity** | Large (microSD 32 GB+) | Limited (Flash 2–16 MB or SD card) |
+| **Code Complexity** | High (Linux, packages, permissions) | Low (CircuitPython / MicroPython) |
+| **Data Analysis Tools** | Built-in (NumPy, Pandas, Matplotlib) | External (requires PC) |
+| **Connectivity** | Wi-Fi, Ethernet, USB | UART, I²C, SPI, LoRa, Bluetooth (add-on) |
+| **Portability** | Desktop or bench use | Excellent for field use |
+| **Cost** | High (~$100+ with display) | Low (~$10–$20 board only) |
+
+---
+
+## 🧭 Conclusion
+
+Both platforms can successfully acquire and log pressure data using the **Adafruit DPS310**, but their **optimal roles differ**:
+
+- 🖥️ **Raspberry Pi 5 + Touch Display**  
+  Ideal for **real-time visualization**, **interactive GUI control**, and **in-depth data analysis** using full Python libraries.  
+  Best suited for **laboratory testing**, **bench experiments**, and **development environments**.
+
+- ⚙️ **RP2040 Microcontroller**  
+  Optimized for **low-power, lightweight, and portable** field applications such as **kite-borne data logging** or **edge sensing**.  
+  Offers deterministic timing, instant startup, and long battery life, making it excellent for autonomous deployments.
+
+> 💡 **Recommended Workflow:**  
+> Use the **RP2040** to collect data in the field, then transfer the logged CSV files to the **Raspberry Pi 5** for graphical analysis, filtering, and trend evaluation.
+
+---
+
+**Author:** David Haworth (WA9ONY)  
+**Date:** October 2025  
+**License:** MIT  
+**Keywords:** DPS310, Raspberry Pi 5, RP2040, Pressure Sensor, Data Logging, Kite Instrumentation
+
 
 <HR>
 
