@@ -1162,3 +1162,173 @@ then \( P_0 ≈ 1019 hPa \) (≈ 30.09 inHg).
 
 ---
 
+
+# 🪁 Kite Altimeter & Data-Logging Project (2025)
+**Author:** David Haworth (WA9ONY)  
+**Collaborator:** ChatGPT (“Orion”)  
+**License:** [MIT](LICENSE)
+
+[![Made with ChatGPT](https://img.shields.io/badge/Made_with-ChatGPT-10a37f.svg?logo=openai)](#how-chatgpt-was-used)  
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg?logo=python)](https://www.python.org/)  
+[![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi%20%7C%20RP2040%20%7C%20T-Echo-orange)](#firmware-development)  
+[![Data-Logging](https://img.shields.io/badge/Data-Logging-Enabled-brightgreen)](#data-logging--flight-testing)  
+[![Status](https://img.shields.io/badge/Status-2025-Active-success)](#future-directions)
+
+---
+
+## 📘 Table of Contents
+1. [Overview](#overview)
+2. [Why ChatGPT Was Used](#why-chatgpt-was-used)
+3. [Repository Structure](#repository-structure)
+4. [How ChatGPT Was Used](#how-chatgpt-was-used)
+5. [Getting Started](#getting-started)
+6. [Insights & Lessons Learned](#insights--lessons-learned)
+7. [Future Directions](#future-directions)
+8. [Acknowledgements](#acknowledgements)
+9. [License](#license)
+10. [Contact](#contact)
+
+---
+
+## 🧭 Overview
+This repository documents the **Kite Altimeter & Data-Logging Project (2025)** — a year-long series of experiments exploring airborne sensing, real-time telemetry, and edge-AI on microcontrollers.  
+An **8′ × 4′ delta kite** carried a lightweight payload of sensors (pressure, IMU, tension, and voltage) and logged environmental data during flight.  
+
+ChatGPT (nicknamed **Orion**) served as a **virtual engineering professor**, helping design the system, write code, analyse data, and document results.
+
+---
+
+## 🤖 Why ChatGPT Was Used
+ChatGPT was used throughout this project as a **collaborative R&D partner** and technical assistant.  
+Orion helped:
+
+- Plan and **research** flight instrumentation, sensors, and edge-AI options.  
+- **Draft firmware architecture** and modularise code for reliability and clarity.  
+- Generate **CircuitPython, MicroPython, and Arduino** code examples.  
+- Perform **data analysis** and **plot visualisation** using Python/matplotlib.  
+- Provide **theoretical explanations** (pressure-altitude relations, filtering theory, sensor calibration).  
+- Maintain documentation discipline and write this README in GitHub-ready Markdown.
+
+---
+
+## 🗂 Repository Structure
+```
+/docs/         → Research notes, chat summaries, background theory
+/hardware/     → Schematics, wiring diagrams, 3D-printed enclosures
+/firmware/     → Microcontroller code (Adalogger, LilyGO T-Echo, etc.)
+/data/         → Raw CSV and binary logs from kite flights
+/analysis/     → Python scripts and Jupyter notebooks for processing data
+/ml_models/    → Edge-ML prototypes for flight phase classification
+/results/      → Plots, graphs, and summary reports
+README.md      → You are here
+```
+
+---
+
+## 🧠 How ChatGPT Was Used
+
+### 1. Research & Concept Development
+- Compared barometric sensors (DPS310, BME280, BMP390) and IMUs (BNO055, BNO085).  
+- Evaluated **sensor resolution**, drift, and I²C timing constraints.  
+- Designed experiments to test **altitude noise**, **temperature drift**, and **wind-gust response**.  
+- Discussed **LoRa telemetry** options for real-time downlink.
+
+### 2. Hardware & Architecture
+- Drafted block diagrams and wiring guides.  
+- Suggested modular payload configuration to reduce vibration.  
+- Analyzed **weight distribution** at the bridle point and battery power budget.  
+
+### 3. Firmware Development
+- Generated and debugged code in **CircuitPython** and **MicroPython**.  
+- Added moving-average filters, pressure trend estimation, and variance calculations.  
+- Enhanced SD logging reliability (with timestamped filenames and headers).  
+- Introduced live GUI window with sparklines for **real-time pressure monitoring**.  
+
+### 4. Data Logging & Flight Testing
+- Designed CSV schema with headers for temperature (°C / °F), pressure (hPa / inHg), variance, and trend.  
+- Discussed storage size vs. sample rate trade-offs for 24-hour runs.  
+- Supported flight data interpretation — e.g., correlation of altitude trends to gust activity.  
+
+### 5. Data Analysis
+- Wrote scripts to calculate:
+  - Moving average and noise level.  
+  - Jerk (d³x/dt³) to detect turbulence or tether snap.  
+  - Voltage sag vs. flight duration.  
+- Generated multi-scale plots (60 s, 600 s, 1 h, 12 h sparklines).  
+- Guided use of **gnuplot**, **LibreOffice Calc**, and **Octave** for post-processing.
+
+### 6. Edge ML Prototyping
+- Explored simple rule-based classification (e.g., “stable flight”, “gust”, “landing”).  
+- Outlined quantised model deployment on RP2040 / ESP32 devices.  
+
+### 7. Documentation
+- Proofread and improved all Markdown and HTML tables.  
+- Helped structure this README and GitHub presentation.  
+- Created educational sections suitable for university-style lab courses.
+
+---
+
+## 🚀 Getting Started
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/WA9ONY/Kite-Altimeter.git
+   cd Kite-Altimeter
+   ```
+2. Connect your DPS310 or compatible barometric sensor to the Adalogger or T-Echo board.  
+3. Flash the firmware in `/firmware/` using your IDE (Mu, Thonny, or Arduino IDE).  
+4. Power up the logger, ensure SD card is inserted, and start data capture.  
+5. After flight, copy logs from `/data/` to your PC.  
+6. Run analysis scripts:
+   ```bash
+   python3 analysis/plot_altitude.py
+   ```
+7. View results in `/results/`.
+
+---
+
+## 🔍 Insights & Lessons Learned
+| Area | Key Findings |
+|------|---------------|
+| **Weight & Balance** | Extra mass at the bridle point changes flight trim — 10 g difference mattered. |
+| **Pressure Drift** | The DPS310 required pre-flight calibration to ambient sea-level pressure. |
+| **Logging Stability** | SD writes can cause stalls without buffering — double-buffering fixed this. |
+| **Noise Reduction** | A 10-sample moving average and variance tracking produced stable altitude curves. |
+| **Edge-ML Feasibility** | Rule-based models are realistic for microcontrollers; neural models are heavy. |
+| **Orion Collaboration** | Iterative “professor-style” sessions accelerated design and code refinement. |
+
+---
+
+## 🔮 Future Directions
+- Add **GPS + tether angle sensor** to derive true geometric altitude.  
+- Integrate **LoRa mesh telemetry** for live downlink and multi-kite networking.  
+- Implement **ML-based gust detection** directly on the T-Echo board.  
+- Calibrate multiple sensors simultaneously for cross-validation (IMU + pressure).  
+- Create a **YouTube series** documenting sensor design, flight tests, and analysis.
+
+---
+
+## 🙏 Acknowledgements
+- **David Haworth, WA9ONY** — Concept, hardware, software, testing, and documentation.  
+- **ChatGPT (Orion)** — AI collaborator for research, firmware, analysis, and writing.  
+- **Community Resources:**  
+  - [SparkFun Kite Data Logger Discussion](https://community.sparkfun.com/t/kite-project-need-lightweight-solution/30100)  
+  - [Adafruit Learning System](https://learn.adafruit.com) for sensor libraries and wiring guides.  
+
+---
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 📬 Contact
+For collaboration, issues, or discussion:  
+📧 **[GitHub Issues →](https://github.com/WA9ONY/Kite-Altimeter/issues)**  
+📍 **Location:** Pacific Northwest, USA  
+🐦 *“Fly high, log higher.”*  
+
+---
+
+### ✨ Made with ChatGPT (Orion)
+> AI-assisted engineering, documentation, and data analysis for the 2025 Kite Altimeter Project.
+
