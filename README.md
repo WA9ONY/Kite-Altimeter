@@ -453,7 +453,7 @@ Raspberry Pi 5 with cooling fan mounted to the back side of the 5" touch display
 Clear plastic from food containers mounted on four standoffs to protect the back of the Raspberry Pi 5 and to hold the DPS310 and RTC boards.
 
 </P>  
-<p align="center">     <img width="720" height="1280" src="/Images/V7_4Screen2.png">
+<p align="center">     <img width="720" height="1280" src="/Images/V7_4Screen3.png">
 </p>
 
 Raspberry Pi <A HREF="https://www.raspberrypi.com/news/trixie-the-new-version-of-raspberry-pi-os/">Trixie OS</A> running
