@@ -452,6 +452,11 @@ Raspberry Pi 5 with cooling fan mounted to the back side of the 5" touch display
 
 Clear plastic from food containers mounted on four standoffs to protect the back of the Raspberry Pi 5 and to hold the DPS310 and RTC boards.
 
+</P>  
+<p align="center">     <img width="720" height="1290" src="/Images/V7_4Screen.png">
+</p>
+
+
 <HR>
 
 ## Research
