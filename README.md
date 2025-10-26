@@ -1,21 +1,21 @@
 <P align="center"> - <A HREF="https://www.qrz.com/db/WA9ONY">WA9ONY</A> - <A HREF="https://www.youtube.com/@Kites-Flying">YouTube Kites-Flying</A> - <A HREF="https://www.youtube.com/user/DavidAHaworth">YouTube David Haworth</A> - <A HREF="http://www.stargazing.net/david/index.html">Website</A> -
-</P>  
+</P> 
 
 <p align="center"><img width="645" height="865" src="/Images/IMG_4266sm.JPEG">
 </p>
 <p align="center">
-Kite altimenter V2 (altitude & temperature) attached to the bridle point of a Bora 7 kite was the first version to fly.  
+Kite altimeter V2 (altitude & temperature) attached to the bridle point of a Bora 7 kite was the first version to fly. 
 </p>
 
 <p align="center"><img width="665" height="843" src="/Images/IMG_7039smcrop.JPEG">
 </p>
 <p align="center">
-Kite altimenter V6 (altitude, temperature, 9-DOF & wind velocity) attached to the main spar of a 8' x 4' delta kite.  
+Kite altimeter V6 (altitude, temperature, 9-DOF & wind velocity) attached to the main spar of a 8' x 4' delta kite. 
 </p>
 
 # Kite Altimeter
 
-Kite-Altimeter repositories conatains information and code for thet kite altimeter projects.
+Kite-Altimeter repositories contains information and code for the kite altimeter projects.
 
 Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite height above the ground.
 
@@ -23,317 +23,317 @@ Kite [altimeter](https://en.wikipedia.org/wiki/Altimeter) records the kite heigh
 
 ## Kite Altimeter Versions
 
-<p align="center">     <img width="368" height="534" src="/Images/V1-6sm4.JPEG">
+<p align="center"> <img width="368" height="534" src="/Images/V1-6sm4.JPEG">
 </p>
 <p align="center">
 Seven altimeters: V1, V2, V3, V4, V5, V6 and V7.<BR>
 V1 for development & testing.<BR>
 V2, V4, V5 & V6 for kite flying.<BR>
-V3 for ground station based on the Adafruint RP2350 Metro.      
+V3 for ground station based on the Adafruit RP2350 Metro. 
 </p>
 
 Reasons for different versions.
 + Version 1 was to test the concept. 
 + Version 2 was the frist version designed to fly.
 + Version 3 was created to be a ground station monitoring the change of the barometric pressure during the flight time.
-+ Version 4 was designed to be the smallest and lightest. It has no OLED display, just NioPxiel.
++ Version 4 was designed to be the smallest and lightest. It has no OLED display, just NeoPixel.
 + Version 5 added 9-DOF (degrees of freedom) and air velocity measurements.
 + Version 6 a smaller version of 5 to mount on the main spar of a delta kite.
 + Version 7 was created to be a ground station monitoring the change of the barometric pressure during the flight time and is currently under development. V7 is based on the Raspberry Pi 5 with 5" touch display.
 
 Functions
 + Versions 1 - 6 log data to a 32 GB micro SD card.
-+ V1, V2, V4, V5 & V6 have [reed relay](https://www.amazon.com/dp/B07YFBQ4HS?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1) as a user imput that does not require opening the case. The reed relay is connected between ground and DIO 4.
++ V1, V2, V4, V5 & V6 have [reed relay](https://www.amazon.com/dp/B07YFBQ4HS?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1) as a user input that does not require opening the case. The reed relay is connected between ground and DIO 4.
 + V1, V2, V4, V5 & V6 have a voltage divider with two 1 MegOhm resistors as a voltage divider connected to the battery voltage. The reduced voltage is connected to the RP2040 ADC input to monitor the battery voltage.
-+ V7 is a Rasapberry Pi 5 with touch display.
++ V7 is a Raspberry Pi 5 with touch display.
 
 <TABLE>
 <TR>
 <TD><P><B>
-      HW
-      </B></P></TD>
+ HW
+ </B></P></TD>
 <TD><P><B>
-      Weight
-    </B></P></TD>
+ Weight
+ </B></P></TD>
 <TD><P><B>
-      Size
-     </B></P></TD>
+ Size
+ </B></P></TD>
 <TD><P><B>
-     Battery
-     </B></P></TD>
+ Battery
+ </B></P></TD>
 <TD><P><B>
-     uC      
-     </B></P></TD>
+ uC 
+ </B></P></TD>
 <TD><P><B>
-     SW      
-     </B></P></TD>
+ SW 
+ </B></P></TD>
 <TD><P><B>
-    Display 
-    </B></P></TD>
+ Display 
+ </B></P></TD>
 <TD><P><B>
-    RTC
-    </B></P></TD>
+ RTC
+ </B></P></TD>
 <TD><P><B>
-    Altitude<BR>Temp.  
-    </B></P></TD>
+ Altitude<BR>Temp. 
+ </B></P></TD>
 <TD><P><B>
-    9-DOF  
-    </B></P></TD>
+ 9-DOF 
+ </B></P></TD>
 <TD><P><B>
-    Wind  
-    </B></P></TD>
+ Wind 
+ </B></P></TD>
 </TR>
 
 <TR>
 <TD>
-    V1
+ V1
 </TD>
 <TD>
-    205 g<BR>7.23&nbspoz
+ 205 g<BR>7.23&nbspoz
 </TD>
 <TD>
-    7"&nbspx<BR>4.62"&nbspx<BR>1.75"
-</TD>  
+ 7"&nbspx<BR>4.62"&nbspx<BR>1.75"
+</TD> 
 <TD>
-    <A HREF="https://www.adafruit.com/product/328">3.7V<BR>2,500&nbspmAh</A>
+ <A HREF="https://www.adafruit.com/product/328">3.7V<BR>2,500&nbspmAh</A>
 </TD>
 <TD>
-    <A HREF="https://www.adafruit.com/product/4884">Feather<BR>RP2040</A>    
+ <A HREF="https://www.adafruit.com/product/4884">Feather<BR>RP2040</A> 
 </TD>
 <TD>
-    <A HREF="https://circuitpython.org/">CircuitPython</A>    
+ <A HREF="https://circuitpython.org/">CircuitPython</A> 
 </TD>
-<TD>    
-    <A HREF="https://www.adafruit.com/product/4650">128x64 OLED<BR>FeatherWing</A>        
-</TD>    
+<TD> 
+ <A HREF="https://www.adafruit.com/product/4650">128x64 OLED<BR>FeatherWing</A> 
+</TD> 
 <TD>
-    <A HREF="https://www.adafruit.com/product/2922">Adalogger<BR>FeatherWing</A> 
-</TD>
-<TD>
-    <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
-</TD>     
-<TD>
-    -  
+ <A HREF="https://www.adafruit.com/product/2922">Adalogger<BR>FeatherWing</A> 
 </TD>
 <TD>
-    -  
-</TD>
-</TR>
-
-<TR>
+ <A HREF="https://www.adafruit.com/product/4494">DPS310</A> 
+</TD> 
 <TD>
-    V2
+ - 
 </TD>
 <TD>
-    58 g<BR>2.05&nbspoz
-</TD>
-<TD>
-    1.87"&nbspdia.&nbspx<BR>3.5"
-</TD>  
-<TD>
-    <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500&nbspmAh</A>
-</TD>
-<TD>
-    <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
-</TD>
-<TD>
-    <A HREF="https://circuitpython.org/">CircuitPython</A>    
-</TD>
-<TD>    
-    <A HREF="https://www.adafruit.com/product/4650">128x64 OLED<BR>FeatherWing</A>  
-</TD>    
-<TD>
-    <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
-</TD>
-<TD>
-    <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
-</TD>     
-<TD>
-    -    
-</TD>
-<TD>
-    -  
+ - 
 </TD>
 </TR>
 
 <TR>
 <TD>
-    V3
+ V2
 </TD>
 <TD>
-    276 g<BR>9.74&nbspoz.  
+ 58 g<BR>2.05&nbspoz
 </TD>
 <TD>
-    7"&nbspx<BR>4.62"&nbspx<BR>1.75"  
-</TD>  
+ 1.87"&nbspdia.&nbspx<BR>3.5"
+</TD> 
 <TD>
-    <A HREF="https://www.amazon.com/dp/B0F53X2ZL8?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1">2 x 18650</A><BR>3.7V<BR>9,900&nbspmAh 
+ <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500&nbspmAh</A>
 </TD>
 <TD>
-    <A HREF="https://www.adafruit.com/product/6003">Metro<BR>RP2350</A>    
+ <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A> 
 </TD>
 <TD>
-    <A HREF="https://circuitpython.org/">CircuitPython</A>    
+ <A HREF="https://circuitpython.org/">CircuitPython</A> 
 </TD>
-<TD>    
-    <A HREF="https://www.adafruit.com/product/1651">2.8" TFT<BR>Touch<BR>Shield</A>  
-</TD>    
+<TD> 
+ <A HREF="https://www.adafruit.com/product/4650">128x64 OLED<BR>FeatherWing</A> 
+</TD> 
 <TD>
-    <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
-</TD>
-<TD>
-    <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
-</TD>     
-<TD>
-    -    
+ <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
 </TD>
 <TD>
-    -  
-</TD>
-</TR>
-
-<TR>
+ <A HREF="https://www.adafruit.com/product/4494">DPS310</A> 
+</TD> 
 <TD>
-    V4
+ - 
 </TD>
 <TD>
-    44 g<BR>1.55&nbspoz. 
-</TD>
-<TD>
-    1.25"&nbspdia.&nbspx<BR>3.75" 
-</TD>  
-<TD>
-    <A HREF="https://www.adafruit.com/product/4236">3.7V<BR>420&nbspmAh</A>
-</TD>
-<TD>
-    <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
-</TD>
-<TD>
-    <A HREF="https://circuitpython.org/">CircuitPython</A>    
-</TD>
-<TD>    
-    -  
-</TD>    
-<TD>
-    <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
-</TD>
-<TD>
-    <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
-</TD>     
-<TD>
-    -    
-</TD>
-<TD>
-    -  
+ - 
 </TD>
 </TR>
 
 <TR>
 <TD>
-    V5
+ V3
 </TD>
 <TD>
-    79 g<BR>2.79&nbspoz.
+ 276 g<BR>9.74&nbspoz. 
 </TD>
 <TD>
-    1.87"&nbspdia.&nbspx<BR>5.75" 
-</TD>  
+ 7"&nbspx<BR>4.62"&nbspx<BR>1.75" 
+</TD> 
 <TD>
-    <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500&nbspmAh</A>
+ <A HREF="https://www.amazon.com/dp/B0F53X2ZL8?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1">2 x 18650</A><BR>3.7V<BR>9,900&nbspmAh 
 </TD>
 <TD>
-    <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
+ <A HREF="https://www.adafruit.com/product/6003">Metro<BR>RP2350</A> 
 </TD>
 <TD>
-    <A HREF="https://circuitpython.org/">CircuitPython</A>    
+ <A HREF="https://circuitpython.org/">CircuitPython</A> 
 </TD>
-<TD>    
-    <A HREF="https://www.adafruit.com/product/5297">128x128 OLED</A>  
-</TD>    
+<TD> 
+ <A HREF="https://www.adafruit.com/product/1651">2.8" TFT<BR>Touch<BR>Shield</A> 
+</TD> 
 <TD>
-    <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
-</TD>
-<TD>
-    <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
-</TD>     
-<TD>
-    <A HREF="https://www.adafruit.com/product/4754">BNO085</A> 
+ <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
 </TD>
 <TD>
-    <A HREF="https://www.sparkfun.com/sparkfun-air-velocity-sensor-breakout-fs3000-1005-qwiic.html">FS3000-1005</A> 
-</TD>
-</TR>
-
-<TR>
+ <A HREF="https://www.adafruit.com/product/4494">DPS310</A> 
+</TD> 
 <TD>
-    V6
+ - 
 </TD>
 <TD>
-    74 g<BR>2.61&nbspoz. 
-</TD>
-<TD>
-    3.5"&nbspx<BR>2.5"&nbspx<BR>2"
-</TD>  
-<TD>
-    <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500&nbspmAh</A>
-</TD>
-<TD>
-    <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A>    
-</TD>
-<TD>
-    <A HREF="https://circuitpython.org/">CircuitPython</A>    
-</TD>
-<TD>    
-    <A HREF="https://www.adafruit.com/product/5297">128x128 OLED</A>  
-</TD>    
-<TD>
-    <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
-</TD>
-<TD>
-    <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
-</TD>     
-<TD>
-    <A HREF="https://www.adafruit.com/product/4754">BNO085</A> 
-</TD>
-<TD>
-    <A HREF="https://www.sparkfun.com/sparkfun-air-velocity-sensor-breakout-fs3000-1015-qwiic.html">FS3000-1015</A> 
+ - 
 </TD>
 </TR>
 
 <TR>
 <TD>
-    V7
+ V4
 </TD>
 <TD>
-    451 g<BR>15.91&nbspoz. 
+ 44 g<BR>1.55&nbspoz. 
 </TD>
 <TD>
-    3.6"&nbspx<BR>5.65"&nbspx<BR>2.26"
-</TD>  
+ 1.25"&nbspdia.&nbspx<BR>3.75" 
+</TD> 
 <TD>
-    <A HREF="https://www.amazon.com/dp/B0CB1FW5FC?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1">5V INIU Ultra Slim 10000mAh</A>
+ <A HREF="https://www.adafruit.com/product/4236">3.7V<BR>420&nbspmAh</A>
 </TD>
 <TD>
-    <A HREF="https://www.adafruit.com/product/5813">Raspberry Pi 5 - 8 GB RAM</A>    
+ <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A> 
 </TD>
 <TD>
-    <A HREF="https://www.raspberrypi.com/news/trixie-the-new-version-of-raspberry-pi-os/">Trixie OS</A> &amp;
-    <A HREF="https://www.python.org/">Python</A>    
+ <A HREF="https://circuitpython.org/">CircuitPython</A> 
 </TD>
-<TD>    
-    <A HREF="https://www.adafruit.com/product/6408">RPi Touch Display 2 - 5" 720x1280</A>  
-</TD>    
+<TD> 
+ - 
+</TD> 
 <TD>
-    <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
+ <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
 </TD>
 <TD>
-    <A HREF="https://www.adafruit.com/product/4494">DPS310</A>   
-</TD>     
+ <A HREF="https://www.adafruit.com/product/4494">DPS310</A> 
+</TD> 
+<TD>
+ - 
+</TD>
+<TD>
+ - 
+</TD>
+</TR>
+
+<TR>
+<TD>
+ V5
+</TD>
+<TD>
+ 79 g<BR>2.79&nbspoz.
+</TD>
+<TD>
+ 1.87"&nbspdia.&nbspx<BR>5.75" 
+</TD> 
+<TD>
+ <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500&nbspmAh</A>
+</TD>
+<TD>
+ <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A> 
+</TD>
+<TD>
+ <A HREF="https://circuitpython.org/">CircuitPython</A> 
+</TD>
+<TD> 
+ <A HREF="https://www.adafruit.com/product/5297">128x128 OLED</A> 
+</TD> 
+<TD>
+ <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
+</TD>
+<TD>
+ <A HREF="https://www.adafruit.com/product/4494">DPS310</A> 
+</TD> 
+<TD>
+ <A HREF="https://www.adafruit.com/product/4754">BNO085</A> 
+</TD>
+<TD>
+ <A HREF="https://www.sparkfun.com/sparkfun-air-velocity-sensor-breakout-fs3000-1005-qwiic.html">FS3000-1005</A> 
+</TD>
+</TR>
+
+<TR>
+<TD>
+ V6
+</TD>
+<TD>
+ 74 g<BR>2.61&nbspoz. 
+</TD>
+<TD>
+ 3.5"&nbspx<BR>2.5"&nbspx<BR>2"
+</TD> 
+<TD>
+ <A HREF="https://www.adafruit.com/product/1578">3.7V<BR>500&nbspmAh</A>
+</TD>
+<TD>
+ <A HREF="https://www.adafruit.com/product/5980">Feather<BR>RP2040<BR>Adalogger</A> 
+</TD>
+<TD>
+ <A HREF="https://circuitpython.org/">CircuitPython</A> 
+</TD>
+<TD> 
+ <A HREF="https://www.adafruit.com/product/5297">128x128 OLED</A> 
+</TD> 
+<TD>
+ <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
+</TD>
+<TD>
+ <A HREF="https://www.adafruit.com/product/4494">DPS310</A> 
+</TD> 
+<TD>
+ <A HREF="https://www.adafruit.com/product/4754">BNO085</A> 
+</TD>
+<TD>
+ <A HREF="https://www.sparkfun.com/sparkfun-air-velocity-sensor-breakout-fs3000-1015-qwiic.html">FS3000-1015</A> 
+</TD>
+</TR>
+
+<TR>
+<TD>
+ V7
+</TD>
+<TD>
+ 451 g<BR>15.91&nbspoz. 
+</TD>
+<TD>
+ 3.6"&nbspx<BR>5.65"&nbspx<BR>2.26"
+</TD> 
+<TD>
+ <A HREF="https://www.amazon.com/dp/B0CB1FW5FC?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1">5V INIU Ultra Slim 10000mAh</A>
+</TD>
+<TD>
+ <A HREF="https://www.adafruit.com/product/5813">Raspberry Pi 5 - 8 GB RAM</A> 
+</TD>
+<TD>
+ <A HREF="https://www.raspberrypi.com/news/trixie-the-new-version-of-raspberry-pi-os/">Trixie OS</A> &amp;
+ <A HREF="https://www.python.org/">Python</A> 
+</TD>
+<TD> 
+ <A HREF="https://www.adafruit.com/product/6408">RPi Touch Display 2 - 5" 720x1280</A> 
+</TD> 
+<TD>
+ <A HREF="https://www.adafruit.com/product/5188">DS3231</A>
+</TD>
+<TD>
+ <A HREF="https://www.adafruit.com/product/4494">DPS310</A> 
+</TD> 
 <TD>
  
 </TD>
 <TD>
-     
+ 
 </TD>
 </TR>
 
@@ -343,48 +343,48 @@ Functions
 
 ## Kite Altimeter Hardware Version 1
 
-</P>  
-<p align="center">     <img width="528" height="326" src="/Images/V1.JPEG">
+</P> 
+<p align="center"> <img width="528" height="326" src="/Images/V1.JPEG">
 </p>
 
-</P>  
-<p align="center">     <img width="384" height="450" src="/Images/IMG_8138a.JPEG">
+</P> 
+<p align="center"> <img width="384" height="450" src="/Images/IMG_8138a.JPEG">
 </p>
 <p align="center">
-Altimeters V1 was used for development & testing..  
+Altimeters V1 was used for development & testing. 
 </p>
 
 GitHub directory V1.28 contains the CircuitPython code.py for this altimeter.
 
-+ Case is a food container 7" x 4 5/8" x  1 3/4".
-+ Li battery 3.7V at 2,500 mAh.
++ Case is a food container 7" x 4 5/8" x 1 3/4".
++ Li-ion battery 3.7V at 2,500 mAh.
 + 205 g, 7.23 oz.
 
 <HR>
 
 ## Kite Altimeter Hardware Version 2
 
-</P>  
-<p align="center">     <img width="448" height="384" src="/Images/V2.JPEG">
+</P> 
+<p align="center"> <img width="448" height="384" src="/Images/V2.JPEG">
 </p>
 
 GitHub directory V2.11 contains the CircuitPython code.py for this altimeter.
 
 + Case is a orange pill container 1 7/8" dia. x 3 1/2".
-+ Li battery 3.7V at 500 mAh.
++ Li-ion battery 3.7V at 500 mAh.
 + 58 g, 2.05 oz.
 
 <HR>
 
 ## Kite Altimeter Hardware Version 3
 
-</P>  
-<p align="center">     <img width="530" height="326" src="/Images/V3.JPEG">
+</P> 
+<p align="center"> <img width="530" height="326" src="/Images/V3.JPEG">
 </p>
 
 GitHub directory V3.10 contains the CircuitPython code.py for this altimeter.
 
-+ Case is a small storage container 7" x 4 5/8" x  1 3/4".
++ Case is a small storage container 7" x 4 5/8" x 1 3/4".
 + Two 18650 Li-ion battery 3.7V at 9,900 mAh.
 + 276 g, 9.74 oz.
 
@@ -392,68 +392,68 @@ GitHub directory V3.10 contains the CircuitPython code.py for this altimeter.
 
 ## Kite Altimeter Hardware Version 4
 
-</P>  
-<p align="center">     <img width="560" height="308" src="/Images/V4.JPEG">
+</P> 
+<p align="center"> <img width="560" height="308" src="/Images/V4.JPEG">
 </p>
 
 GitHub directory V4.12 contains the CircuitPython code.py for this altimeter.
 
 + Case is a orange pill container 1 1/4" dia. x 3 3/4".
-+ Li battery 3.7V at 420 mAh.
++ Li-ion battery 3.7V at 420 mAh.
 + 44 g, 1.55 oz.
 
 <HR>
 
 ## Kite Altimeter Hardware Version 5
 
-</P>  
-<p align="center">     <img width="570" height="304" src="/Images/V5.JPEG">
+</P> 
+<p align="center"> <img width="570" height="304" src="/Images/V5.JPEG">
 </p>
 
 GitHub directory V5.35 contains the CircuitPython code.py for this altimeter.
 
 + Case is a orange pill container 1 7/8" dia. x 5 3/4".
-+ Li battery 3.7V at 500 mAh.
++ Li-ion battery 3.7V at 500 mAh.
 + 79 g, 2.79 oz.
 
 <HR>
 
 ## Kite Altimeter Hardware Version 6
 
-</P>  
-<p align="center">     <img width="356" height="484" src="/Images/V6.JPEG">
+</P> 
+<p align="center"> <img width="356" height="484" src="/Images/V6.JPEG">
 </p>
 
 GitHub directory V6.36 contains the CircuitPython code.py for this altimeter.
 
-GitHub directory V6.36data20250823 contains the data log files for Saturday August 23, 2025 at 
+GitHub directory V6.36data20250823 contains the data log files for Saturday, August 23, 2025, at 
 [Washington State International Kite Festival](https://en.wikipedia.org/wiki/Washington_State_International_Kite_Festival)
 at Long Beach, WA. V6.36 was mounted on the main spar of a 8' x 4' delta kite flying in the Large Kite Area field.
 
-+ Case is a storage container 3 1/2" x 2 1/2" x  2".
-+ Li battery 3.7V at 500 mAh.
++ Case is a storage container 3 1/2" x 2 1/2" x 2".
++ Li-ion battery 3.7V at 500 mAh.
 + 74 g, 2.61 oz.
 
 <HR>
 
 ## Kite Altimeter Hardware Version 7
 
-</P>  
-<p align="center">     <img width="588" height="588" src="/Images/V7top.JPEG">
+</P> 
+<p align="center"> <img width="588" height="588" src="/Images/V7top.JPEG">
 </p>
 
 Raspberry Pi 5 with the 5" touch display 2 connected to INIU USB 10ah battery bank.
 
-</P>  
-<p align="center">     <img width="727" height="546" src="/Images/V7bottom.JPEG">
+</P> 
+<p align="center"> <img width="727" height="546" src="/Images/V7bottom.JPEG">
 </p>
 
-Raspberry Pi 5 with cooling fan mounted to the back side of the 5" touch display 2. Long I2C four wire cable (red, black, yellow and blue) from the I2C port of the GPIO connector to the DPS310 pressure sensor.   Short I2C cable from the DPS310 to the RTC.
+Raspberry Pi 5 with cooling fan mounted to the back side of the 5" touch display 2. Long I2C four wire cable (red, black, yellow and blue) from the I2C port of the GPIO connector to the DPS310 pressure sensor. Short I2C cable from the DPS310 to the RTC.
 
 Clear plastic from food containers mounted on four standoffs to protect the back of the Raspberry Pi 5 and to hold the DPS310 and RTC boards.
 
-</P>  
-<p align="center">     <img width="720" height="1280" src="/Images/V7_4Screen3.png">
+</P> 
+<p align="center"> <img width="720" height="1280" src="/Images/V7_4Screen3.png">
 </p>
 
 Raspberry Pi <A HREF="https://www.raspberrypi.com/news/trixie-the-new-version-of-raspberry-pi-os/">Trixie OS</A> running
@@ -473,13 +473,13 @@ The GUI and logger are designed for atmospheric work such as kite altimeters, we
 
 ## Live GUI Display
 
-The GUI window shows real-time pressure and temperature data, with basic analytics.  
+The GUI window shows real-time pressure and temperature data, with basic analytics. 
 Each line/plot in the window is described below.
 
 ### Pressure (hPa)
 **Example:** `971.726`
 
-This is the most recent raw barometric pressure reading from the DPS310 sensor in hectopascals (hPa).  
+This is the most recent raw barometric pressure reading from the DPS310 sensor in hectopascals (hPa). 
 1 hPa = 100 pascals ≈ 0.02953 inHg.
 
 This value updates continuously (about once per second in this version).
@@ -489,7 +489,7 @@ This value updates continuously (about once per second in this version).
 ### Smoothed (hPa)
 **Example:** `971.768`
 
-This is a short-term moving average of pressure.  
+This is a short-term moving average of pressure. 
 Purpose:
 - Reduces short-term sensor noise
 - Makes trends easier to see
@@ -532,22 +532,22 @@ In V7.4, the RMS is computed over about the last 30 seconds of samples.
 
 ### Mini History Plots (Sparklines)
 
-The GUI includes four small strip charts that show how pressure has changed over different time spans.  
+The GUI includes four small strip charts that show how pressure has changed over different time spans. 
 Each chart is labeled with its time window:
 
-1. **Last 60s (hPa)**  
-   Shows fine-grain behavior: small dips, spikes, gust effects.
+1. **Last 60s (hPa)** 
+ Shows fine-grain behavior: small dips, spikes, gust effects.
 
-2. **Last 600s (hPa)**  
-   ~10 minutes of history. Helps show short patterns (for example, oscillations or repeated bumps).
+2. **Last 600s (hPa)** 
+ ~10 minutes of history. Helps show short patterns (for example, oscillations or repeated bumps).
 
-3. **Last 1 hr (hPa)**  
-   Tracks medium-term trends. You can see slow climbs/drops.
+3. **Last 1 hr (hPa)** 
+ Tracks medium-term trends. You can see slow climbs/drops.
 
-4. **Last 12 hr (hPa)**  
-   Long-term pressure evolution across half a day. Great for weather trend / frontal passage.
+4. **Last 12 hr (hPa)** 
+ Long-term pressure evolution across half a day. Great for weather trend / frontal passage.
 
-All plots are drawn in hPa vs. time (older data on the left, newest on the right).  
+All plots are drawn in hPa vs. time (older data on the left, newest on the right). 
 These are not interactive; they’re intended for at-a-glance situational awareness.
 
 ---
@@ -555,7 +555,7 @@ These are not interactive; they’re intended for at-a-glance situational awaren
 ### Pressure (inHg)
 **Example:** `28.695`
 
-Same pressure as above, converted to inches of mercury (inHg).  
+Same pressure as above, converted to inches of mercury (inHg). 
 This is the traditional U.S. weather station / altimeter setting unit.
 
 Conversion is performed in software from the hPa reading.
@@ -563,8 +563,8 @@ Conversion is performed in software from the hPa reading.
 ---
 
 ### Temperature (°C) and Temperature (°F)
-**Examples:**  
-- `23.46 °C`  
+**Examples:** 
+- `23.46 °C` 
 - `74.23 °F`
 
 This is the DPS310 internal temperature sensor reading, displayed in both Celsius and Fahrenheit.
@@ -576,13 +576,13 @@ Note:
 ---
 
 ### Timestamp (UTC)
-**Example:**  
+**Example:** 
 `2025-10-26T17:13:55.547080+00:00`
 
 All samples in the GUI and in the CSV logs are tagged with a UTC timestamp in ISO 8601 format.
 
-Format:  
-`YYYY-MM-DDThh:mm:ss.ssssss+00:00`  
+Format: 
+`YYYY-MM-DDThh:mm:ss.ssssss+00:00` 
 Example: `2025-10-26T17:13:55.547080+00:00`
 
 Using UTC makes it easier to analyze data captured in different locations or time zones.
@@ -598,20 +598,20 @@ A header (commented with `#`) explains each column:
 
 ```text
 # timestamp_iso8601_utc : UTC time of sample (ISO 8601)
-# temp_C               : Sensor temperature in degrees C
-# temp_F               : Sensor temperature in degrees F
-# pressure_hPa         : Raw pressure in hPa from DPS310
-# pressure_inHg        : Pressure converted to inches of mercury
-# smooth_hPa_30s_avg   : Moving-average pressure over last ~30s
-# trend_hPa_per_min    : Pressure change rate (hPa/min) over ~1 min
-# noise_hPa_RMS_30s    : RMS noise (std dev) of pressure over last ~30s
+# temp_C : Sensor temperature in degrees C
+# temp_F : Sensor temperature in degrees F
+# pressure_hPa : Raw pressure in hPa from DPS310
+# pressure_inHg : Pressure converted to inches of mercury
+# smooth_hPa_30s_avg : Moving-average pressure over last ~30s
+# trend_hPa_per_min : Pressure change rate (hPa/min) over ~1 min
+# noise_hPa_RMS_30s : RMS noise (std dev) of pressure over last ~30s
 #
 # Columns (in order):
 # timestamp_iso8601_utc,temp_C,temp_F,pressure_hPa,pressure_inHg,smooth_hPa_30s_avg,trend_hPa_per_min,noise_hPa_RMS_30s
 2025-10-26T01:22:07.871332+00:00,26.067,78.920,963.891,28.4637,963.891,0.000,0.000
 2025-10-26T01:22:08.878870+00:00,26.056,78.900,963.895,28.4638,963.893,0.257,0.002
 2025-10-26T01:22:09.876598+00:00,26.046,78.882,963.893,28.4637,963.893,0.059,0.002
-...
+..
 ```
 
 <HR>
@@ -641,71 +641,71 @@ This document compares the use of a **Raspberry Pi 5 with Touch Display** and an
 
 ### Raspberry Pi 5 Advantages
 
-✅ **High-speed data processing**  
- • Capable of fast sampling (> 50 Hz) and real-time graphing with Matplotlib.  
+✅ **High-speed data processing** 
+ • Capable of fast sampling (> 50 Hz) and real-time graphing with Matplotlib. 
 
-✅ **Integrated display and GUI control**  
- • Supports full Tkinter / Qt / GTK interfaces for interactive data visualization.  
+✅ **Integrated display and GUI control** 
+ • Supports full Tkinter / Qt / GTK interfaces for interactive data visualization. 
 
-✅ **Large storage and analysis capability**  
- • Easily logs to CSV or SQLite databases for extended sessions.  
+✅ **Large storage and analysis capability** 
+ • Easily logs to CSV or SQLite databases for extended sessions. 
 
-✅ **Advanced analysis tools available**  
- • Numpy, Pandas, Scipy enable trend analysis, moving-average, and variance computation in real time.  
+✅ **Advanced analysis tools available** 
+ • Numpy, Pandas, Scipy enable trend analysis, moving-average, and variance computation in real time. 
 
-✅ **Convenient network connectivity**  
- • Wi-Fi and Ethernet allow remote data upload and SSH access.  
+✅ **Convenient network connectivity** 
+ • Wi-Fi and Ethernet allow remote data upload and SSH access. 
 
 ---
 
 ### Raspberry Pi 5 Disadvantages
 
-❌ **Higher power consumption**  
- • Requires stable 5 V 3 A supply—less suitable for battery operation.  
+❌ **Higher power consumption** 
+ • Requires stable 5 V 3 A supply—less suitable for battery operation. 
 
-❌ **Longer boot time**  
- • Full Linux boot (~30 seconds) before data acquisition can begin.  
+❌ **Longer boot time** 
+ • Full Linux boot (~30 seconds) before data acquisition can begin. 
 
-❌ **Less rugged for field use**  
- • microSD cards and connectors can be vulnerable to vibration or moisture.  
+❌ **Less rugged for field use** 
+ • microSD cards and connectors can be vulnerable to vibration or moisture. 
 
-❌ **Complex software stack**  
- • Requires OS updates, package dependencies, and possible I²C permission setup.  
+❌ **Complex software stack** 
+ • Requires OS updates, package dependencies, and possible I²C permission setup. 
 
 ---
 
 ### RP2040 Advantages
 
-✅ **Low power and instant-on**  
- • Starts logging within milliseconds—ideal for battery or kite-borne operation.  
+✅ **Low power and instant-on** 
+ • Starts logging within milliseconds—ideal for battery or kite-borne operation. 
 
-✅ **Compact and lightweight**  
- • Small form factor and minimal support components for embedded use.  
+✅ **Compact and lightweight** 
+ • Small form factor and minimal support components for embedded use. 
 
-✅ **Simpler software environment**  
- • Runs directly from flash memory with CircuitPython or MicroPython—no OS maintenance.  
+✅ **Simpler software environment** 
+ • Runs directly from flash memory with CircuitPython or MicroPython—no OS maintenance. 
 
-✅ **Deterministic timing**  
- • Excellent for precise sampling and time-synchronized sensor reads.  
+✅ **Deterministic timing** 
+ • Excellent for precise sampling and time-synchronized sensor reads. 
 
-✅ **Low cost**  
- • RP2040 boards are typically under $10 USD.  
+✅ **Low cost** 
+ • RP2040 boards are typically under $10 USD. 
 
 ---
 
 ### RP2040 Disadvantages
 
-❌ **Limited processing and RAM**  
- • Cannot run advanced data analysis or graphing libraries locally.  
+❌ **Limited processing and RAM** 
+ • Cannot run advanced data analysis or graphing libraries locally. 
 
-❌ **No native display GUI**  
- • Requires external display or PC connection for visualization.  
+❌ **No native display GUI** 
+ • Requires external display or PC connection for visualization. 
 
-❌ **Limited storage**  
- • On-board flash is small; SD card logging needs additional hardware.  
+❌ **Limited storage** 
+ • On-board flash is small; SD card logging needs additional hardware. 
 
-❌ **No multi-threaded OS**  
- • Data logging and communication tasks must be manually coordinated.  
+❌ **No multi-threaded OS** 
+ • Data logging and communication tasks must be manually coordinated. 
 
 ---
 
@@ -731,8 +731,8 @@ i2c = board.I2C()
 sensor = adafruit_dps310.DPS310(i2c)
 
 while True:
-    print(f"{sensor.pressure:.2f} hPa  {sensor.temperature:.2f} °C")
-    time.sleep(1)
+ print(f"{sensor.pressure:.2f} hPa {sensor.temperature:.2f} °C")
+ time.sleep(1)
 ```
 ### RP2040 Example (CircuitPython)
 
@@ -743,8 +743,8 @@ i2c = board.I2C()
 sensor = adafruit_dps310.DPS310(i2c)
 
 while True:
-    print((sensor.pressure, sensor.temperature))
-    time.sleep(1)
+ print((sensor.pressure, sensor.temperature))
+ time.sleep(1)
 ```
 ## 📈 Summary Comparison
 
@@ -766,22 +766,22 @@ while True:
 
 Both platforms can successfully acquire and log pressure data using the **Adafruit DPS310**, but their **optimal roles differ**:
 
-- 🖥️ **Raspberry Pi 5 + Touch Display**  
-  Ideal for **real-time visualization**, **interactive GUI control**, and **in-depth data analysis** using full Python libraries.  
-  Best suited for **laboratory testing**, **bench experiments**, and **development environments**.
+- 🖥️ **Raspberry Pi 5 + Touch Display** 
+ Ideal for **real-time visualization**, **interactive GUI control**, and **in-depth data analysis** using full Python libraries. 
+ Best suited for **laboratory testing**, **bench experiments**, and **development environments**.
 
-- ⚙️ **RP2040 Microcontroller**  
-  Optimized for **low-power, lightweight, and portable** field applications such as **kite-borne data logging** or **edge sensing**.  
-  Offers deterministic timing, instant startup, and long battery life, making it excellent for autonomous deployments.
+- ⚙️ **RP2040 Microcontroller** 
+ Optimized for **low-power, lightweight, and portable** field applications such as **kite-borne data logging** or **edge sensing**. 
+ Offers deterministic timing, instant startup, and long battery life, making it excellent for autonomous deployments.
 
-> 💡 **Recommended Workflow:**  
+> 💡 **Recommended Workflow:** 
 > Use the **RP2040** to collect data in the field, then transfer the logged CSV files to the **Raspberry Pi 5** for graphical analysis, filtering, and trend evaluation.
 
 ---
 
-**Author:** David Haworth (WA9ONY)  
-**Date:** October 2025  
-**License:** MIT  
+**Author:** David Haworth (WA9ONY) 
+**Date:** October 2025 
+**License:** MIT 
 **Keywords:** DPS310, Raspberry Pi 5, RP2040, Pressure Sensor, Data Logging, Kite Instrumentation
 
 
@@ -789,9 +789,9 @@ Both platforms can successfully acquire and log pressure data using the **Adafru
 
 # Research
 
-Web  pages
-+ [ELEVATION  of  KITE](http://becot.info/tako/anglais/etakoteur.htm)
-+ [Let's Go Fly a Kite... With an Arduino on It!](https://www.instructables.com/Lets-Go-Fly-a-Kite-With-an-Arduino-on-It/)
+Web pages
++ [ELEVATION of KITE](http://becot.info/tako/anglais/etakoteur.htm)
++ [Let's Go Fly a Kite.. With an Arduino on It!](https://www.instructables.com/Lets-Go-Fly-a-Kite-With-an-Arduino-on-It/)
 + [Global Positioning System & Telemetry](https://www.kitesite.com.au/kiterecord/gps.html)
 
 Videos
@@ -808,10 +808,10 @@ Wikipedia
 
 ## Altimeter Products
 + Jolly Logic [AltimeterOne](https://jollylogic.com/products/altimeterone/)
-  + [Amazon](https://www.amazon.com/dp/B0069ZD53E?psc=1&smid=A2YVVEWGBD4JCX&ref_=chk_typ_imgToDp)
+ + [Amazon](https://www.amazon.com/dp/B0069ZD53E?psc=1&smid=A2YVVEWGBD4JCX&ref_=chk_typ_imgToDp)
 + Jolly Logic [AltimeterTwo](https://www.apogeerockets.com/Electronics-Payloads/Altimeters/Jolly-Logic-AltimeterTwo)
-  + For rockets only
-  + [Amazon](https://www.amazon.com/Jolly-Logic-JL-A2-AltimeterTwo/dp/B0069Z6YCI/ref=sr_1_4?crid=39MKX6WIQUY1Z&dib=eyJ2IjoiMSJ9.ghD88zHyqLtrEhXs21qyjydc7m41SSCogII7vzfpp7Ss-c38J4PArjpllElGoflom1-nFifLPNm_YM0otbXgg_YKki784NonDlXA1fmwzkwrG3X1vQyfzRcZA6xoDb4DrFNUiFi3_BMm-9NUbVIUZjOLyJ6AXks8f19g3APV9tavdBc_FHCSiCSUz7pFeXdd_wcs8UXwWHax6fB2qlVxJ2w_yuX6l99wAUt82BYP7Vn1jU0X2xgA-nzoygaMI4WnukyKWs5EQTKm1J0jUhgUwhWgEuDX26_fCgmtnREBtqw.jDE2INQnOJGa1hT3zGFkPjnjFCo6phgFTAzE02sCQfc&dib_tag=se&keywords=altimeter+two&qid=1759088290&s=sporting-goods&sprefix=altimetertwo%2Csporting%2C153&sr=1-4)
+ + For rockets only
+ + [Amazon](https://www.amazon.com/Jolly-Logic-JL-A2-AltimeterTwo/dp/B0069Z6YCI/ref=sr_1_4?crid=39MKX6WIQUY1Z&dib=eyJ2IjoiMSJ9.ghD88zHyqLtrEhXs21qyjydc7m41SSCogII7vzfpp7Ss-c38J4PArjpllElGoflom1-nFifLPNm_YM0otbXgg_YKki784NonDlXA1fmwzkwrG3X1vQyfzRcZA6xoDb4DrFNUiFi3_BMm-9NUbVIUZjOLyJ6AXks8f19g3APV9tavdBc_FHCSiCSUz7pFeXdd_wcs8UXwWHax6fB2qlVxJ2w_yuX6l99wAUt82BYP7Vn1jU0X2xgA-nzoygaMI4WnukyKWs5EQTKm1J0jUhgUwhWgEuDX26_fCgmtnREBtqw.jDE2INQnOJGa1hT3zGFkPjnjFCo6phgFTAzE02sCQfc&dib_tag=se&keywords=altimeter+two&qid=1759088290&s=sporting-goods&sprefix=altimetertwo%2Csporting%2C153&sr=1-4)
 + Estes 2246 Altimeter [Amazon](https://www.amazon.com/dp/B00EZBH896?ref=ppx_yo2ov_dt_b_fed_asin_title)
 + Eronotix [delta altimeter kite](https://eronotix.com/)
 + Rocket.Supplies [Altimeters](https://rocket.supplies/products.php?cat=Altimeters)
@@ -847,7 +847,7 @@ Where:
 | g | Acceleration due to gravity (9.80665 m/s²) | — |
 
 In a kite altimeter, sensors such as the **Adafruit DPS310** or **BMP585** are placed near the kite’s bridle point or along the main spar. 
-The onboard microcontroller continuously reads barometric pressure, converts it into altitude, and logs the data along with temperature and motion readings.  
+The onboard microcontroller continuously reads barometric pressure, converts it into altitude, and logs the data along with temperature and motion readings. 
 Because atmospheric pressure changes with weather, accurate altitude measurement requires calibration against a **ground reference pressure** — for example, from a second sensor on the ground or a local NOAA weather station.
 
 ### Other Methods to Measure Kite Altitude
@@ -1005,52 +1005,52 @@ These considerations provide a foundation for building high‑resolution, reliab
 
 # Atmospheric Pressure Measurement Types
 
-This document explains the different types of **atmospheric pressure measurements**, their definitions, uses, and relationships.  
+This document explains the different types of **atmospheric pressure measurements**, their definitions, uses, and relationships. 
 Understanding these distinctions is essential for weather stations, barometric sensors, and altimeter-based instrumentation (such as kite-mounted data loggers).
 
 ---
 
 ## 🧭 1. Absolute Pressure
 
-**Definition:**  
+**Definition:** 
 The actual atmospheric pressure at the sensor’s location — the true weight of the air above you.
 
-**Uses:**  
-- Measured directly by barometric sensors (e.g., Adafruit DPS310).  
-- Used for altitude calculations.  
+**Uses:** 
+- Measured directly by barometric sensors (e.g., Adafruit DPS310). 
+- Used for altitude calculations. 
 - Common in physics, meteorology, and environmental data logging.
 
-**Typical Units:**  
-- hPa (hectopascal) or mbar  
-- inHg (inches of mercury)  
+**Typical Units:** 
+- hPa (hectopascal) or mbar 
+- inHg (inches of mercury) 
 - kPa or mmHg
 
 ---
 
 ## 🌊 2. Relative (Sea-Level) Pressure
 
-**Definition:**  
+**Definition:** 
 The **absolute pressure corrected to sea level**, so it can be compared between different locations regardless of altitude.
 
-**Uses:**  
-- Standard for **weather reports** and forecasts.  
-- Displayed on **home weather stations**.  
+**Uses:** 
+- Standard for **weather reports** and forecasts. 
+- Displayed on **home weather stations**. 
 - Used in meteorological maps and models.
 
-**Typical Units:**  
-- inHg (U.S. customary)  
+**Typical Units:** 
+- inHg (U.S. customary) 
 - hPa (international standard)
 
 ---
 
 ## 🏔️ 3. Station Pressure
 
-**Definition:**  
-The air pressure **measured at the weather station’s elevation**, without any altitude correction.  
+**Definition:** 
+The air pressure **measured at the weather station’s elevation**, without any altitude correction. 
 Essentially the same as absolute pressure, but sometimes adjusted for the height of the instrument above ground.
 
-**Uses:**  
-- Raw meteorological data before conversion to sea-level pressure.  
+**Uses:** 
+- Raw meteorological data before conversion to sea-level pressure. 
 - Used at airports, weather stations, and radiosonde balloon launches.
 
 ---
@@ -1059,58 +1059,58 @@ Essentially the same as absolute pressure, but sometimes adjusted for the height
 
 Used primarily in **aviation** to calibrate aircraft altimeters.
 
-- **QFE:** Pressure at the **airfield elevation**.  
-  - Altimeter reads **0 ft** when the aircraft is on the ground.  
-  - Used for local flight operations.  
+- **QFE:** Pressure at the **airfield elevation**. 
+ - Altimeter reads **0 ft** when the aircraft is on the ground. 
+ - Used for local flight operations. 
 
-- **QNH:** Pressure **adjusted to sea level** using a standard atmosphere model.  
-  - Altimeter reads **elevation above mean sea level (MSL)**.  
-  - Used for en route navigation and air traffic control.
+- **QNH:** Pressure **adjusted to sea level** using a standard atmosphere model. 
+ - Altimeter reads **elevation above mean sea level (MSL)**. 
+ - Used for en route navigation and air traffic control.
 
 ---
 
 ## 🧪 5. Dynamic Pressure
 
-**Definition:**  
+**Definition:** 
 Pressure due to **moving air**, calculated as:
 
 \[
 q = \frac{1}{2} \rho v^2
 \]
 
-where  
-- \( q \) = dynamic pressure (Pa)  
-- \( \rho \) = air density (kg/m³)  
+where 
+- \( q \) = dynamic pressure (Pa) 
+- \( \rho \) = air density (kg/m³) 
 - \( v \) = air velocity (m/s)
 
-**Uses:**  
-- Measured by **Pitot tubes**.  
-- Determines **airspeed** and **wind velocity**.  
+**Uses:** 
+- Measured by **Pitot tubes**. 
+- Determines **airspeed** and **wind velocity**. 
 - Important in aerodynamics and flight testing.
 
 ---
 
 ## ⚙️ 6. Gauge Pressure
 
-**Definition:**  
-Pressure **relative to local atmospheric pressure** (zeroed at ambient).  
+**Definition:** 
+Pressure **relative to local atmospheric pressure** (zeroed at ambient). 
 
-**Uses:**  
-- Common in engineering (e.g., tire pressure, fluid systems).  
+**Uses:** 
+- Common in engineering (e.g., tire pressure, fluid systems). 
 - Not typically used for weather or atmospheric science.
 
 ---
 
 ## 🌡️ 7. Mean Sea-Level Pressure (MSLP)
 
-**Definition:**  
-A standardized version of sea-level pressure calculated using:  
-- A fixed temperature lapse rate,  
-- The standard atmosphere model,  
+**Definition:** 
+A standardized version of sea-level pressure calculated using: 
+- A fixed temperature lapse rate, 
+- The standard atmosphere model, 
 - Mean (not instantaneous) sea level as reference.
 
-**Uses:**  
-- Official **weather maps and forecasts**.  
+**Uses:** 
+- Official **weather maps and forecasts**. 
 - Used by NOAA, WMO, and other meteorological agencies.
 
 ---
@@ -1138,27 +1138,27 @@ If you know your elevation \( h \) in meters, the sea-level pressure \( P_0 \) c
 P_0 = P \times \left(1 - \frac{0.0065h}{T + 0.0065h + 273.15}\right)^{-5.257}
 \]
 
-where  
-- \( P \) = measured (absolute) pressure in hPa  
-- \( T \) = temperature in °C at your location  
-- \( h \) = elevation in meters  
+where 
+- \( P \) = measured (absolute) pressure in hPa 
+- \( T \) = temperature in °C at your location 
+- \( h \) = elevation in meters 
 
-Example:  
-If your station is at 100 m elevation, \( P = 1008 hPa \), and \( T = 20 °C \),  
+Example: 
+If your station is at 100 m elevation, \( P = 1008 hPa \), and \( T = 20 °C \), 
 then \( P_0 ≈ 1019 hPa \) (≈ 30.09 inHg).
 
 ---
 
 ## 🛰️ Related Topics
-- **Adafruit DPS310**: Precision barometric pressure and temperature sensor  
-- **Kite Altimeter Projects**: Using absolute pressure to compute altitude in flight  
+- **Adafruit DPS310**: Precision barometric pressure and temperature sensor 
+- **Kite Altimeter Projects**: Using absolute pressure to compute altitude in flight 
 - **Meshtastic Telemetry**: Transmitting environmental data via LoRa radio links
 
 ---
 
-**Author:** David Haworth, WA9ONY  
-**Contributors:** Orion (AI Assistant)  
-**License:** MIT  
+**Author:** David Haworth, WA9ONY 
+**Contributors:** Orion (AI Assistant) 
+**License:** MIT 
 
 ---
 
