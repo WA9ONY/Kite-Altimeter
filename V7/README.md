@@ -441,6 +441,12 @@ Stop any background gpsd service (to avoid conflicts):
 sudo systemctl stop gpsd.socket
 sudo systemctl stop gpsd
 
+```text
+david@raspberrypi:~ $ sudo systemctl stop gpsd.socket sudo systemctl stop gpsd
+Failed to stop systemctl.service: Unit systemctl.service not loaded.
+Failed to stop stop.service: Unit stop.service not loaded.
+david@raspberrypi:~ $ 
+```
 
 Then launch manually:
 
