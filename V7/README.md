@@ -80,9 +80,9 @@ Raspberry Pi 5 with the 5" touch display 2 connected to
 </TABLE>
 
 <HR>
+<HR>
 
-## Kite Altimeter Hardware Version 7
-
+# Kite Altimeter Hardware Version 7
 
 </P> 
 <p align="center"> <img width="588" height="588" src="/Images/V7top.JPEG">
@@ -111,6 +111,8 @@ Clear plastic from food containers mounted on four standoffs to protect the back
 <p align="center"> <img width="700" height="1200" src="/Images/V7right3.png">
 </p>
 
+<HR>
+<HR>
 
 # DPS310 Pressure Logger – Pressure V7.4
 
@@ -273,6 +275,7 @@ A header (commented with `#`) explains each column:
 2025-10-26T01:22:09.876598+00:00,26.046,78.882,963.893,28.4637,963.893,0.059,0.002
 ..
 ```
+<HR>
 <HR>
 
 # HiLetgo VK172 G-Mouse USB GPS/GLONASS USB GPS Receiver
