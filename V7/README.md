@@ -388,6 +388,11 @@ Those are NMEA 0183 messages — proof it’s alive.
 
 If the output is gibberish, exit (Ctrl-A, then Q) and try 38400 or 115200 baud.
 
+</P> 
+<p align="center"> <img width="848" height="744" src="/Images/minicomHelp.png">
+</p>
+
+
 3️⃣ Test with gpsd and cgps
 
 Stop any background gpsd service (to avoid conflicts):
