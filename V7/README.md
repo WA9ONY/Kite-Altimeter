@@ -482,7 +482,7 @@ If that works, your VK172 is fully functional.
 
 # cgps Linux CLI Display Reference
 
-This section describes every field and value shown in the Linux command-line utility **`cgps`**, which displays real-time data from a GPS receiver via **gpsd** in the above image from the Raspberry Pi 5 touch display out on the porch.
+This section describes every field and value shown in the Linux command-line utility **`cgps`**, which displays real-time data from a GPS receiver via **gpsd** in the above image from the Raspberry Pi 5 touch display out side on the porch.
 
 ---
 
