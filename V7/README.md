@@ -282,7 +282,7 @@ A header (commented with `#`) explains each column:
 
 Let’s make your Pi talk to this GPS.
 
-1️⃣ Plug In and Identify
+++ USB Plug In and Identify
 
 Run these commands in a terminal:
 
@@ -367,7 +367,7 @@ That line tells us which serial device to use — /dev/ttyACM0 or /dev/ttyUSB0.
 
 [dmesg log](dmesg.txt)
 
-2️⃣ View Raw NMEA Data
+++ View Raw NMEA Data
 
 Install tools (if not already):
 
