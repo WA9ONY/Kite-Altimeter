@@ -262,11 +262,9 @@ A header (commented with `#`) explains each column:
 2025-10-26T01:22:09.876598+00:00,26.046,78.882,963.893,28.4637,963.893,0.059,0.002
 ..
 ```
-
 <HR>
 
-# GPS/GNSS 
-## HiLetgo VK172 G-Mouse USB GPS/GLONASS USB GPS Receiver
+# HiLetgo VK172 G-Mouse USB GPS/GLONASS USB GPS Receiver
 
 </P> 
 <p align="center"> <img width="398" height="593" src="/Images/GPSfront.png">
@@ -278,6 +276,104 @@ A header (commented with `#`) explains each column:
 
 + [Website](https://device.report/hiletgo/13?__cf_chl_tk=Q110bP5iebU7exOEHx.VMGX7Aw7XaV0okPRcmaLsQDI-1761693090-1.0.1.1-zalz_hztDIkYTnyM3bEF44m9lFVlM9H81KbF3j9nVHw)
 + [Amazon](https://www.amazon.com/dp/B01MTU9KTF/?coliid=I1ILW02DCZJ03E&colid=XSJ6DS90PQ0Q&ref_=list_c_wl_lv_ov_lig_dp_it_im&th=1)
+
+
+🧩 Next Steps: Raspberry Pi Hands-On Phase
+
+Let’s make your Pi talk to this GPS.
+
+1️⃣ Plug In and Identify
+
+Run these commands in a terminal:
+
+lsusb
+
+
+and
+
+dmesg --follow
+
+
+Then unplug and re-plug the dongle.
+Look for something like:
+
+[ 1234.567890] usb 1-1.2: new full-speed USB device number 8 using xhci_hcd
+[ 1234.678901] cdc_acm 1-1.2:1.0: ttyACM0: USB ACM device
+
+
+or:
+
+[ 1234.678901] cp210x converter now attached to ttyUSB0
+
+
+That line tells us which serial device to use — /dev/ttyACM0 or /dev/ttyUSB0.
+
+🧠 Tip: If you see nothing, the port might be low-power. Try another USB port on the Pi 5 (the one nearest the power input delivers more current).
+
+2️⃣ View Raw NMEA Data
+
+Install tools (if not already):
+
+sudo apt update
+sudo apt install -y gpsd gpsd-clients minicom
+
+
+Then run (substitute your device path):
+
+sudo minicom -b 9600 -D /dev/ttyACM0
+
+
+You should see live sentences like:
+
+$GPGGA,202532.00,4542.1342,N,12243.9456,W,1,08,0.95,74.3,M,-17.2,M,,*65
+$GPRMC,202532.00,A,4542.1342,N,12243.9456,W,0.022,,281023,,,A*7C
+
+
+Those are NMEA 0183 messages — proof it’s alive.
+
+If the output is gibberish, exit (Ctrl-A, then Q) and try 38400 or 115200 baud.
+
+3️⃣ Test with gpsd and cgps
+
+Stop any background gpsd service (to avoid conflicts):
+
+sudo systemctl stop gpsd.socket
+sudo systemctl stop gpsd
+
+
+Then launch manually:
+
+sudo gpsd -N -n /dev/ttyACM0 -F /var/run/gpsd.sock
+
+
+In another terminal:
+
+cgps -s
+
+
+You’ll see a live terminal dashboard: latitude, longitude, altitude, time, fix type, satellites tracked, etc.
+
+If that works, your VK172 is fully functional.
+
+4️⃣ What’s Next
+
+Once you confirm the device node and see data, I’ll give you the next file:
+
+A Python 3 GUI (Tkinter) for your 5-inch Pi touchscreen, displaying:
+
+UTC time (from GPS)
+
+Latitude / Longitude
+
+Altitude (m)
+
+Number of satellites
+
+Fix type (2D/3D)
+
+Status indicator LED (changes color on fix)
+
+That program will be your learning dashboard — and a foundation for later integration with your barometric and LoRa telemetry projects.
 
 
 
