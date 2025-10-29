@@ -716,14 +716,6 @@ This means:
 
 ## 📶 Signal Strength Guidelines
 
-| SNR (dB-Hz) | Quality | Meaning |
-|:-------------|:--------|:---------|
-| **0–20** | Poor | Satellite too low or obstructed |
-| **21–30** | Fair | Usable but not optimal |
-| **31–40** | Good | Reliable tracking and use in fix |
-| **>40** | Excellent | Strong signal, ideal condition |
-
-
 | **SNR (dB-Hz)** | **Signal Quality** | **Interpretation** |
 |------------------|--------------------|--------------------|
 | 0–20             | Poor               | Weak or obstructed signal; satellite near horizon or blocked by terrain/buildings. |
