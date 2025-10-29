@@ -476,6 +476,9 @@ You’ll see a live terminal dashboard: latitude, longitude, altitude, time, fix
 
 If that works, your VK172 is fully functional.
 
+<HR>
+<HR>
+
 </P> 
 <p align="center"> <img width="602" height="621" src="/Images/cgpsAnalysis.png">
 </p>
@@ -635,11 +638,8 @@ This information is crucial for debugging GPS hardware, validating data quality,
 
 ---
 
-**Author:** David Haworth (WA9ONY)  
-**Date:** 2025-10-29  
-**Purpose:** Documentation for understanding Linux GPS CLI (`cgps`) display for use with Raspberry Pi-based GPS/GNSS logging projects.
-
-
+<HR>
+<HR>
 
 </P> 
 <p align="center"> <img width="647" height="651" src="/Images/cgpsSats2.png">
@@ -757,10 +757,8 @@ Understanding this data helps optimize GPS antenna placement, verify multi-const
 
 ---
 
-**Author:** David Haworth (WA9ONY)  
-**Date:** 2025-10-29  
-**Purpose:** Documentation describing the satellite tracking section of the Linux GPS CLI (`cgps`) display, used in Raspberry Pi GNSS analysis and logging projects.
-
+<HR>
+<HR>
 
 
 ## What’s Next
