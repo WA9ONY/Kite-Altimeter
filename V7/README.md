@@ -41,12 +41,6 @@ Raspberry Pi 5 with the 5" touch display 2 connected to INIU USB 10ah battery ba
 <TD><P><B>
  Altitude<BR>Temp. 
  </B></P></TD>
-<TD><P><B>
- 9-DOF 
- </B></P></TD>
-<TD><P><B>
- Wind 
- </B></P></TD>
 </TR>
 
 <TR>
@@ -78,12 +72,6 @@ Raspberry Pi 5 with the 5" touch display 2 connected to INIU USB 10ah battery ba
 <TD>
  <A HREF="https://www.adafruit.com/product/4494">DPS310</A> 
 </TD> 
-<TD>
- 
-</TD>
-<TD>
- 
-</TD>
 </TR>
 
 </TABLE>
