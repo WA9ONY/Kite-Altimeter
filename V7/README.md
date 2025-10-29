@@ -268,6 +268,20 @@ A header (commented with `#`) explains each column:
 <HR>
 
 # GPS/GNSS 
+## HiLetgo VK172 G-Mouse USB GPS/GLONASS USB GPS Receiver
+
+</P> 
+<p align="center"> <img width="398" height="593" src="/Images/GPSfront.png">
+</p>
+
+</P> 
+<p align="center"> <img width="439" height="638" src="/Images/GPSbackt.png">
+</p>
+
++ [Website](https://device.report/hiletgo/13?__cf_chl_tk=Q110bP5iebU7exOEHx.VMGX7Aw7XaV0okPRcmaLsQDI-1761693090-1.0.1.1-zalz_hztDIkYTnyM3bEF44m9lFVlM9H81KbF3j9nVHw)
++ [Amazon](https://www.amazon.com/dp/B01MTU9KTF/?coliid=I1ILW02DCZJ03E&colid=XSJ6DS90PQ0Q&ref_=list_c_wl_lv_ov_lig_dp_it_im&th=1)
+
+
 
 
 <HR>
