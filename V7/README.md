@@ -282,7 +282,7 @@ A header (commented with `#`) explains each column:
 
 Let’s make your Pi talk to this GPS.
 
-++ USB Plug In and Identify
+## USB Plug In and Identify
 
 Run these commands in a terminal:
 
@@ -367,7 +367,7 @@ That line tells us which serial device to use — /dev/ttyACM0 or /dev/ttyUSB0.
 
 [dmesg log](dmesg.txt)
 
-++ View Raw NMEA Data
+## View Raw NMEA Data
 
 Install tools (if not already):
 
@@ -434,7 +434,7 @@ If the output is gibberish, exit (Ctrl-A, then Q) and try 38400 or 115200 baud.
 </p>
 
 
-3️⃣ Test with gpsd and cgps
+### Test with gpsd and cgps
 
 Stop any background gpsd service (to avoid conflicts):
 
@@ -456,7 +456,7 @@ You’ll see a live terminal dashboard: latitude, longitude, altitude, time, fix
 
 If that works, your VK172 is fully functional.
 
-4️⃣ What’s Next
+## What’s Next
 
 Once you confirm the device node and see data, I’ll give you the next file:
 
