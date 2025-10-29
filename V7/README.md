@@ -2,10 +2,13 @@
 </P> 
 
 </P> 
-<p align="center"> <img width="588" height="588" src="/Images/V7top.JPEG">
+<p align="center"> <img width="591" height="333" src="/Images/GPSpourch.png">
 </p>
 
-Raspberry Pi 5 with the 5" touch display 2 connected to INIU USB 10ah battery bank.
+Raspberry Pi 5 with the 5" touch display 2 connected to 
++ INIU USB 10ah battery bank.
++ HiLetgo VK172 G-Mouse USB GPS/GLONASS USB GPS Receiver.
++ Pink 3 feeet USB A extension cable.
 
 # Kite Altimeter Base Station V7
 
@@ -79,6 +82,14 @@ Raspberry Pi 5 with the 5" touch display 2 connected to INIU USB 10ah battery ba
 <HR>
 
 ## Kite Altimeter Hardware Version 7
+
+
+</P> 
+<p align="center"> <img width="588" height="588" src="/Images/V7top.JPEG">
+</p>
+
+Raspberry Pi 5 with the 5" touch display 2 connected to INIU USB 10ah battery bank.
+
 
 </P> 
 <p align="center"> <img width="723" height="530" src="/Images/V7back2.png">
