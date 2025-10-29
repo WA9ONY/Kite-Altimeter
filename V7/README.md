@@ -267,6 +267,30 @@ A header (commented with `#`) explains each column:
 
 <HR>
 
+# GPS/GNSS 
+
+
+<HR>
+
+# Version 7 Development Sytem 
+
+</P> 
+<p align="center"> <img width="780" height="439" src="/Images/V7dev.png">
+</p>
+
++ Raspberry Pi 5 with the 5" touch display 2.
++ Raspberry Pi power supply
++ Two 1080 HDMI monitors
++ USB C power supply for HDMI monitors
++ Wireless mouse and keyboard
++ USB 3 hub
++ Micro SD card reader
++ 128 GB SD card for backups
++ USB GPS
++ Blue Tooth speaker
+
+<HR>
+
 # DPS310 Pressure Acquisition and Logging: Raspberry Pi 5 vs RP2040 Comparison
 
 This document compares the use of a **Raspberry Pi 5 with Touch Display** and an **RP2040 microcontroller** (e.g., Adafruit Feather RP2040, Raspberry Pi Pico) for **pressure measurement, data logging, and analysis** using the **Adafruit DPS310 barometric pressure sensor**.
