@@ -365,6 +365,8 @@ That line tells us which serial device to use — /dev/ttyACM0 or /dev/ttyUSB0.
 [235820.207020] cdc_acm 3-1:1.0: ttyACM0: USB ACM device
 ```
 
+[dmesg log](dmesg.txt)
+
 2️⃣ View Raw NMEA Data
 
 Install tools (if not already):
@@ -387,6 +389,8 @@ $GPRMC,202532.00,A,4542.1342,N,12243.9456,W,0.022,,281023,,,A*7C
 Those are NMEA 0183 messages — proof it’s alive.
 
 If the output is gibberish, exit (Ctrl-A, then Q) and try 38400 or 115200 baud.
+
+[minicom log](minicomlog.txt)
 
 </P> 
 <p align="center"> <img width="848" height="744" src="/Images/minicomHelp.png">
