@@ -1,7 +1,6 @@
 <P align="center"> - <A HREF="https://www.qrz.com/db/WA9ONY">WA9ONY</A> - <A HREF="https://www.youtube.com/@Kites-Flying">YouTube Kites-Flying</A> - <A HREF="https://www.youtube.com/user/DavidAHaworth">YouTube David Haworth</A> - <A HREF="http://www.stargazing.net/david/index.html">Website</A> -
 </P> 
 
-</P> 
 <p align="center"> <img width="333" height="591" src="/Images/GPSporch.png">
 </p>
 
@@ -84,30 +83,24 @@ Raspberry Pi 5 with the 5" touch display 2 connected to
 
 # Kite Altimeter Hardware Version 7
 
-</P> 
 <p align="center"> <img width="588" height="588" src="/Images/V7top.JPEG">
 </p>
 
 Raspberry Pi 5 with the 5" touch display 2 connected to INIU USB 10ah battery bank.
 
-
-</P> 
 <p align="center"> <img width="723" height="530" src="/Images/V7back2.png">
 </p>
 
 Raspberry Pi 5 with cooling fan mounted to the back side of the 5" touch display 2. Long I2C four wire cable (red, black, yellow and blue) from the I2C port of the GPIO connector to the DPS310 pressure sensor. Short I2C cable from the DPS310 to the RTC.
 
 Clear plastic from food containers mounted on four standoffs to protect the back of the Raspberry Pi 5 and to hold the DPS310 and RTC boards.
-
-</P> 
+ 
 <p align="center"> <img width="803" height="730" src="/Images/V7bottom2.png">
 </p>
-
-</P> 
+ 
 <p align="center"> <img width="567" height="433" src="/Images/V7left2.png">
 </p>
-
-</P> 
+ 
 <p align="center"> <img width="700" height="1200" src="/Images/V7right3.png">
 </p>
 
@@ -115,8 +108,7 @@ Clear plastic from food containers mounted on four standoffs to protect the back
 <HR>
 
 # DPS310 Pressure Logger – Pressure V7.4
-
-</P> 
+ 
 <p align="center"> <img width="720" height="1280" src="/Images/V7screen4.png">
 </p>
 
@@ -282,9 +274,6 @@ A header (commented with `#`) explains each column:
 
 <p><img width="398" height="593" src="/Images/GPSfront.png"> <img width="439" height="638" src="/Images/GPSback.png">
 </p>
- 
-<p align="center"> <img width="439" height="638" src="/Images/GPSback.png">
-</p>
 
 + [Website](https://device.report/hiletgo/13?__cf_chl_tk=Q110bP5iebU7exOEHx.VMGX7Aw7XaV0okPRcmaLsQDI-1761693090-1.0.1.1-zalz_hztDIkYTnyM3bEF44m9lFVlM9H81KbF3j9nVHw)
 + [Amazon](https://www.amazon.com/dp/B01MTU9KTF/?coliid=I1ILW02DCZJ03E&colid=XSJ6DS90PQ0Q&ref_=list_c_wl_lv_ov_lig_dp_it_im&th=1)
@@ -443,8 +432,7 @@ If the output is gibberish, exit (Ctrl-A, then Q) and try 38400 or 115200 baud.
 ```
 
 [minicom log](minicomlog.txt)
-
-</P> 
+ 
 <p align="center"> <img width="848" height="744" src="/Images/minicomHelp.png">
 </p>
 
@@ -642,10 +630,8 @@ This information is crucial for debugging GPS hardware, validating data quality,
 <HR>
 <HR>
 
-</P> 
 <p align="center"> <img width="647" height="651" src="/Images/cgpsSats2.png">
 </p>
-
 
 # cgps Satellite Information Display Reference
 
@@ -725,7 +711,6 @@ This means:
 | 41–50            | Very Good          | Strong satellite lock; low multipath interference. |
 | >50              | Excellent          | Ideal line-of-sight conditions; maximum precision. |
 
-
 ---
 
 ## ⚙️ Practical Notes
@@ -734,7 +719,6 @@ This means:
 - Satellites marked **N** may be below the elevation mask or have low SNR.
 - **SBAS** satellites (e.g., `SB133`) provide differential corrections for higher positional accuracy (DGPS or WAAS).
 - **QZSS** satellites (`QZ1`, `QZ4`) enhance coverage in the Pacific region but may show `N` if corrections are not used.
-
 
 ---
 
@@ -782,9 +766,7 @@ Status indicator LED (changes color on fix)
 
 That program will be your learning dashboard — and a foundation for later integration with your barometric and LoRa telemetry projects.
 
-
-
-
+<HR>
 <HR>
 
 # Version 7 Development Sytem 
@@ -968,11 +950,5 @@ Both platforms can successfully acquire and log pressure data using the **Adafru
 > Use the **RP2040** to collect data in the field, then transfer the logged CSV files to the **Raspberry Pi 5** for graphical analysis, filtering, and trend evaluation.
 
 ---
-
-**Author:** David Haworth (WA9ONY) 
-**Date:** October 2025 
-**License:** MIT 
-**Keywords:** DPS310, Raspberry Pi 5, RP2040, Pressure Sensor, Data Logging, Kite Instrumentation
-
 
 <HR>
