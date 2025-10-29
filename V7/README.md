@@ -104,7 +104,7 @@ Clear plastic from food containers mounted on four standoffs to protect the back
 # DPS310 Pressure Logger – Pressure V7.4
 
 </P> 
-<p align="center"> <img width="720" height="1280" src="/Images/Vscreen4.png">
+<p align="center"> <img width="720" height="1280" src="/Images/V7screen4.png">
 </p>
 
 Raspberry Pi <A HREF="https://www.raspberrypi.com/news/trixie-the-new-version-of-raspberry-pi-os/">Trixie OS</A> running
