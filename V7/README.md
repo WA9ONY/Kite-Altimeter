@@ -93,10 +93,6 @@ Raspberry Pi 5 with the 5" touch display 2 connected to INIU USB 10ah battery ba
 ## Kite Altimeter Hardware Version 7
 
 </P> 
-<p align="center"> <img width="720" height="1280" src="/Images/V7_4Screen3.png">
-</p>
-
-</P> 
 <p align="center"> <img width="723" height="530" src="/Images/V7back2.png">
 </p>
 
