@@ -1,6 +1,12 @@
 <P align="center"> - <A HREF="https://www.qrz.com/db/WA9ONY">WA9ONY</A> - <A HREF="https://www.youtube.com/@Kites-Flying">YouTube Kites-Flying</A> - <A HREF="https://www.youtube.com/user/DavidAHaworth">YouTube David Haworth</A> - <A HREF="http://www.stargazing.net/david/index.html">Website</A> -
 </P> 
 
+</P> 
+<p align="center"> <img width="588" height="588" src="/Images/V7top.JPEG">
+</p>
+
+Raspberry Pi 5 with the 5" touch display 2 connected to INIU USB 10ah battery bank.
+
 # Kite Altimeter Base Station V7
 
 + Version 7 was created to be a ground station monitoring the change of the barometric pressure during the flight time and is currently under development. V7 is based on the Raspberry Pi 5 with 5" touch display.
@@ -84,18 +90,7 @@
 
 <HR>
 
-
-<HR>
-
 ## Kite Altimeter Hardware Version 7
-
-</P> 
-<p align="center"> <img width="588" height="588" src="/Images/V7top.JPEG">
-</p>
-
-Raspberry Pi 5 with the 5" touch display 2 connected to INIU USB 10ah battery bank.
-
-Clear plastic from food containers mounted on four standoffs to protect the back of the Raspberry Pi 5 and to hold the DPS310 and RTC boards.
 
 </P> 
 <p align="center"> <img width="720" height="1280" src="/Images/V7_4Screen3.png">
@@ -106,6 +101,8 @@ Clear plastic from food containers mounted on four standoffs to protect the back
 </p>
 
 Raspberry Pi 5 with cooling fan mounted to the back side of the 5" touch display 2. Long I2C four wire cable (red, black, yellow and blue) from the I2C port of the GPIO connector to the DPS310 pressure sensor. Short I2C cable from the DPS310 to the RTC.
+
+Clear plastic from food containers mounted on four standoffs to protect the back of the Raspberry Pi 5 and to hold the DPS310 and RTC boards.
 
 </P> 
 <p align="center"> <img width="803" height="730" src="/Images/V7bottom2.png">
