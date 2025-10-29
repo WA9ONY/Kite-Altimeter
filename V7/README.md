@@ -95,12 +95,6 @@
 
 Raspberry Pi 5 with the 5" touch display 2 connected to INIU USB 10ah battery bank.
 
-</P> 
-<p align="center"> <img width="727" height="546" src="/Images/V7bottom.JPEG">
-</p>
-
-Raspberry Pi 5 with cooling fan mounted to the back side of the 5" touch display 2. Long I2C four wire cable (red, black, yellow and blue) from the I2C port of the GPIO connector to the DPS310 pressure sensor. Short I2C cable from the DPS310 to the RTC.
-
 Clear plastic from food containers mounted on four standoffs to protect the back of the Raspberry Pi 5 and to hold the DPS310 and RTC boards.
 
 </P> 
@@ -111,8 +105,10 @@ Clear plastic from food containers mounted on four standoffs to protect the back
 <p align="center"> <img width="723" height="530" src="/Images/V7back2.png">
 </p>
 
+Raspberry Pi 5 with cooling fan mounted to the back side of the 5" touch display 2. Long I2C four wire cable (red, black, yellow and blue) from the I2C port of the GPIO connector to the DPS310 pressure sensor. Short I2C cable from the DPS310 to the RTC.
+
 </P> 
-<p align="center"> <img width="803" height="730" src="/Images/V7bottom3.png">
+<p align="center"> <img width="803" height="730" src="/Images/V7bottom2.png">
 </p>
 
 </P> 
