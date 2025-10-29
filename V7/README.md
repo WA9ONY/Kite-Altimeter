@@ -480,6 +480,167 @@ If that works, your VK172 is fully functional.
 <p align="center"> <img width="602" height="621" src="/Images/cgpsAnalysis.png">
 </p>
 
+# cgps Linux CLI Display Reference
+
+This section describes every field and value shown in the Linux command-line utility **`cgps`**, which displays real-time data from a GPS receiver via **gpsd** in the above image from the Raspberry Pi 5 touch display out on the porch.
+
+---
+
+## 🗺️ Display Layout Diagram
+
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ TIME & FIX INFO                                                              │
+│ Time: 2025-10-29T21:37:19.000Z (18 satellites)                               │
+│ Status: 3D DGPS FIX (1195 secs)                                              │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ POSITION                                                                     │
+│ Latitude: 45.66849659 N     Longitude: 122.38632525 W                        │
+│ Altitude: HAE 1062.997 ft   MSL 1134.970 ft                                  │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ MOTION & ORIENTATION                                                         │
+│ Speed: 0.07 mph   Track (True/Var): 285.5° / 15.0°   Climb: 3.94 ft/min      │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ POSITION ERRORS & DOP VALUES                                                 │
+│ XDOP(EPX)=2.89  YDOP(EPY)=2.53  VDOP(EPV)=1.84  HDOP(CEP)=0.86               │
+│ PDOP(SEP)=2.03  TDOP=1.12  GDOP=2.32                                         │
+│ Position Error: ±31–35 ft  Speed Err: ±48 mph                                │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ SYSTEM TIME & REFERENCE INFO                                                 │
+│ Time Offset: 0.092943 s  Grid: CN85tq30                                      │
+│ ECEF (X,Y,Z): (-7,846,307, -12,370,327, 14,894,381) ft                       │
+│ ECEF Vel (ft/s): (-0.098, +0.033, +0.066)                                    │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ SATELLITES USED (right column)                                               │
+│ GP: 4,7,9,10,13,16,20,21,27,30                                               │
+│ SBAS: 133,138  QZSS: 1,3                                                     │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🕒 Time Information
+
+- **Time:** The current UTC (Coordinated Universal Time) from the GPS satellite system. Example: `2025-10-29T21:37:19.000Z`.
+- **(18):** Number of satellites currently used to compute the position fix.
+
+---
+
+## 🌍 Position
+
+- **Latitude / Longitude:** Geographic coordinates in decimal degrees.
+  - Example: `45.66849659 N`, `122.38632525 W`
+- **Alt (HAE, MSL):** Two altitude references:
+  - **HAE (Height Above Ellipsoid):** Height above the WGS-84 reference ellipsoid.
+  - **MSL (Mean Sea Level):** Height above mean sea level (includes geoid correction).
+  - Example: `1062.997 ft (HAE)`, `1134.970 ft (MSL)`
+
+---
+
+## 🚗 Motion and Direction
+
+- **Speed:** Current horizontal velocity (mph, knots, or m/s depending on configuration).
+  - Example: `0.07 mph`
+- **Track (true, var):** Heading direction relative to:
+  - **True North** (e.g., `285.5°`)
+  - **Magnetic variation** (difference between true and magnetic north, e.g., `15.0°`)
+- **Climb:** Vertical velocity in feet per minute (ft/min). Example: `3.94 ft/min`
+
+---
+
+## 📶 Fix Status
+
+- **Status:** Type of GPS fix and correction status.
+  - `NO FIX`: No satellite lock.
+  - `2D FIX`: Latitude and longitude only.
+  - `3D FIX`: Includes altitude.
+  - `3D DGPS FIX`: Differential GPS correction applied.
+- **(1195 secs):** Duration (in seconds) since DGPS correction started.
+
+---
+
+## 📊 Position Accuracy (Dilution of Precision)
+
+Each DOP (Dilution of Precision) describes the error amplification due to satellite geometry.
+
+| Label | Description | Units | Example |
+|-------|--------------|--------|----------|
+| **XDOP (EPX)** | Longitude error | ft | ±35.5 |
+| **YDOP (EPY)** | Latitude error | ft | ±31.2 |
+| **VDOP (EPV)** | Altitude error | ft | ±34.7 |
+| **HDOP (CEP)** | Horizontal dilution / Circular error probable | ft | ±13.4 |
+| **PDOP (SEP)** | 3D position dilution | ft | ±31.6 |
+| **TDOP** | Time dilution of precision | — | 1.12 |
+| **GDOP** | Geometric DOP (overall position and time) | — | 2.32 |
+| **EPS** | Speed error | mph | ±48.4 |
+| **EPD** | Track error | mph | — |
+
+---
+
+## 🕰️ Time and Synchronization
+
+- **Time offset:** GPS receiver time offset from system clock, in seconds.
+  - Example: `0.092943125 s`
+- **Grid Square:** Maidenhead grid locator used in amateur radio (e.g., `CN85tq30`).
+
+---
+
+## 🌐 ECEF (Earth-Centered, Earth-Fixed) Coordinates
+
+ECEF coordinates describe the GPS position in a 3D Cartesian reference frame centered at Earth’s center.
+
+| Axis | Meaning | Example Value | Velocity |
+|------|----------|----------------|-----------|
+| **X** | Earth center → intersection of Equator and Prime Meridian | -7,846,307.606 ft | -0.098 ft/s |
+| **Y** | 90° east longitude direction | -12,370,327.358 ft | +0.033 ft/s |
+| **Z** | Earth’s rotation axis (northward) | +14,894,381.380 ft | +0.066 ft/s |
+
+---
+
+## 🛰️ GNSS Satellites Used
+
+Right-side column shows the satellites currently tracked:
+
+| System | Label Prefix | Example IDs |
+|---------|--------------|--------------|
+| GPS | `GP` | 4, 7, 9, 10, 13, 16, 20, 21, 27, 30 |
+| SBAS (WAAS, EGNOS, etc.) | `SB` | 133, 138 |
+| QZSS (Japan) | `QZ` | 1, 3 |
+| GLONASS | `GL` | — (none listed) |
+| Galileo | `GA` | — (none listed) |
+
+Numbers represent individual satellite PRNs (Pseudo-Random Noise IDs).
+
+---
+
+## 📘 Summary
+
+This `cgps` display provides real-time diagnostic insight into a GPS receiver’s:
+
+- Geographic position (lat, lon, altitude)
+- Motion (speed, climb, heading)
+- Satellite status and number of signals used
+- Positional accuracy (DOP values)
+- Time synchronization and ECEF coordinates
+
+This information is crucial for debugging GPS hardware, validating data quality, and ensuring stable satellite locks in applications like drones, kites, vehicles, or sensor networks.
+
+---
+
+## 🧭 References
+
+- [gpsd Project Documentation](https://gpsd.gitlab.io/gpsd/)
+- [cgps Man Page](https://linux.die.net/man/1/cgps)
+- [NMEA 0183 Standard Sentences](https://gpsd.gitlab.io/gpsd/NMEA.html)
+
+---
+
+**Author:** David Haworth (WA9ONY)  
+**Date:** 2025-10-29  
+**Purpose:** Documentation for understanding Linux GPS CLI (`cgps`) display for use with Raspberry Pi-based GPS/GNSS logging projects.
+
+
+
 </P> 
 <p align="center"> <img width="647" height="651" src="/Images/cgpsSats2.png">
 </p>
