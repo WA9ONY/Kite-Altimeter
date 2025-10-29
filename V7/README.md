@@ -476,6 +476,15 @@ You’ll see a live terminal dashboard: latitude, longitude, altitude, time, fix
 
 If that works, your VK172 is fully functional.
 
+</P> 
+<p align="center"> <img width="602" height="621" src="/Images/cgpsAnalysis.png">
+</p>
+
+</P> 
+<p align="center"> <img width="647" height="651" src="/Images/cgpsSats2.png">
+</p>
+
+
 ## What’s Next
 
 Once you confirm the device node and see data, I’ll give you the next file:
