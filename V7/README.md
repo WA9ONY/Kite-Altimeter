@@ -361,7 +361,9 @@ david@raspberrypi:~ $
 
 That line tells us which serial device to use — /dev/ttyACM0 or /dev/ttyUSB0.
 
-🧠 Tip: If you see nothing, the port might be low-power. Try another USB port on the Pi 5 (the one nearest the power input delivers more current).
+```text
+[235820.207020] cdc_acm 3-1:1.0: ttyACM0: USB ACM device
+```
 
 2️⃣ View Raw NMEA Data
 
