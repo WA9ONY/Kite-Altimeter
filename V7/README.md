@@ -2,7 +2,7 @@
 </P> 
 
 </P> 
-<p align="center"> <img width="591" height="333" src="/Images/GPSporch.png">
+<p align="center"> <img width="333" height="591" src="/Images/GPSporch.png">
 </p>
 
 Raspberry Pi 5 with the 5" touch display 2 connected to 
