@@ -646,6 +646,131 @@ This information is crucial for debugging GPS hardware, validating data quality,
 </p>
 
 
+# cgps Satellite Information Display Reference
+
+This document describes each field displayed in the **satellite view panel** of the Linux command-line utility **`cgps`**, which reports the status and signal information for satellites being tracked by a GPS receiver through **gpsd**.
+
+---
+
+## 🛰️ Overview
+
+The satellite table provides details about each satellite signal currently being **seen** by the receiver and whether it is **used** in the current position fix.
+
+The top header line displays summary counts:
+
+```
+Seen 17 / Used 11
+```
+
+- **Seen 17:** Total number of satellites detected (in view of the receiver).
+- **Used 11:** Number of satellites actively used in the 3D fix computation.
+
+---
+
+## 📊 Table Columns Explained
+
+| Column | Description | Example | Units / Notes |
+|:--------|:-------------|:---------|:----------------|
+| **GNSS** | The Global Navigation Satellite System used. Common identifiers:  | | |
+| | `GP` = GPS (United States) | `GP` |  |
+| | `GL` = GLONASS (Russia) | — | — |
+| | `GA` = Galileo (Europe) | — | — |
+| | `SB` = SBAS (WAAS/EGNOS/MSAS/GAGAN) | `SB133` | — |
+| | `QZ` = QZSS (Japan) | `QZ1`, `QZ4` | — |
+| **S** | Satellite number within the system (Space Vehicle ID). | `4`, `7`, `30` | Integer |
+| **PRN** | Pseudo-Random Noise (PRN) code identifier for that satellite. This number identifies each satellite’s broadcast signal. | `4`, `7`, `30`, `46`, `51`, `194` | Integer |
+| **Elev (°)** | Elevation angle of the satellite above the horizon. Higher values mean the satellite is more directly overhead and typically has a stronger, more stable signal. | `29.0`, `70.0`, `23.0` | Degrees |
+| **Azim (°)** | Azimuth — direction of the satellite from true north, measured clockwise. | `130.0`, `294.0`, `46.0` | Degrees |
+| **SNR (dB)** | Signal-to-Noise Ratio — a measure of signal quality and strength. | `36.0`, `31.0`, `27.0` | Decibels (dB-Hz) |
+| **Use** | Indicates whether the satellite is being used in the position fix calculation. | `Y` = Used, `N` = Not used | Boolean |
+
+---
+
+## 🧮 Example Data Interpretation
+
+```
+GP   4   4   29.0   130.0   36.0   Y
+```
+
+This means:
+- **GNSS:** GPS system (USA)
+- **Satellite ID:** 4 (PRN 4)
+- **Elevation:** 29° above horizon
+- **Azimuth:** 130° (southeast)
+- **Signal Strength:** 36 dB (good)
+- **Used in fix:** Yes (contributing to position)
+
+---
+
+## 🌐 GNSS Constellation Types
+
+| System | Abbrev. | Region | Frequency Bands | Notes |
+|:--------|:---------|:--------|:----------------|:-------|
+| **GPS** | GP | USA | L1, L2, L5 | Primary GNSS in North America |
+| **GLONASS** | GL | Russia | L1, L2 | Offset frequency per satellite |
+| **Galileo** | GA | Europe | E1, E5 | High-precision timing, compatible with GPS |
+| **SBAS** | SB | Global | L1 | Differential correction (e.g., WAAS, EGNOS) |
+| **QZSS** | QZ | Japan / Asia-Pacific | L1, L2, L5 | Augments GPS coverage in Asia |
+
+---
+
+## 📶 Signal Strength Guidelines
+
+| SNR (dB-Hz) | Quality | Meaning |
+|:-------------|:--------|:---------|
+| **0–20** | Poor | Satellite too low or obstructed |
+| **21–30** | Fair | Usable but not optimal |
+| **31–40** | Good | Reliable tracking and use in fix |
+| **>40** | Excellent | Strong signal, ideal condition |
+
+
+| **SNR (dB-Hz)** | **Signal Quality** | **Interpretation** |
+|------------------|--------------------|--------------------|
+| 0–20             | Poor               | Weak or obstructed signal; satellite near horizon or blocked by terrain/buildings. |
+| 21–30            | Fair               | Usable but unstable; possible position drift under canopy or indoor conditions. |
+| 31–40            | Good               | Reliable tracking; suitable for navigation and timing applications. |
+| 41–50            | Very Good          | Strong satellite lock; low multipath interference. |
+| >50              | Excellent          | Ideal line-of-sight conditions; maximum precision. |
+
+
+---
+
+## ⚙️ Practical Notes
+
+- Satellites with **Y** in the `Use` column are part of the current fix calculation.
+- Satellites marked **N** may be below the elevation mask or have low SNR.
+- **SBAS** satellites (e.g., `SB133`) provide differential corrections for higher positional accuracy (DGPS or WAAS).
+- **QZSS** satellites (`QZ1`, `QZ4`) enhance coverage in the Pacific region but may show `N` if corrections are not used.
+
+
+---
+
+## 🧭 Summary
+
+The satellite panel of `cgps` provides vital real-time insight into the GNSS environment:
+
+- How many satellites are visible and being used.
+- Signal strength and geometry of each satellite.
+- Type of GNSS constellation and elevation/azimuth relationships.
+
+Understanding this data helps optimize GPS antenna placement, verify multi-constellation performance, and ensure accurate timing and navigation results.
+
+---
+
+## 📘 References
+
+- [gpsd Project Documentation](https://gpsd.gitlab.io/gpsd/)
+- [cgps Man Page](https://linux.die.net/man/1/cgps)
+- [GNSS Constellation Overview – ESA](https://www.esa.int/Applications/Navigation/Galileo/GNSS_overview)
+
+---
+
+**Author:** David Haworth (WA9ONY)  
+**Date:** 2025-10-29  
+**Purpose:** Documentation describing the satellite tracking section of the Linux GPS CLI (`cgps`) display, used in Raspberry Pi GNSS analysis and logging projects.
+
+
+
 ## What’s Next
 
 Once you confirm the device node and see data, I’ll give you the next file:
