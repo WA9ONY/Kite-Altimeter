@@ -107,10 +107,31 @@ Clear plastic from food containers mounted on four standoffs to protect the back
 <p align="center"> <img width="720" height="1280" src="/Images/V7_4Screen3.png">
 </p>
 
-Raspberry Pi <A HREF="https://www.raspberrypi.com/news/trixie-the-new-version-of-raspberry-pi-os/">Trixie OS</A> running
-<A HREF="https://www.python.org/">Python 3.13.5</A> reading pressure and temperature from DPS310 sensor. 
+</P> 
+<p align="center"> <img width="723" height="530" src="/Images/V7back2.png">
+</p>
+
+</P> 
+<p align="center"> <img width="803" height="730" src="/Images/V7bottom3.png">
+</p>
+
+</P> 
+<p align="center"> <img width="567" height="433" src="/Images/V7left2.png">
+</p>
+
+</P> 
+<p align="center"> <img width="624" height="423" src="/Images/V7right3.png">
+</p>
+
 
 # DPS310 Pressure Logger – Pressure V7.4
+
+</P> 
+<p align="center"> <img width="720" height="1280" src="/Images/V7_4Screen3.png">
+</p>
+
+Raspberry Pi <A HREF="https://www.raspberrypi.com/news/trixie-the-new-version-of-raspberry-pi-os/">Trixie OS</A> running
+<A HREF="https://www.python.org/">Python 3.13.5</A> reading pressure and temperature from DPS310 sensor. 
 
 This project runs on a Raspberry Pi and reads barometric pressure and temperature from a DPS310 sensor. It provides:
 
