@@ -304,9 +304,26 @@ Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
 david@raspberrypi:~ $ 
 ```
 
-and
+USB GPS found
+```text
+Bus 003 Device 002: ID 1546:01a7 U-Blox AG [u-blox 7]
+```
 
 dmesg --follow
+
+```text
+david@raspberrypi:~ $ dmesg --follow
+
+[235020.220809] usb 3-1: new full-speed USB device number 2 using xhci-hcd
+[235020.373242] usb 3-1: New USB device found, idVendor=1546, idProduct=01a7, bcdDevice= 1.00
+[235020.373250] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[235020.373253] usb 3-1: Product: u-blox 7 - GPS/GNSS Receiver
+[235020.373255] usb 3-1: Manufacturer: u-blox AG - www.u-blox.com
+[235020.565400] cdc_acm 3-1:1.0: ttyACM0: USB ACM device
+[235020.565433] usbcore: registered new interface driver cdc_acm
+[235020.565435] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+
+```
 
 
 Then unplug and re-plug the dongle.
@@ -320,6 +337,27 @@ or:
 
 [ 1234.678901] cp210x converter now attached to ttyUSB0
 
+```text
+david@raspberrypi:~ $ dmesg --follow
+
+[235020.220809] usb 3-1: new full-speed USB device number 2 using xhci-hcd
+[235020.373242] usb 3-1: New USB device found, idVendor=1546, idProduct=01a7, bcdDevice= 1.00
+[235020.373250] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[235020.373253] usb 3-1: Product: u-blox 7 - GPS/GNSS Receiver
+[235020.373255] usb 3-1: Manufacturer: u-blox AG - www.u-blox.com
+[235020.565400] cdc_acm 3-1:1.0: ttyACM0: USB ACM device
+[235020.565433] usbcore: registered new interface driver cdc_acm
+[235020.565435] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[235807.839382] usb 3-1: USB disconnect, device number 2
+[235819.863802] usb 3-1: new full-speed USB device number 3 using xhci-hcd
+[235820.015952] usb 3-1: New USB device found, idVendor=1546, idProduct=01a7, bcdDevice= 1.00
+[235820.015959] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[235820.015962] usb 3-1: Product: u-blox 7 - GPS/GNSS Receiver
+[235820.015964] usb 3-1: Manufacturer: u-blox AG - www.u-blox.com
+[235820.207020] cdc_acm 3-1:1.0: ttyACM0: USB ACM device
+^C
+david@raspberrypi:~ $ 
+```
 
 That line tells us which serial device to use — /dev/ttyACM0 or /dev/ttyUSB0.
 
