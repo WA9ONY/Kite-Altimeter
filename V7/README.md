@@ -282,11 +282,7 @@ YouTube
 + [$12.00 Glonass GPS USB/U-blox7 For  GTAC Toughpad F110. Time Sync For FT8 #WSJTX #JS8CALL For SOTA!](https://youtube.com/shorts/U0byJIMqPi0?si=3vLSeFUYgbZuL1PO)
 
 
-# Next Steps: Raspberry Pi Hands-On Phase
-
-Let’s make your Pi talk to this GPS.
-
-## USB Plug In and Identify
+## GPS/GLONASS USB Plug In and Identify
 
 Run these commands in a terminal:
 
@@ -329,13 +325,11 @@ david@raspberrypi:~ $ dmesg --follow
 
 ```
 
-
 Then unplug and re-plug the dongle.
 Look for something like:
 
 [ 1234.567890] usb 1-1.2: new full-speed USB device number 8 using xhci_hcd
 [ 1234.678901] cdc_acm 1-1.2:1.0: ttyACM0: USB ACM device
-
 
 or:
 
@@ -383,17 +377,14 @@ Then run (substitute your device path):
 
 sudo minicom -b 9600 -D /dev/ttyACM0
 
-
 You should see live sentences like:
 
 $GPGGA,202532.00,4542.1342,N,12243.9456,W,1,08,0.95,74.3,M,-17.2,M,,*65
 $GPRMC,202532.00,A,4542.1342,N,12243.9456,W,0.022,,281023,,,A*7C
 
-
 Those are NMEA 0183 messages — proof it’s alive.
 
 If the output is gibberish, exit (Ctrl-A, then Q) and try 38400 or 115200 baud.
-
 
 ```text
 [2025-10-29 12:01:32] $GPGLL,,,,,,V,N*64
