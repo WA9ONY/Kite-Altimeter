@@ -458,7 +458,7 @@ After launching, gpsd listens on port **2947**, ready to serve data to any compa
 
 ---
 
-## 📟 cgps
+## cgps
 
 ### **Overview**
 `cgps` is a **text-based client** for gpsd. It connects to the gpsd service and displays live data from the GPS receiver in a structured, easy-to-read terminal interface.
@@ -514,7 +514,7 @@ The `-s` option enables a simplified terminal display that updates in real time.
 
 ---
 
-## 🧠 Analogy
+## Analogy
 
 | Component | Analogy |
 |------------|----------|
@@ -601,7 +601,7 @@ This section describes every field and value shown in the Linux command-line uti
 
 ---
 
-## 🗺️ Display Layout Diagram
+## Display Layout Diagram
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
@@ -634,14 +634,14 @@ This section describes every field and value shown in the Linux command-line uti
 
 ---
 
-## 🕒 Time Information
+## Time Information
 
 - **Time:** The current UTC (Coordinated Universal Time) from the GPS satellite system. Example: `2025-10-29T21:37:19.000Z`.
 - **(18):** Number of satellites currently used to compute the position fix.
 
 ---
 
-## 🌍 Position
+## Position
 
 - **Latitude / Longitude:** Geographic coordinates in decimal degrees.
   - Example: `45.66849659 N`, `122.38632525 W`
@@ -674,7 +674,7 @@ This section describes every field and value shown in the Linux command-line uti
 
 ---
 
-## 📊 Position Accuracy (Dilution of Precision)
+## Position Accuracy (Dilution of Precision)
 
 Each DOP (Dilution of Precision) describes the error amplification due to satellite geometry.
 
@@ -692,7 +692,7 @@ Each DOP (Dilution of Precision) describes the error amplification due to satell
 
 ---
 
-## 🕰️ Time and Synchronization
+## Time and Synchronization
 
 - **Time offset:** GPS receiver time offset from system clock, in seconds.
   - Example: `0.092943125 s`
@@ -700,7 +700,7 @@ Each DOP (Dilution of Precision) describes the error amplification due to satell
 
 ---
 
-## 🌐 ECEF (Earth-Centered, Earth-Fixed) Coordinates
+## ECEF (Earth-Centered, Earth-Fixed) Coordinates
 
 ECEF coordinates describe the GPS position in a 3D Cartesian reference frame centered at Earth’s center.
 
@@ -712,7 +712,7 @@ ECEF coordinates describe the GPS position in a 3D Cartesian reference frame cen
 
 ---
 
-## 🛰️ GNSS Satellites Used
+## GNSS Satellites Used
 
 Right-side column shows the satellites currently tracked:
 
@@ -762,7 +762,7 @@ This document describes each field displayed in the **satellite view panel** of 
 
 ---
 
-## 🛰️ Overview
+## Overview
 
 The satellite table provides details about each satellite signal currently being **seen** by the receiver and whether it is **used** in the current position fix.
 
@@ -777,7 +777,7 @@ Seen 17 / Used 11
 
 ---
 
-## 📊 Table Columns Explained
+## Table Columns Explained
 
 | Column | Description | Example | Units / Notes |
 |:--------|:-------------|:---------|:----------------|
@@ -796,7 +796,7 @@ Seen 17 / Used 11
 
 ---
 
-## 🧮 Example Data Interpretation
+## Example Data Interpretation
 
 ```
 GP   4   4   29.0   130.0   36.0   Y
@@ -812,7 +812,7 @@ This means:
 
 ---
 
-## 🌐 GNSS Constellation Types
+## GNSS Constellation Types
 
 | System | Abbrev. | Region | Frequency Bands | Notes |
 |:--------|:---------|:--------|:----------------|:-------|
@@ -824,7 +824,7 @@ This means:
 
 ---
 
-## 📶 Signal Strength Guidelines
+## Signal Strength Guidelines
 
 | **SNR (dB-Hz)** | **Signal Quality** | **Interpretation** |
 |------------------|--------------------|--------------------|
@@ -836,7 +836,7 @@ This means:
 
 ---
 
-## ⚙️ Practical Notes
+## Practical Notes
 
 - Satellites with **Y** in the `Use` column are part of the current fix calculation.
 - Satellites marked **N** may be below the elevation mask or have low SNR.
@@ -845,7 +845,7 @@ This means:
 
 ---
 
-## 🧭 Summary
+## Summary
 
 The satellite panel of `cgps` provides vital real-time insight into the GNSS environment:
 
@@ -857,7 +857,7 @@ Understanding this data helps optimize GPS antenna placement, verify multi-const
 
 ---
 
-## 📘 References
+## References
 
 - [gpsd Project Documentation](https://gpsd.gitlab.io/gpsd/)
 - [cgps Man Page](https://linux.die.net/man/1/cgps)
@@ -917,7 +917,7 @@ This document compares the use of a **Raspberry Pi 5 with Touch Display** and an
 
 ---
 
-## 🧩 System Overview
+## System Overview
 
 | Feature | Raspberry Pi 5 + Touch Display | RP2040 Microcontroller |
 |----------|-------------------------------|------------------------|
@@ -932,7 +932,7 @@ This document compares the use of a **Raspberry Pi 5 with Touch Display** and an
 
 ---
 
-## 📊 DPS310 Pressure Acquisition and Data Logging
+## DPS310 Pressure Acquisition and Data Logging
 
 ### Raspberry Pi 5 Advantages
 
@@ -1004,7 +1004,7 @@ This document compares the use of a **Raspberry Pi 5 with Touch Display** and an
 
 ---
 
-## 🧠 Recommended Use Cases
+## Recommended Use Cases
 
 | Application | Best Platform | Notes |
 |--------------|---------------|-------|
@@ -1015,7 +1015,7 @@ This document compares the use of a **Raspberry Pi 5 with Touch Display** and an
 
 ---
 
-## ⚙️ Example DPS310 Integration
+## Example DPS310 Integration
 
 ### Raspberry Pi 5 Example (Python 3)
 
@@ -1041,7 +1041,7 @@ while True:
  print((sensor.pressure, sensor.temperature))
  time.sleep(1)
 ```
-## 📈 Summary Comparison
+## Summary Comparison
 
 | **Category** | **Raspberry Pi 5 + Touch Display** | **RP2040 Microcontroller** |
 |---------------|------------------------------------|-----------------------------|
@@ -1057,11 +1057,11 @@ while True:
 
 ---
 
-## 🧭 Conclusion
+## Conclusion
 
 Both platforms can successfully acquire and log pressure data using the **Adafruit DPS310**, but their **optimal roles differ**:
 
-- 🖥️ **Raspberry Pi 5 + Touch Display** 
+- **Raspberry Pi 5 + Touch Display** 
  Ideal for **real-time visualization**, **interactive GUI control**, and **in-depth data analysis** using full Python libraries. 
  Best suited for **laboratory testing**, **bench experiments**, and **development environments**.
 
@@ -1069,7 +1069,7 @@ Both platforms can successfully acquire and log pressure data using the **Adafru
  Optimized for **low-power, lightweight, and portable** field applications such as **kite-borne data logging** or **edge sensing**. 
  Offers deterministic timing, instant startup, and long battery life, making it excellent for autonomous deployments.
 
-> 💡 **Recommended Workflow:** 
+> **Recommended Workflow:** 
 > Use the **RP2040** to collect data in the field, then transfer the logged CSV files to the **Raspberry Pi 5** for graphical analysis, filtering, and trend evaluation.
 
 ---
