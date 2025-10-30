@@ -868,26 +868,7 @@ Understanding this data helps optimize GPS antenna placement, verify multi-const
 <HR>
 <HR>
 
-
-## What’s Next
-
-Once you confirm the device node and see data, I’ll give you the next file:
-
-A Python 3 GUI (Tkinter) for your 5-inch Pi touchscreen, displaying:
-
-UTC time (from GPS)
-
-Latitude / Longitude
-
-Altitude (m)
-
-Number of satellites
-
-Fix type (2D/3D)
-
-Status indicator LED (changes color on fix)
-
-That program will be your learning dashboard — and a foundation for later integration with your barometric and LoRa telemetry projects.
+# 
 
 <HR>
 <HR>
@@ -909,6 +890,7 @@ That program will be your learning dashboard — and a foundation for later inte
 + USB GPS
 + Blue Tooth speaker
 
+<HR>
 <HR>
 
 # DPS310 Pressure Acquisition and Logging: Raspberry Pi 5 vs RP2040 Comparison
