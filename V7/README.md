@@ -272,7 +272,7 @@ A header (commented with `#`) explains each column:
 
 # HiLetgo VK172 G-Mouse USB GPS/GLONASS USB GPS Receiver
 
-<p align="center"><img width="333" height="591" src="/Images/GPSublox7.png"> 
+<p><img width="333" height="591" src="/Images/GPSublox7.png"> <img width="720" height="677" src="/Images/cgpsInfoDesk.png"> 
 </p>
 
 USB GPS/GLONASS hanging above the work bench.
