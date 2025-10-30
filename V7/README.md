@@ -7,7 +7,7 @@
 Raspberry Pi 5 with the 5" touch display 2 connected to 
 + INIU USB 10ah battery bank behind the Raspberry Pi 5.
 + HiLetgo VK172 G-Mouse USB GPS/GLONASS USB GPS Receiver on the top of the sticks.
-+ Pink 3 feet USB A extension cable.
++ Pink 3' USB A extension cable between the Raspberry Pi 5 and the GPS/GLONASS USB.
 
 # Kite Altimeter Base Station V7
 
