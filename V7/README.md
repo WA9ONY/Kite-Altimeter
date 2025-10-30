@@ -104,6 +104,8 @@ Clear plastic from food containers mounted on four standoffs to protect the back
 <p align="center"> <img width="700" height="1200" src="/Images/V7right3.png">
 </p>
 
+Not shown is a Raspberry Pi 27W USB-C power supply, 5.1 V at 5 A.
+
 <HR>
 <HR>
 
