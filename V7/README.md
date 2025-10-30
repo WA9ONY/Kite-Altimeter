@@ -276,6 +276,7 @@ A header (commented with `#`) explains each column:
 </p>
  
 <p align="center"> <img width="720" height="677" src="/Images/cgpsInfoDesk.png"> 
+
 USB GPS/GLONASS hanging above the work bench receiving six GPS sattilites.
 </p>
 
