@@ -436,7 +436,7 @@ This section explains how **gpsd** (the GPS Daemon) and **cgps** (its command-li
 ## What is gpsd?
 
 ### **Overview**
-`gpsd` is a **background service (daemon)** that interfaces with GPS and GNSS receivers. It reads, parses, and distributes positioning data to multiple applications in a standardized way.
+`gpsd` is a **background service (daemon)** that interfaces with GPS and GNSS receivers. It reads, parses, and distributes positioning data to multiple applications in a standardized way. Use gpsd so multiple apps—FoxtrotGPS/Navit/OpenCPN—can share the VK172 simultaneously.
 
 It acts as a **data broker** between GPS hardware and client software.
 
@@ -745,7 +745,6 @@ This information is crucial for debugging GPS hardware, validating data quality,
 ## References
 
 - [gpsd Project Documentation](https://gpsd.gitlab.io/gpsd/)
-- [cgps Man Page](https://linux.die.net/man/1/cgps)
 - [NMEA 0183 Standard Sentences](https://gpsd.gitlab.io/gpsd/NMEA.html)
 
 ---
