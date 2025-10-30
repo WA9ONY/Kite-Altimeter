@@ -433,7 +433,7 @@ This section explains how **gpsd** (the GPS Daemon) and **cgps** (its command-li
 
 ---
 
-## 🧭 What is gpsd?
+## What is gpsd?
 
 ### **Overview**
 `gpsd` is a **background service (daemon)** that interfaces with GPS and GNSS receivers. It reads, parses, and distributes positioning data to multiple applications in a standardized way.
@@ -480,7 +480,7 @@ The `-s` option enables a simplified terminal display that updates in real time.
 
 ---
 
-## 🔄 How They Work Together
+## How They Work Together
 
 ```
 ┌───────────────────────────────────────────────────────────┐
@@ -524,7 +524,7 @@ The `-s` option enables a simplified terminal display that updates in real time.
 
 ---
 
-## 🧩 Communication Flow Example
+## Communication Flow Example
 
 1. The GPS receiver sends raw NMEA sentences like:
    ```
@@ -539,7 +539,7 @@ The `-s` option enables a simplified terminal display that updates in real time.
 
 ---
 
-## 📘 Summary
+## Summary
 
 - **gpsd**: The backend daemon that reads and standardizes GPS/GNSS data.
 - **cgps**: A client program that queries gpsd and presents data to the user.
@@ -552,7 +552,7 @@ These tools are invaluable for:
 
 ---
 
-## 🔗 References
+## References
 - [gpsd Project Documentation](https://gpsd.gitlab.io/gpsd/)
 - [cgps Man Page](https://linux.die.net/man/1/cgps)
 - [gpspipe Tool](https://gpsd.gitlab.io/gpsd/gpspipe.html)
@@ -652,7 +652,7 @@ This section describes every field and value shown in the Linux command-line uti
 
 ---
 
-## 🚗 Motion and Direction
+## Motion and Direction
 
 - **Speed:** Current horizontal velocity (mph, knots, or m/s depending on configuration).
   - Example: `0.07 mph`
@@ -663,7 +663,7 @@ This section describes every field and value shown in the Linux command-line uti
 
 ---
 
-## 📶 Fix Status
+## Fix Status
 
 - **Status:** Type of GPS fix and correction status.
   - `NO FIX`: No satellite lock.
@@ -728,7 +728,7 @@ Numbers represent individual satellite PRNs (Pseudo-Random Noise IDs).
 
 ---
 
-## 📘 Summary
+## Summary
 
 This `cgps` display provides real-time diagnostic insight into a GPS receiver’s:
 
@@ -742,7 +742,7 @@ This information is crucial for debugging GPS hardware, validating data quality,
 
 ---
 
-## 🧭 References
+## References
 
 - [gpsd Project Documentation](https://gpsd.gitlab.io/gpsd/)
 - [cgps Man Page](https://linux.die.net/man/1/cgps)
