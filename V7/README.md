@@ -109,6 +109,18 @@ Not shown is a Raspberry Pi 27W USB-C power supply, 5.1 V at 5 A.
 <HR>
 <HR>
 
+# Run Program in virtual environment
+
+~~~text
+david@raspberrypi:~ $ cd blinka-test/
+david@raspberrypi:~/blinka-test $ source .venv/bin/activate
+(.venv) david@raspberrypi:~/blinka-test $ python3 barometerV709h.py
+
+~~~
+
+<HR>
+<HR>
+
 # DPS310 Pressure Logger – Pressure V7.4
  
 <p align="center"> <img width="720" height="1280" src="/Images/V7screen4.png">
