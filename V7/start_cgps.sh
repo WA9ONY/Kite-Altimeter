@@ -1,6 +1,10 @@
 #!/bin/bash
 # start_cgps.sh — robust auto-launch for cgps -s
 # Raspberry Pi 5 + VK172 (USB NMEA)
+#
+# To install tools
+# sudo apt update sudo apt install -y gpsd gpsd-clients
+
 set -euo pipefail
 
 # --- Find the GPS serial device (prefer stable by-id path) ---
