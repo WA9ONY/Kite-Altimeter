@@ -109,6 +109,10 @@ Not shown is a Raspberry Pi 27W USB-C power supply, 5.1 V at 5 A.
 <HR>
 <HR>
 
+<p align="center"> <img width="700" height="950" src="/Images/screencap_20251105_12-17-31.png">
+</p>
+
+
 # Run Program in virtual environment
 
 ~~~text
