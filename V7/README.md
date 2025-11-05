@@ -118,6 +118,39 @@ david@raspberrypi:~/blinka-test $ source .venv/bin/activate
 
 ~~~
 
+Raspberry Pi 5 information
+
+~~~text
+david@raspberrypi:~ $ screenfetch
+         _,met$$$$$gg.           david@raspberrypi
+      ,g$$$$$$$$$$$$$$$P.        OS: Debian 13 trixie
+    ,g$$P""       """Y$$.".      Kernel: aarch64 Linux 6.12.47+rpt-rpi-2712
+   ,$$P'              `$$$.      Uptime: 1m
+  ',$$P       ,ggs.     `$$b:    Packages: 1938
+  `d$$'     ,$P"'   .    $$$     Shell: bash 5.2.37
+   $$P      d$'     ,    $$P     Resolution: 4560x1280
+   $$:      $$.   -    ,d$$'     WM: wlroots wm
+   $$\;      Y$b._   _,d$P'      GTK Theme: PiXtrix [GTK3]
+   Y$$.    `.`"Y$$$$P"'          Disk: 9.8G / 122G (9%)
+   `$$b      "-.__               CPU: ARM Cortex-A76 @ 4x 2.4GHz
+    `Y$$                         RAM: 786MiB / 8054MiB
+     `Y$$.                      
+       `$$b.                    
+         `Y$$b.                 
+            `"Y$b._             
+                `""""           
+                                
+david@raspberrypi:~ $ 
+~~~
+
+Python information
+~~~text
+david@raspberrypi:~ $ python3
+Python 3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+~~~
+
 <HR>
 <HR>
 
